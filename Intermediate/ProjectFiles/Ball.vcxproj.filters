@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Ball.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A242B1E8-009C-49BC-88F7-F60AB2272151}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Ball.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BallEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{63689E96-0294-4822-87B8-08EE34FC70B6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Ball">
+      <UniqueIdentifier>{0A294DDD-3CB2-4973-8332-F49620997E21}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Ball\Ball.Build.cs">
+      <Filter>Source\Ball</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Ball\Ball.cpp">
+      <Filter>Source\Ball</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ball\Ball.h">
+      <Filter>Source\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Ball\Projectile.h">
+      <Filter>Source\Ball</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ball\BallGameMode.cpp">
+      <Filter>Source\Ball</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ball\BallGameMode.h">
+      <Filter>Source\Ball</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ball\Projectile.cpp">
+      <Filter>Source\Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Ball\Turret.cpp">
+      <Filter>Source\Ball</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ball\MovingPlatform.h">
+      <Filter>Source\Ball</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ball\MovingPlatform.cpp">
+      <Filter>Source\Ball</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ball\BallBall.h">
+      <Filter>Source\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Ball\Platforms.h">
+      <Filter>Source\Ball</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ball\Platforms.cpp">
+      <Filter>Source\Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Ball\BallBall.cpp">
+      <Filter>Source\Ball</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ball\Turret.h">
+      <Filter>Source\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Ball\Proejctile.h">
+      <Filter>Source\Ball</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ball\Proejctile.cpp">
+      <Filter>Source\Ball</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Ball\Lava.h">
+      <Filter>Source\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Ball\Spring.h">
+      <Filter>Source\Ball</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Ball\Lava.cpp">
+      <Filter>Source\Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Ball\Spring.cpp">
+      <Filter>Source\Ball</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

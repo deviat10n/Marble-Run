@@ -1,0 +1,1314 @@
+﻿Log file open, 04/24/18 22:17:56
+LogInit:Display: Running engine for game: Ball
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-537697260) SRandInit(-537697260).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.346641
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Unreal/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.24-21.17.58:200][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.24-21.17.58:200][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.24-21.17.58:351][  0]LogInit: Computer: MSI
+[2018.04.24-21.17.58:351][  0]LogInit: User: tomje
+[2018.04.24-21.17.58:351][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.24-21.17.58:351][  0]LogInit: High frequency timer resolution =2.531251 MHz
+[2018.04.24-21.17.58:352][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.24-21.17.58:352][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.24-21.17.58:352][  0]LogMemory: Process Physical Memory: 273.50 MB used, 273.50 MB peak
+[2018.04.24-21.17.58:352][  0]LogMemory: Process Virtual Memory: 266.92 MB used, 266.92 MB peak
+[2018.04.24-21.17.58:352][  0]LogMemory: Physical Memory: 9876.52 MB used,  6418.20 MB free, 16294.71 MB total
+[2018.04.24-21.17.58:352][  0]LogMemory: Virtual Memory: 682.27 MB used,  6418.20 MB free, 134217728.00 MB total
+[2018.04.24-21.18.00:776][  0]LogInit: Using OS detected language (en-US).
+[2018.04.24-21.18.00:776][  0]LogInit: Using OS detected locale (en-GB).
+[2018.04.24-21.18.01:124][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.24-21.18.12:112][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.24-21.18.12:234][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2018.04.24-21.18.12:234][  0]LogD3D11RHI:       3040/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.24-21.18.12:502][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.04.24-21.18.12:502][  0]LogD3D11RHI:       128/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.04.24-21.18.12:546][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.24-21.18.12:546][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.24-21.18.12:546][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.24-21.18.12:566][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.24-21.18.12:566][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.24-21.18.12:566][  0]LogWindows: EnumDisplayDevices:
+[2018.04.24-21.18.12:567][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.04.24-21.18.12:567][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.04.24-21.18.12:567][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.04.24-21.18.12:567][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.24-21.18.12:567][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2018.04.24-21.18.12:567][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.24-21.18.12:567][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.24-21.18.12:567][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.24-21.18.12:644][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.24-21.18.12:664][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.04.24-21.18.12:666][  0]LogShaderCompilers: Guid format shader working directory is 33 characters bigger than the processId version (G:/Ball/Ball/Intermediate/Shaders/WorkingDirectory/26444/).
+[2018.04.24-21.18.12:666][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tomje/AppData/Local/Temp/UnrealShaderWorkingDir/63B841B645FA8BB1293FD3AAE30F53EB/'.
+[2018.04.24-21.18.12:666][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.04.24-21.18.35:273][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.24-21.18.35:496][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.04.24-21.18.35:800][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.24-21.18.36:193][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.04.24-21.18.36:542][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.04.24-21.18.36:864][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.24-21.18.37:276][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.24-21.18.37:688][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.24-21.18.37:933][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.04.24-21.18.38:173][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.04.24-21.18.38:533][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.24-21.18.38:885][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.24-21.18.39:244][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.24-21.18.39:529][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.24-21.18.39:787][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.24-21.18.40:229][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.24-21.18.40:230][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.24-21.18.40:458][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.04.24-21.18.40:933][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.04.24-21.18.41:025][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.04.24-21.18.41:208][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.24-21.18.41:426][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.24-21.18.41:744][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.24-21.18.42:061][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.04.24-21.18.42:061][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.04.24-21.18.47:562][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.04.24-21.18.50:280][  0]LogDerivedDataCache: Loaded boot cache 2.72s 91MB C:/Users/tomje/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.24-21.18.50:280][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tomje/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.04.24-21.18.50:280][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/Ball/Ball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.24-21.18.50:280][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.24-21.18.50:280][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/Ball/Ball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.24-21.18.50:280][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.24-21.18.50:380][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.24-21.18.50:409][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tomje/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.24-21.18.50:434][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.24-21.18.50:435][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.24-21.18.50:640][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.24-21.18.50:640][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.24-21.19.08:530][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.24-21.19.10:225][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.24-21.19.12:323][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.24-21.19.12:816][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.24-21.19.13:391][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.24-21.19.13:391][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.04.24-21.19.13:391][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.04.24-21.19.19:712][  0]LogNetVersion: Ball , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2035510465)
+[2018.04.24-21.19.20:067][  0]LogAssetRegistry: FAssetRegistry took 0.0584 seconds to start up
+[2018.04.24-21.19.21:586][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 1.426510 seconds
+[2018.04.24-21.19.21:604][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.04.24-21.19.21:604][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.04.24-21.19.21:604][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.24-21.19.22:438][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.24-21.20.37:262][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.24-21.20.37:491][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.24-21.20.43:462][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.24-21.20.46:295][  0]SourceControl: Info Source control is disabled
+[2018.04.24-21.20.46:602][  0]SourceControl: Info Source control is disabled
+[2018.04.24-21.20.47:015][  0]SourceControl: Info Source control is disabled
+[2018.04.24-21.20.47:479][  0]SourceControl: Info Source control is disabled
+[2018.04.24-21.20.49:748][  0]LogLinker:Warning: Can't find file '/Game/RollingCPP/RollingOverview'
+[2018.04.24-21.20.49:748][  0]LogLinker:Warning: Can't find file '/Game/RollingCPP/RollingOverview'
+[2018.04.24-21.20.49:748][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/RollingCPP/RollingOverview.RollingOverview_C'
+[2018.04.24-21.20.52:649][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.24-21.20.57:519][  0]LogEngine: Initializing Engine...
+[2018.04.24-21.20.57:531][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2018.04.24-21.20.58:997][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.24-21.20.58:997][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.24-21.21.00:107][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.24-21.21.00:208][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.24-21.21.00:631][  0]LogInit: FAudioDevice initialized.
+[2018.04.24-21.21.00:841][  0]LogDerivedDataCache: Saved boot cache 0.21s 91MB C:/Users/tomje/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.24-21.21.00:877][  0]LogInit: Texture streaming: Enabled
+[2018.04.24-21.21.01:950][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.24-21.21.03:508][  0]LogInit: Transaction tracking system initialized
+[2018.04.24-21.21.05:420][  0]BlueprintLog: New page: Editor Load
+[2018.04.24-21.21.12:149][  0]LocalizationService: Info Localization service is disabled
+[2018.04.24-21.21.17:566][  0]LogConsoleResponse:Display: 
+[2018.04.24-21.21.20:179][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.24-21.21.20:179][  0]LogCook:Display: Mobile HDR setting 1
+[2018.04.24-21.21.21:008][  0]LogFileCache: Scanning file cache for directory 'G:/Ball/Ball/Content/' took 0.03s
+[2018.04.24-21.21.31:177][  0]SourceControl: Info Source control is disabled
+[2018.04.24-21.21.31:178][  0]Cmd: MAP LOAD FILE="G:/Ball/Ball/Content/RollingCPP/Maps/RollingExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.24-21.21.31:178][  0]LogEditorServer:Warning: Can't find file 'G:/Ball/Ball/Content/RollingCPP/Maps/RollingExampleMap.umap'
+[2018.04.24-21.21.31:178][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.24-21.21.36:286][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 5,107.79ms to complete.
+[2018.04.24-21.21.36:287][  0]LogFileHelpers: Loading map 'RollingExampleMap' took 5.109
+[2018.04.24-21.21.37:012][  0]LogCollectionManager: Loaded 0 collections in 0.006155 seconds
+[2018.04.24-21.21.37:343][  0]LogFileCache: Scanning file cache for directory 'G:/Ball/Ball/Saved/Collections/' took 0.01s
+[2018.04.24-21.21.37:343][  0]LogFileCache: Scanning file cache for directory 'G:/Ball/Ball/Content/Developers/tomje/Collections/' took 0.01s
+[2018.04.24-21.21.37:343][  0]LogFileCache: Scanning file cache for directory 'G:/Ball/Ball/Content/Collections/' took 0.01s
+[2018.04.24-21.21.37:343][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2018.04.24-21.21.37:393][  0]LogContentBrowser: Native class hierarchy populated in 0.0492 seconds. Added 2337 classes and 493 folders.
+[2018.04.24-21.21.37:716][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0045 seconds. Added 0 classes and 0 folders.
+[2018.04.24-21.21.41:113][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0035 seconds. Added 0 classes and 0 folders.
+[2018.04.24-21.21.41:541][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0048 seconds. Added 1 classes and 2 folders.
+[2018.04.24-21.21.41:954][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.04.24-21.21.42:045][  0]LogSlate: Took 0.054965 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.24-21.21.42:069][  0]LogSlate: Took 0.017282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.24-21.21.42:103][  0]LogSlate: Took 0.020448 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.24-21.21.42:608][  0]LogRenderer: Reallocating scene render targets to support 904x436 NumSamples 1 (Frame:1).
+[2018.04.24-21.21.42:745][  0]LogSlate: Took 0.020785 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.24-21.21.42:903][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.04.24-21.21.43:173][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0036 seconds. Added 1 classes and 2 folders.
+[2018.04.24-21.21.43:173][  0]LogLoad: (Engine Initialization) Total time: 237.75 seconds
+[2018.04.24-21.21.43:173][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.42 seconds
+[2018.04.24-21.21.43:173][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.24-21.21.43:174][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.24-21.21.43:518][  0]LogOcInput: OculusInput pre-init called
+[2018.04.24-21.21.43:518][  0]LogHMD: Starting GearVRController plugin
+[2018.04.24-21.21.43:555][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.24-21.21.44:870][  4]LogAssetRegistry: Asset discovery search completed in 144.8302 seconds
+[2018.04.24-21.21.44:877][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.24-21.21.44:877][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000065 seconds (updated 0 objects)
+[2018.04.24-21.43.21:701][176]LogSlate: Took 0.015698 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.24-21.43.22:538][176]LogSlate: Took 0.006978 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.24-21.43.23:529][176]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.24-21.43.23:644][176]Cmd: MAP LOAD FILE="G:/Ball/Ball/Content/RollingCPP/Maps/Ball1Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.24-21.43.23:644][176]LightingResults: New page: Lighting Build
+[2018.04.24-21.43.23:759][176]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0030 seconds. Added 5 classes and 0 folders.
+[2018.04.24-21.43.23:761][176]LoadErrors: New page: Loading map: Ball1Map.umap
+[2018.04.24-21.43.23:762][176]MapCheck: New page: Map Check
+[2018.04.24-21.43.23:762][176]LightingResults: New page: Lighting Build
+[2018.04.24-21.43.23:925][176]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.24-21.43.24:049][176]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.24-21.43.26:984][176]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 2,934.843ms to complete.
+[2018.04.24-21.43.26:986][176]LogFileHelpers: Loading map 'Ball1Map' took 3.343
+[2018.04.24-21.43.43:115][ 63]LogEditorViewport: Clicking on Actor (LMB): Turret (Turret1)
+[2018.04.24-21.44.00:874][938]LogActorFactory: Actor Factory created Turret
+[2018.04.24-21.44.01:719][977]LogActorFactory: Actor Factory created Turret
+[2018.04.24-21.44.05:092][122]LogSlate: Took 0.007870 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.24-21.44.09:963][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.04.24-21.44.17:127][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Turret)
+[2018.04.24-21.44.27:582][337]Cmd: DELETE
+[2018.04.24-21.44.27:582][337]Cmd: ACTOR DELETE
+[2018.04.24-21.44.27:584][337]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.24-21.44.27:604][337]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2018.04.24-21.44.31:238][539]LogActorFactory: Actor Factory created Turret
+[2018.04.24-21.44.32:082][589]LogActorFactory: Actor Factory created Turret
+[2018.04.24-21.44.43:921][182]LogEditorViewport: Clicking on Actor (LMB): Lava (Lava3)
+[2018.04.24-21.44.47:804][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Turret)
+[2018.04.24-21.45.03:968][895]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Turret)
+[2018.04.24-21.45.21:516][467]LogStaticMesh: Building static mesh Turret2...
+[2018.04.24-21.45.21:624][467]LogStaticMesh: Built static mesh [0.11s] /Game/Meshes/Turret2.Turret2
+[2018.04.24-21.45.31:951][928]LogActorFactory: Actor Factory created Turret2
+[2018.04.24-21.45.32:803][976]LogActorFactory: Actor Factory created Turret2
+[2018.04.24-21.45.33:961][ 37]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Turret)
+[2018.04.24-21.45.34:292][ 52]Cmd: DELETE
+[2018.04.24-21.45.34:292][ 52]Cmd: ACTOR DELETE
+[2018.04.24-21.45.34:293][ 52]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.24-21.45.34:311][ 52]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.04.24-21.45.39:843][136]LogObjectTools:Warning: ForceReplaceReferences replaced references for an object 'TurretMesh' in a compiled in package '/Script/Ball'.
+[2018.04.24-21.45.39:843][136]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TurretMesh' or package '/Engine/Transient'.
+[2018.04.24-21.45.41:443][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Turret2)
+[2018.04.24-21.45.41:774][220]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Turret2)
+[2018.04.24-21.45.54:484][567]LogStaticMesh: Building static mesh Turret...
+[2018.04.24-21.45.54:574][567]LogStaticMesh: Built static mesh [0.09s] /Game/Meshes/Turret.Turret
+[2018.04.24-21.46.09:536][224]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.24-21.46.09:768][224]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.46.09:768][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-21.46.09:769][224]PIE: New page: PIE session: Ball1Map (24 Apr 2018 23:46:09)
+[2018.04.24-21.46.09:769][224]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.24-21.46.09:801][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031968s)
+[2018.04.24-21.46.09:802][224]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.24-21.46.09:803][224]LogPlayLevel: PIE: World Init took: (0.002187s)
+[2018.04.24-21.46.09:803][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.034807s)
+[2018.04.24-21.46.09:879][224]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.24-21.46.10:083][224]LogInit: FAudioDevice initialized.
+[2018.04.24-21.46.10:137][224]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.24-21.46.10:147][224]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.24-22.46.10
+[2018.04.24-21.46.10:148][224]LogWorld: Bringing up level for play took: 0.006927
+[2018.04.24-21.46.10:266][224]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0032 seconds. Added 11 classes and 0 folders.
+[2018.04.24-21.46.10:268][224]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map 0.822
+[2018.04.24-21.46.10:269][224]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.46.17:055][620]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.46.17:109][620]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.46.19:005][723]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.04.24-21.46.29:376][279]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.24-21.46.29:399][279]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2018.04.24-21.46.31:715][394]LogSlate: Took 0.283467 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.24-21.46.39:296][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.04.24-21.46.39:998][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingCPP/Maps/Ball1Map" FILE="G:/Ball/Ball/Content/RollingCPP/Maps/Ball1Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.24-21.46.56:771][830]LogSavePackage: Save=16485.89ms
+[2018.04.24-21.46.56:772][830]LogSavePackage: Moving 'G:/Ball/Ball/Saved/Ball1MapCC57EB7A4AA4D12CCC8631903A9EA11D.tmp' to 'G:/Ball/Ball/Content/RollingCPP/Maps/Ball1Map.umap'
+[2018.04.24-21.46.56:911][830]LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Content/RollingCPP/Maps/Ball1Map.umap
+[2018.04.24-21.56.12:639][340]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.24-21.56.12:862][340]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.56.12:862][340]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-21.56.12:862][340]PIE: New page: PIE session: Ball1Map (24 Apr 2018 23:56:12)
+[2018.04.24-21.56.12:862][340]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.24-21.56.12:897][340]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034410s)
+[2018.04.24-21.56.12:898][340]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.24-21.56.12:899][340]LogPlayLevel: PIE: World Init took: (0.001926s)
+[2018.04.24-21.56.12:899][340]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.036940s)
+[2018.04.24-21.56.12:969][340]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.24-21.56.13:167][340]LogInit: FAudioDevice initialized.
+[2018.04.24-21.56.13:207][340]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.24-21.56.13:216][340]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.24-22.56.13
+[2018.04.24-21.56.13:217][340]LogWorld: Bringing up level for play took: 0.007136
+[2018.04.24-21.56.13:219][340]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map -0.227
+[2018.04.24-21.56.13:220][340]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.57.01:260][146]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.57.01:343][146]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.57.06:696][438]LogEditorViewport: Clicking on Actor (LMB): Lava (Lava3)
+[2018.04.24-21.57.18:776][118]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.24-21.57.18:844][118]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.57.18:844][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-21.57.18:844][118]PIE: New page: PIE session: Ball1Map (24 Apr 2018 23:57:18)
+[2018.04.24-21.57.18:844][118]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.24-21.57.18:875][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030426s)
+[2018.04.24-21.57.18:876][118]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.24-21.57.18:876][118]LogPlayLevel: PIE: World Init took: (0.001368s)
+[2018.04.24-21.57.18:876][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.032203s)
+[2018.04.24-21.57.18:936][118]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.24-21.57.19:117][118]LogInit: FAudioDevice initialized.
+[2018.04.24-21.57.19:161][118]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.24-21.57.19:170][118]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.24-22.57.19
+[2018.04.24-21.57.19:171][118]LogWorld: Bringing up level for play took: 0.008198
+[2018.04.24-21.57.19:173][118]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map -0.273
+[2018.04.24-21.57.19:174][118]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.57.28:057][638]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.57.28:114][638]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.57.39:756][284]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.24-21.57.39:809][284]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.57.39:809][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-21.57.39:809][284]PIE: New page: PIE session: Ball1Map (24 Apr 2018 23:57:39)
+[2018.04.24-21.57.39:809][284]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.24-21.57.39:839][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029223s)
+[2018.04.24-21.57.39:840][284]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.24-21.57.39:841][284]LogPlayLevel: PIE: World Init took: (0.002021s)
+[2018.04.24-21.57.39:841][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.031733s)
+[2018.04.24-21.57.39:900][284]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.24-21.57.40:095][284]LogInit: FAudioDevice initialized.
+[2018.04.24-21.57.40:132][284]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.24-21.57.40:142][284]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.24-22.57.40
+[2018.04.24-21.57.40:142][284]LogWorld: Bringing up level for play took: 0.007384
+[2018.04.24-21.57.40:144][284]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map 0.698
+[2018.04.24-21.57.40:145][284]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.57.41:319][353]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.57.41:374][353]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.57.50:690][878]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.24-21.57.50:762][878]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.57.50:762][878]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-21.57.50:762][878]PIE: New page: PIE session: Ball1Map (24 Apr 2018 23:57:50)
+[2018.04.24-21.57.50:762][878]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.24-21.57.50:791][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028831s)
+[2018.04.24-21.57.50:792][878]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.24-21.57.50:793][878]LogPlayLevel: PIE: World Init took: (0.001606s)
+[2018.04.24-21.57.50:793][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.030921s)
+[2018.04.24-21.57.50:851][878]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.24-21.57.51:052][878]LogInit: FAudioDevice initialized.
+[2018.04.24-21.57.51:092][878]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.24-21.57.51:100][878]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.24-22.57.51
+[2018.04.24-21.57.51:101][878]LogWorld: Bringing up level for play took: 0.006956
+[2018.04.24-21.57.51:103][878]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map -0.343
+[2018.04.24-21.57.51:104][878]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.57.52:362][952]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.57.52:420][952]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.58.01:495][460]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.24-21.58.01:565][460]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.58.01:565][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-21.58.01:565][460]PIE: New page: PIE session: Ball1Map (24 Apr 2018 23:58:01)
+[2018.04.24-21.58.01:566][460]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.24-21.58.01:591][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025496s)
+[2018.04.24-21.58.01:592][460]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.24-21.58.01:593][460]LogPlayLevel: PIE: World Init took: (0.001759s)
+[2018.04.24-21.58.01:594][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.027955s)
+[2018.04.24-21.58.01:657][460]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.24-21.58.01:855][460]LogInit: FAudioDevice initialized.
+[2018.04.24-21.58.01:890][460]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.24-21.58.01:897][460]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.24-22.58.01
+[2018.04.24-21.58.01:898][460]LogWorld: Bringing up level for play took: 0.006086
+[2018.04.24-21.58.01:900][460]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map 0.454
+[2018.04.24-21.58.01:901][460]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.58.02:337][485]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.58.02:395][485]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.58.12:368][ 30]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.58.12:369][ 30]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-21.58.12:369][ 30]PIE: New page: PIE session: Ball1Map (24 Apr 2018 23:58:12)
+[2018.04.24-21.58.12:369][ 30]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.24-21.58.12:398][ 30]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029374s)
+[2018.04.24-21.58.12:399][ 30]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.24-21.58.12:400][ 30]LogPlayLevel: PIE: World Init took: (0.001336s)
+[2018.04.24-21.58.12:400][ 30]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.031128s)
+[2018.04.24-21.58.12:462][ 30]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.24-21.58.12:684][ 30]LogInit: FAudioDevice initialized.
+[2018.04.24-21.58.12:748][ 30]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.24-21.58.12:757][ 30]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.24-22.58.12
+[2018.04.24-21.58.12:758][ 30]LogWorld: Bringing up level for play took: 0.008163
+[2018.04.24-21.58.12:767][ 30]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map 1.32
+[2018.04.24-21.58.12:768][ 30]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.58.12:818][ 30]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2018.04.24-21.58.16:199][213]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.58.16:311][213]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.58.22:818][575]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.24-21.58.22:895][575]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.58.22:895][575]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-21.58.22:895][575]PIE: New page: PIE session: Ball1Map (24 Apr 2018 23:58:22)
+[2018.04.24-21.58.22:895][575]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.24-21.58.22:920][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024545s)
+[2018.04.24-21.58.22:921][575]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.24-21.58.22:922][575]LogPlayLevel: PIE: World Init took: (0.002277s)
+[2018.04.24-21.58.22:923][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.027653s)
+[2018.04.24-21.58.22:982][575]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.24-21.58.23:179][575]LogInit: FAudioDevice initialized.
+[2018.04.24-21.58.23:241][575]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.24-21.58.23:251][575]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.24-22.58.23
+[2018.04.24-21.58.23:252][575]LogWorld: Bringing up level for play took: 0.008998
+[2018.04.24-21.58.23:271][575]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map -0.176
+[2018.04.24-21.58.23:272][575]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.58.39:264][481]LogNet: Browse: /Game/Maps/GameOverMap
+[2018.04.24-21.58.39:264][481]LogLoad: LoadMap: /Game/Maps/GameOverMap
+[2018.04.24-21.58.39:293][481]Cmd: MEM
+[2018.04.24-21.58.39:309][481]LogMemory: Platform Memory Stats for Windows
+[2018.04.24-21.58.39:309][481]LogMemory: Process Physical Memory: 816.00 MB used, 1324.02 MB peak
+[2018.04.24-21.58.39:309][481]LogMemory: Process Virtual Memory: 2151.96 MB used, 2293.77 MB peak
+[2018.04.24-21.58.39:309][481]LogMemory: Physical Memory: 10067.12 MB used,  6227.59 MB free, 16294.71 MB total
+[2018.04.24-21.58.39:309][481]LogMemory: Virtual Memory: 3045.86 MB used,  6227.59 MB free, 134217728.00 MB total
+[2018.04.24-21.58.39:309][481]LogMemory: 
+[2018.04.24-21.58.39:309][481]Allocator Stats for TBB: (not implemented)
+[2018.04.24-21.58.39:637][481]LogAIModule: Creating AISystem for world GameOverMap
+[2018.04.24-21.58.39:637][481]LogLoad: Game class is 'GameMode'
+[2018.04.24-21.58.39:642][481]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameOverMap.GameOverMap up for play (max tick rate 60) at 2018.04.24-22.58.39
+[2018.04.24-21.58.39:642][481]LogWorld: Bringing up level for play took: 0.002927
+[2018.04.24-21.58.39:643][481]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.24-21.58.39:643][481]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.24-21.58.39:644][481]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.04.24-21.58.39:660][481]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.04.24-21.58.39:660][481]LogLoad: Took 0.396067 seconds to LoadMap(/Game/Maps/GameOverMap)
+[2018.04.24-21.58.43:609][674]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.58.43:745][674]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.58.46:452][826]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.24-21.58.46:507][826]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.58.46:507][826]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-21.58.46:507][826]PIE: New page: PIE session: Ball1Map (24 Apr 2018 23:58:46)
+[2018.04.24-21.58.46:507][826]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.24-21.58.46:535][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027078s)
+[2018.04.24-21.58.46:536][826]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.24-21.58.46:537][826]LogPlayLevel: PIE: World Init took: (0.001823s)
+[2018.04.24-21.58.46:537][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.029473s)
+[2018.04.24-21.58.46:590][826]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.24-21.58.46:819][826]LogInit: FAudioDevice initialized.
+[2018.04.24-21.58.46:887][826]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.24-21.58.46:897][826]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.24-22.58.46
+[2018.04.24-21.58.46:898][826]LogWorld: Bringing up level for play took: 0.007233
+[2018.04.24-21.58.46:908][826]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map -0.539
+[2018.04.24-21.58.46:909][826]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.59.46:639][187]LogNet: Browse: /Game/Maps/GameOverMap
+[2018.04.24-21.59.46:639][187]LogLoad: LoadMap: /Game/Maps/GameOverMap
+[2018.04.24-21.59.46:666][187]Cmd: MEM
+[2018.04.24-21.59.46:686][187]LogMemory: Platform Memory Stats for Windows
+[2018.04.24-21.59.46:686][187]LogMemory: Process Physical Memory: 827.73 MB used, 1324.02 MB peak
+[2018.04.24-21.59.46:686][187]LogMemory: Process Virtual Memory: 2156.16 MB used, 2293.77 MB peak
+[2018.04.24-21.59.46:686][187]LogMemory: Physical Memory: 10084.95 MB used,  6209.76 MB free, 16294.71 MB total
+[2018.04.24-21.59.46:686][187]LogMemory: Virtual Memory: 3103.76 MB used,  6209.76 MB free, 134217728.00 MB total
+[2018.04.24-21.59.46:686][187]LogMemory: 
+[2018.04.24-21.59.46:686][187]Allocator Stats for TBB: (not implemented)
+[2018.04.24-21.59.46:903][187]LogAIModule: Creating AISystem for world GameOverMap
+[2018.04.24-21.59.46:903][187]LogLoad: Game class is 'GameMode'
+[2018.04.24-21.59.46:908][187]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameOverMap.GameOverMap up for play (max tick rate 60) at 2018.04.24-22.59.46
+[2018.04.24-21.59.46:908][187]LogWorld: Bringing up level for play took: 0.002497
+[2018.04.24-21.59.46:909][187]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.24-21.59.46:909][187]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.24-21.59.46:909][187]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.04.24-21.59.46:912][187]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.04.24-21.59.46:912][187]LogLoad: Took 0.273176 seconds to LoadMap(/Game/Maps/GameOverMap)
+[2018.04.24-21.59.58:049][758]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-21.59.58:166][758]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.00.23:216][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingCPP/Maps/Ball1Map" FILE="G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.04.24-22.00.39:456][919]LogSavePackage: Save=15997.64ms
+[2018.04.24-22.00.39:457][919]LogSavePackage: Moving 'G:/Ball/Ball/Saved/Ball1Map_Auto1F2E2264247E45FEA34523A9A60899AB1.tmp' to 'G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto1.umap'
+[2018.04.24-22.00.39:481][919]LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto1.umap
+[2018.04.24-22.00.39:552][919]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingCPP/Maps/Ball1Map' took 16.367
+[2018.04.24-22.00.39:552][919]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 16.367
+[2018.04.24-22.00.39:559][919]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Turret] ([1] browsable assets)...
+[2018.04.24-22.00.39:584][919]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Turret.Turret]
+[2018.04.24-22.00.39:584][919]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Turret]
+[2018.04.24-22.00.39:584][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Turret" FILE="G:/Ball/Ball/Saved/Autosaves/Game/Meshes/Turret_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.04.24-22.00.41:671][919]LogSavePackage: Save=2014.62ms
+[2018.04.24-22.00.41:671][919]LogSavePackage: Moving 'G:/Ball/Ball/Saved/Turret_Auto1C08C18954028B7F774E76F8020697C85.tmp' to 'G:/Ball/Ball/Saved/Autosaves/Game/Meshes/Turret_Auto1.uasset'
+[2018.04.24-22.00.41:689][919]LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Autosaves/Game/Meshes/Turret_Auto1.uasset
+[2018.04.24-22.00.41:689][919]LogFileHelpers: Auto-saving content packages took 2.132
+[2018.04.24-22.05.11:124][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingCPP/Maps/Ball1Map" FILE="G:/Ball/Ball/Content/RollingCPP/Maps/Ball1Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.24-22.05.26:804][716]LogSavePackage: Save=15497.06ms
+[2018.04.24-22.05.26:806][716]LogSavePackage: Moving 'G:/Ball/Ball/Saved/Ball1MapA3D1BC294076344286CE0F9AE96B14E2.tmp' to 'G:/Ball/Ball/Content/RollingCPP/Maps/Ball1Map.umap'
+[2018.04.24-22.05.26:905][716]LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Content/RollingCPP/Maps/Ball1Map.umap
+[2018.04.24-22.05.37:382][198]LogAIModule: Creating AISystem for world Ball2Map
+[2018.04.24-22.05.39:678][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Turret" FILE="G:/Ball/Ball/Content/Meshes/Turret.uasset" SILENT=true
+[2018.04.24-22.05.42:218][198]LogSavePackage: Save=2365.07ms
+[2018.04.24-22.05.42:218][198]LogSavePackage: Moving 'G:/Ball/Ball/Saved/Turret9703276D47B04DC8F591999EC28D3BFA.tmp' to 'G:/Ball/Ball/Content/Meshes/Turret.uasset'
+[2018.04.24-22.05.42:298][198]LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Content/Meshes/Turret.uasset
+[2018.04.24-22.05.42:301][198]Cmd: MAP LOAD FILE="G:/Ball/Ball/Content/RollingCPP/Maps/Ball2Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.24-22.05.42:301][198]LightingResults: New page: Lighting Build
+[2018.04.24-22.05.42:303][198]LoadErrors: New page: Loading map: Ball2Map.umap
+[2018.04.24-22.05.42:307][198]MapCheck: New page: Map Check
+[2018.04.24-22.05.42:307][198]LightingResults: New page: Lighting Build
+[2018.04.24-22.05.42:597][198]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.24-22.05.42:762][198]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.24-22.05.45:367][198]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 2,604.567ms to complete.
+[2018.04.24-22.05.45:370][198]LogFileHelpers: Loading map 'Ball2Map' took 3.072
+[2018.04.24-22.05.47:027][274]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.24-22.05.47:054][274]Cmd: MAP LOAD FILE="G:/Ball/Ball/Content/RollingCPP/Maps/Ball1Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.24-22.05.47:054][274]LightingResults: New page: Lighting Build
+[2018.04.24-22.05.47:057][274]LoadErrors: New page: Loading map: Ball1Map.umap
+[2018.04.24-22.05.47:059][274]MapCheck: New page: Map Check
+[2018.04.24-22.05.47:059][274]LightingResults: New page: Lighting Build
+[2018.04.24-22.05.47:305][274]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.24-22.05.47:531][274]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.24-22.05.50:138][274]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 2,606.897ms to complete.
+[2018.04.24-22.05.50:139][274]LogFileHelpers: Loading map 'Ball1Map' took 3.087
+[2018.04.24-22.06.01:466][907]LogEditorViewport: Clicking on Actor (LMB): Turret (Turret1)
+[2018.04.24-22.06.08:337][265]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.24-22.06.08:465][265]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.06.08:465][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-22.06.08:465][265]PIE: New page: PIE session: Ball1Map (25 Apr 2018 00:06:08)
+[2018.04.24-22.06.08:465][265]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.24-22.06.08:513][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046792s)
+[2018.04.24-22.06.08:514][265]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.24-22.06.08:514][265]LogPlayLevel: PIE: World Init took: (0.001430s)
+[2018.04.24-22.06.08:514][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.048782s)
+[2018.04.24-22.06.08:581][265]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.24-22.06.08:785][265]LogInit: FAudioDevice initialized.
+[2018.04.24-22.06.08:850][265]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.24-22.06.08:859][265]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.24-23.06.08
+[2018.04.24-22.06.08:860][265]LogWorld: Bringing up level for play took: 0.007941
+[2018.04.24-22.06.08:870][265]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map -0.577
+[2018.04.24-22.06.08:870][265]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.06.22:428][  4]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.06.22:554][  4]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.06.26:440][214]LogEditorViewport: Clicking on Actor (LMB): Projectile (Projectile1)
+[2018.04.24-22.06.35:751][690]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2018.04.24-22.06.49:783][448]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.04.24-22.06.58:411][921]Cmd: TRANSACTION UNDO
+[2018.04.24-22.06.58:411][921]LogEditorTransaction: Undo Move Actors
+[2018.04.24-22.07.27:361][517]LogEditorViewport: Clicking on Actor (LMB): Lava (Lava3)
+[2018.04.24-22.07.32:022][763]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.04.24-22.07.46:765][511]Cmd: TRANSACTION UNDO
+[2018.04.24-22.07.46:765][511]LogEditorTransaction: Undo Replace component used material
+[2018.04.24-22.07.53:628][868]Cmd: DELETE
+[2018.04.24-22.07.53:628][868]Cmd: ACTOR DELETE
+[2018.04.24-22.07.53:629][868]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.24-22.07.53:652][868]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2018.04.24-22.07.54:981][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2018.04.24-22.07.55:822][986]Cmd: EDIT COPY
+[2018.04.24-22.07.55:960][992]Cmd: EDIT PASTE
+[2018.04.24-22.08.27:133][614]LogEditorViewport: Clicking on Actor (LMB): Lava (Lava3)
+[2018.04.24-22.08.28:706][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube26)
+[2018.04.24-22.08.30:350][775]LogEditorViewport: Clicking on Actor (LMB): Lava (Lava3)
+[2018.04.24-22.08.37:676][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube26)
+[2018.04.24-22.08.39:180][252]Cmd: EDIT COPY
+[2018.04.24-22.08.39:942][294]Cmd: EDIT PASTE
+[2018.04.24-22.08.44:330][533]Cmd: EDIT COPY
+[2018.04.24-22.08.44:488][539]Cmd: EDIT PASTE
+[2018.04.24-22.08.48:888][775]LogEditorViewport: Clicking on Actor (LMB): Lava (Lava3)
+[2018.04.24-22.08.50:092][835]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube27)
+[2018.04.24-22.08.52:633][961]LogEditorViewport: Clicking on Actor (LMB): Lava (Lava3)
+[2018.04.24-22.08.53:451][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube27)
+[2018.04.24-22.08.55:556][111]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube26)
+[2018.04.24-22.08.57:321][202]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube28)
+[2018.04.24-22.08.58:191][245]Cmd: EDIT COPY
+[2018.04.24-22.08.58:343][252]Cmd: EDIT PASTE
+[2018.04.24-22.09.05:946][669]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube27)
+[2018.04.24-22.09.07:029][724]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube26)
+[2018.04.24-22.09.08:335][792]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube28)
+[2018.04.24-22.09.09:450][844]Cmd: EDIT COPY
+[2018.04.24-22.09.09:611][852]Cmd: EDIT PASTE
+[2018.04.24-22.09.16:233][206]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2018.04.24-22.09.20:277][412]Cmd: EDIT PASTE
+[2018.04.24-22.09.30:236][916]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.24-22.09.30:298][916]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.09.30:298][916]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-22.09.30:298][916]PIE: New page: PIE session: Ball1Map (25 Apr 2018 00:09:30)
+[2018.04.24-22.09.30:298][916]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.24-22.09.30:332][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033108s)
+[2018.04.24-22.09.30:335][916]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.24-22.09.30:335][916]LogPlayLevel: PIE: World Init took: (0.003186s)
+[2018.04.24-22.09.30:336][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.036824s)
+[2018.04.24-22.09.30:403][916]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.24-22.09.30:596][916]LogInit: FAudioDevice initialized.
+[2018.04.24-22.09.30:665][916]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.24-22.09.30:675][916]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.24-23.09.30
+[2018.04.24-22.09.30:676][916]LogWorld: Bringing up level for play took: 0.008015
+[2018.04.24-22.09.30:688][916]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map 1.241
+[2018.04.24-22.09.30:688][916]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.09.52:449][101]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.09.52:606][101]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.09.54:995][225]LogEditorViewport: Clicking on Actor (LMB): MovingPlatform (MovingPlatform7)
+[2018.04.24-22.10.06:433][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (003)
+[2018.04.24-22.10.10:557][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (001)
+[2018.04.24-22.10.15:839][363]LogEditorViewport: Clicking on Actor (LMB): MovingPlatform (MovingPlatform7)
+[2018.04.24-22.10.27:834][ 15]LogEditorViewport: Clicking on Actor (context menu): MovingPlatform (MovingPlatform7)
+[2018.04.24-22.10.29:067][ 73]LogEditorViewport: Clicking on Actor (LMB): Lava (Lava3)
+[2018.04.24-22.10.30:603][152]LogEditorViewport: Clicking on Actor (LMB): MovingPlatform (MovingPlatform7)
+[2018.04.24-22.10.53:346][396]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.24-22.10.53:409][396]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.10.53:409][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-22.10.53:409][396]PIE: New page: PIE session: Ball1Map (25 Apr 2018 00:10:53)
+[2018.04.24-22.10.53:409][396]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.24-22.10.53:443][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034309s)
+[2018.04.24-22.10.53:445][396]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.24-22.10.53:445][396]LogPlayLevel: PIE: World Init took: (0.001719s)
+[2018.04.24-22.10.53:446][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.036610s)
+[2018.04.24-22.10.53:510][396]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.24-22.10.53:696][396]LogInit: FAudioDevice initialized.
+[2018.04.24-22.10.53:761][396]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.24-22.10.53:771][396]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.24-23.10.53
+[2018.04.24-22.10.53:771][396]LogWorld: Bringing up level for play took: 0.007544
+[2018.04.24-22.10.53:781][396]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map 0.335
+[2018.04.24-22.10.53:782][396]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.11.35:145][697]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.11.35:279][697]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.13.00:215][335]LogVSAccessor:Warning: Couldn't goto line number '0' in 'G:/Ball/Ball/Source/Ball/Platforms.h'
+[2018.04.24-22.13.00:399][335]LogVSAccessor:Warning: Couldn't goto line number '0' in 'G:/Ball/Ball/Source/Ball/Platforms.cpp'
+[2018.04.24-22.17.11:262][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingCPP/Maps/Ball1Map" FILE="G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.04.24-22.17.36:928][989]LogSavePackage: Save=25279.28ms
+[2018.04.24-22.17.36:928][989]LogSavePackage: Moving 'G:/Ball/Ball/Saved/Ball1Map_Auto2DCE7E2BD4C8782BB2D77FBB4E6C25285.tmp' to 'G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto2.umap'
+[2018.04.24-22.17.36:964][989]LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto2.umap
+[2018.04.24-22.17.37:042][989]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingCPP/Maps/Ball1Map' took 25.820
+[2018.04.24-22.17.37:042][989]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 25.820
+[2018.04.24-22.18.28:356][204]Candidate modules for hot reload:
+[2018.04.24-22.18.28:357][204]  Ball
+[2018.04.24-22.18.28:357][204]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 231 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.24-22.18.35:926][204]Warning: Starting HotReload took  7.8s.
+[2018.04.24-22.23.58:744][410]CompilerResultsLog: New page: Compilation - 25 Apr 2018 00:23:58
+[2018.04.24-22.23.58:744][410]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.24-22.23.58:744][410]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.04.24-22.23.58:744][410]CompilerResultsLog: Info MovingPlatform.cpp
+[2018.04.24-22.23.58:744][410]CompilerResultsLog: Info [2/3] Link UE4Editor-Ball-231.dll
+[2018.04.24-22.23.58:744][410]CompilerResultsLog: Info [3/3] Link UE4Editor-Ball-231.lib
+[2018.04.24-22.23.58:744][410]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-231.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-231.exp
+[2018.04.24-22.23.58:744][410]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-231.suppressed.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-231.suppressed.exp
+[2018.04.24-22.23.58:744][410]CompilerResultsLog: Info Total build time: 319.13 seconds (Local executor: 293.96 seconds)
+[2018.04.24-22.23.58:744][410]LogMainFrame: MainFrame: Module compiling took 330.399 seconds
+[2018.04.24-22.23.59:184][410]LogHotReload: Re-instancing Turret after hot-reload.
+[2018.04.24-22.23.59:677][410]LogContentBrowser: Native class hierarchy updated for 'Ball' in 0.0110 seconds. Added 8 classes and 2 folders.
+[2018.04.24-22.23.59:680][410]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.24-22.23.59:847][410]LogContentBrowser: Native class hierarchy populated in 0.0386 seconds. Added 2339 classes and 497 folders.
+[2018.04.24-22.23.59:850][410]Display: HotReload took 331.7s.
+[2018.04.24-22.24.05:243][467]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.24-22.24.05:559][467]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.24.05:559][467]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-22.24.05:559][467]PIE: New page: PIE session: Ball1Map (25 Apr 2018 00:24:05)
+[2018.04.24-22.24.05:559][467]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.24-22.24.05:597][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037703s)
+[2018.04.24-22.24.05:599][467]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.24-22.24.05:599][467]LogPlayLevel: PIE: World Init took: (0.001899s)
+[2018.04.24-22.24.05:600][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.040173s)
+[2018.04.24-22.24.05:686][467]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.24-22.24.05:963][467]LogInit: FAudioDevice initialized.
+[2018.04.24-22.24.06:032][467]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.24-22.24.06:041][467]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.24-23.24.06
+[2018.04.24-22.24.06:042][467]LogWorld: Bringing up level for play took: 0.007226
+[2018.04.24-22.24.06:063][467]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map 0.617
+[2018.04.24-22.24.06:065][467]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.24.16:860][976]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.24.17:255][976]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.26.21:933][548]Candidate modules for hot reload:
+[2018.04.24-22.26.21:933][548]  Ball
+[2018.04.24-22.26.21:937][548]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 3461 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.24-22.26.31:806][548]Warning: Starting HotReload took  9.9s.
+[2018.04.24-22.28.25:791][887]CompilerResultsLog: New page: Compilation - 25 Apr 2018 00:28:25
+[2018.04.24-22.28.25:791][887]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.24-22.28.25:791][887]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.04.24-22.28.25:791][887]CompilerResultsLog: Info MovingPlatform.cpp
+[2018.04.24-22.28.25:791][887]CompilerResultsLog: Info [2/3] Link UE4Editor-Ball-3461.dll
+[2018.04.24-22.28.25:791][887]CompilerResultsLog: Info [3/3] Link UE4Editor-Ball-3461.lib
+[2018.04.24-22.28.25:791][887]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-3461.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-3461.exp
+[2018.04.24-22.28.25:792][887]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-3461.suppressed.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-3461.suppressed.exp
+[2018.04.24-22.28.25:792][887]CompilerResultsLog: Info Total build time: 109.32 seconds (Local executor: 90.78 seconds)
+[2018.04.24-22.28.25:792][887]LogMainFrame: MainFrame: Module compiling took 123.870 seconds
+[2018.04.24-22.28.26:272][887]LogContentBrowser: Native class hierarchy updated for 'Ball' in 0.0101 seconds. Added 8 classes and 2 folders.
+[2018.04.24-22.28.26:275][887]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.24-22.28.26:350][887]LogContentBrowser: Native class hierarchy populated in 0.0288 seconds. Added 2339 classes and 497 folders.
+[2018.04.24-22.28.26:350][887]Display: HotReload took 124.4s.
+[2018.04.24-22.33.04:426][770]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.24-22.33.04:617][770]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.33.04:617][770]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-22.33.04:617][770]PIE: New page: PIE session: Ball1Map (25 Apr 2018 00:33:04)
+[2018.04.24-22.33.04:617][770]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.24-22.33.04:649][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031141s)
+[2018.04.24-22.33.04:650][770]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.24-22.33.04:651][770]LogPlayLevel: PIE: World Init took: (0.002032s)
+[2018.04.24-22.33.04:651][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.033719s)
+[2018.04.24-22.33.04:709][770]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.24-22.33.04:935][770]LogInit: FAudioDevice initialized.
+[2018.04.24-22.33.04:998][770]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.24-22.33.05:008][770]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.24-23.33.05
+[2018.04.24-22.33.05:009][770]LogWorld: Bringing up level for play took: 0.008166
+[2018.04.24-22.33.05:018][770]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map -0.429
+[2018.04.24-22.33.05:019][770]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.33.26:739][963]LogNet: Browse: /Game/Maps/GameOverMap
+[2018.04.24-22.33.26:740][963]LogLoad: LoadMap: /Game/Maps/GameOverMap
+[2018.04.24-22.33.26:770][963]Cmd: MEM
+[2018.04.24-22.33.26:786][963]LogMemory: Platform Memory Stats for Windows
+[2018.04.24-22.33.26:786][963]LogMemory: Process Physical Memory: 611.66 MB used, 1324.02 MB peak
+[2018.04.24-22.33.26:786][963]LogMemory: Process Virtual Memory: 2314.36 MB used, 2339.39 MB peak
+[2018.04.24-22.33.26:786][963]LogMemory: Physical Memory: 11041.31 MB used,  5253.41 MB free, 16294.71 MB total
+[2018.04.24-22.33.26:786][963]LogMemory: Virtual Memory: 3275.06 MB used,  5253.41 MB free, 134217728.00 MB total
+[2018.04.24-22.33.26:786][963]LogMemory: 
+[2018.04.24-22.33.26:786][963]Allocator Stats for TBB: (not implemented)
+[2018.04.24-22.33.26:891][963]LogAIModule: Creating AISystem for world GameOverMap
+[2018.04.24-22.33.26:891][963]LogLoad: Game class is 'GameMode'
+[2018.04.24-22.33.26:896][963]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameOverMap.GameOverMap up for play (max tick rate 60) at 2018.04.24-23.33.26
+[2018.04.24-22.33.26:896][963]LogWorld: Bringing up level for play took: 0.002871
+[2018.04.24-22.33.26:897][963]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.24-22.33.26:897][963]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.24-22.33.26:897][963]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.04.24-22.33.26:901][963]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.04.24-22.33.26:901][963]LogLoad: Took 0.161041 seconds to LoadMap(/Game/Maps/GameOverMap)
+[2018.04.24-22.33.27:645][995]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.33.27:865][995]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.35.25:349][766]Candidate modules for hot reload:
+[2018.04.24-22.35.25:349][766]  Ball
+[2018.04.24-22.35.25:352][766]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 8190 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.24-22.35.32:428][766]Warning: Starting HotReload took  7.1s.
+[2018.04.24-22.37.10:871][163]CompilerResultsLog: New page: Compilation - 25 Apr 2018 00:37:10
+[2018.04.24-22.37.10:871][163]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.24-22.37.10:871][163]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.04.24-22.37.10:871][163]CompilerResultsLog: Info MovingPlatform.cpp
+[2018.04.24-22.37.10:871][163]CompilerResultsLog: Info [2/3] Link UE4Editor-Ball-8190.dll
+[2018.04.24-22.37.10:871][163]CompilerResultsLog: Info [3/3] Link UE4Editor-Ball-8190.lib
+[2018.04.24-22.37.10:871][163]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-8190.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-8190.exp
+[2018.04.24-22.37.10:871][163]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-8190.suppressed.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-8190.suppressed.exp
+[2018.04.24-22.37.10:871][163]CompilerResultsLog: Info Total build time: 95.02 seconds (Local executor: 76.74 seconds)
+[2018.04.24-22.37.10:871][163]LogMainFrame: MainFrame: Module compiling took 105.532 seconds
+[2018.04.24-22.37.11:138][163]LogContentBrowser: Native class hierarchy updated for 'Ball' in 0.0041 seconds. Added 8 classes and 2 folders.
+[2018.04.24-22.37.11:140][163]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.24-22.37.11:217][163]LogContentBrowser: Native class hierarchy populated in 0.0286 seconds. Added 2339 classes and 497 folders.
+[2018.04.24-22.37.11:217][163]Display: HotReload took 105.9s.
+[2018.04.24-22.37.24:158][292]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.24-22.37.24:289][292]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.37.24:289][292]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-22.37.24:289][292]PIE: New page: PIE session: Ball1Map (25 Apr 2018 00:37:24)
+[2018.04.24-22.37.24:289][292]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.24-22.37.24:322][292]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032364s)
+[2018.04.24-22.37.24:324][292]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.24-22.37.24:324][292]LogPlayLevel: PIE: World Init took: (0.002223s)
+[2018.04.24-22.37.24:324][292]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.035077s)
+[2018.04.24-22.37.24:388][292]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.24-22.37.24:591][292]LogInit: FAudioDevice initialized.
+[2018.04.24-22.37.24:658][292]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.24-22.37.24:668][292]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.24-23.37.24
+[2018.04.24-22.37.24:669][292]LogWorld: Bringing up level for play took: 0.008346
+[2018.04.24-22.37.24:679][292]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map 1.233
+[2018.04.24-22.37.24:680][292]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.37.41:929][228]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.37.42:142][228]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.37.59:436][418]Candidate modules for hot reload:
+[2018.04.24-22.37.59:436][418]  Ball
+[2018.04.24-22.37.59:439][418]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 5281 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.24-22.38.06:865][418]Warning: Starting HotReload took  7.5s.
+[2018.04.24-22.40.02:341][763]CompilerResultsLog: New page: Compilation - 25 Apr 2018 00:40:02
+[2018.04.24-22.40.02:341][763]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.24-22.40.02:341][763]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.04.24-22.40.02:341][763]CompilerResultsLog: Info MovingPlatform.cpp
+[2018.04.24-22.40.02:341][763]CompilerResultsLog: Info [2/3] Link UE4Editor-Ball-5281.dll
+[2018.04.24-22.40.02:341][763]CompilerResultsLog: Info [3/3] Link UE4Editor-Ball-5281.lib
+[2018.04.24-22.40.02:341][763]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-5281.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-5281.exp
+[2018.04.24-22.40.02:341][763]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-5281.suppressed.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-5281.suppressed.exp
+[2018.04.24-22.40.02:341][763]CompilerResultsLog: Info Total build time: 111.27 seconds (Local executor: 91.11 seconds)
+[2018.04.24-22.40.02:341][763]LogMainFrame: MainFrame: Module compiling took 122.916 seconds
+[2018.04.24-22.40.02:625][763]LogContentBrowser: Native class hierarchy updated for 'Ball' in 0.0032 seconds. Added 8 classes and 2 folders.
+[2018.04.24-22.40.02:627][763]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.24-22.40.02:706][763]LogContentBrowser: Native class hierarchy populated in 0.0283 seconds. Added 2339 classes and 497 folders.
+[2018.04.24-22.40.02:706][763]Display: HotReload took 123.3s.
+[2018.04.24-22.40.10:209][897]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.24-22.40.10:332][897]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.40.10:332][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-22.40.10:333][897]PIE: New page: PIE session: Ball1Map (25 Apr 2018 00:40:10)
+[2018.04.24-22.40.10:333][897]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.24-22.40.10:362][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028760s)
+[2018.04.24-22.40.10:364][897]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.24-22.40.10:364][897]LogPlayLevel: PIE: World Init took: (0.002809s)
+[2018.04.24-22.40.10:365][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.032117s)
+[2018.04.24-22.40.10:421][897]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.24-22.40.10:631][897]LogInit: FAudioDevice initialized.
+[2018.04.24-22.40.10:698][897]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.24-22.40.10:707][897]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.24-23.40.10
+[2018.04.24-22.40.10:708][897]LogWorld: Bringing up level for play took: 0.007827
+[2018.04.24-22.40.10:718][897]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map 1.271
+[2018.04.24-22.40.10:719][897]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.40.18:103][307]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.40.18:359][307]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.40.40:201][598]Candidate modules for hot reload:
+[2018.04.24-22.40.40:201][598]  Ball
+[2018.04.24-22.40.40:205][598]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 1794 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.24-22.40.47:426][598]Warning: Starting HotReload took  7.2s.
+[2018.04.24-22.43.04:326][168]CompilerResultsLog: New page: Compilation - 25 Apr 2018 00:43:04
+[2018.04.24-22.43.04:326][168]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.24-22.43.04:326][168]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.04.24-22.43.04:326][168]CompilerResultsLog: Info MovingPlatform.cpp
+[2018.04.24-22.43.04:326][168]CompilerResultsLog: Info [2/3] Link UE4Editor-Ball-1794.dll
+[2018.04.24-22.43.04:326][168]CompilerResultsLog: Info [3/3] Link UE4Editor-Ball-1794.lib
+[2018.04.24-22.43.04:378][168]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-1794.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-1794.exp
+[2018.04.24-22.43.04:379][168]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-1794.suppressed.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-1794.suppressed.exp
+[2018.04.24-22.43.04:379][168]CompilerResultsLog: Info Total build time: 133.57 seconds (Local executor: 108.37 seconds)
+[2018.04.24-22.43.04:379][168]LogMainFrame: MainFrame: Module compiling took 144.187 seconds
+[2018.04.24-22.43.04:793][168]LogContentBrowser: Native class hierarchy updated for 'Ball' in 0.0062 seconds. Added 8 classes and 2 folders.
+[2018.04.24-22.43.04:797][168]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.24-22.43.04:909][168]LogContentBrowser: Native class hierarchy populated in 0.0382 seconds. Added 2339 classes and 497 folders.
+[2018.04.24-22.43.04:909][168]Display: HotReload took 144.7s.
+[2018.04.24-22.52.06:052][806]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.24-22.52.06:370][806]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.52.06:371][806]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-22.52.06:371][806]PIE: New page: PIE session: Ball1Map (25 Apr 2018 00:52:06)
+[2018.04.24-22.52.06:371][806]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.24-22.52.06:404][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032538s)
+[2018.04.24-22.52.06:406][806]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.24-22.52.06:406][806]LogPlayLevel: PIE: World Init took: (0.002792s)
+[2018.04.24-22.52.06:407][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.036027s)
+[2018.04.24-22.52.06:467][806]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.24-22.52.06:665][806]LogInit: FAudioDevice initialized.
+[2018.04.24-22.52.06:726][806]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.24-22.52.06:735][806]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.24-23.52.06
+[2018.04.24-22.52.06:736][806]LogWorld: Bringing up level for play took: 0.007976
+[2018.04.24-22.52.06:745][806]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map 1.299
+[2018.04.24-22.52.06:746][806]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.52.43:074][763]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.52.43:279][763]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.24-22.53.08:554][159]LogEditorViewport: Clicking on Actor (LMB): Lava (Lava3)
+[2018.04.24-22.53.13:247][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (001)
+[2018.04.24-22.53.22:381][855]LogEditorViewport: Clicking on Actor (LMB): MovingPlatform (MovingPlatform7)
+[2018.04.24-22.53.54:830][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingCPP/Maps/Ball1Map" FILE="G:/Ball/Ball/Content/RollingCPP/Maps/Ball1Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.24-22.54.12:949][598]LogSavePackage: Save=17794.20ms
+[2018.04.24-22.54.12:950][598]LogSavePackage: Moving 'G:/Ball/Ball/Saved/Ball1Map4945B27D4C05CC5944FB7698FD48A421.tmp' to 'G:/Ball/Ball/Content/RollingCPP/Maps/Ball1Map.umap'
+[2018.04.24-22.54.13:061][598]LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Content/RollingCPP/Maps/Ball1Map.umap
+[2018.04.25-04.24.00:620][281]LogActorFactory: Actor Factory created Cylinder
+[2018.04.25-04.24.08:766][813]LogActorFactory: Actor Factory created Cylinder
+[2018.04.25-04.25.42:171][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2018.04.25-04.26.10:180][558]Cmd: TRANSACTION UNDO
+[2018.04.25-04.26.10:180][558]LogEditorTransaction: Undo Scale Actors
+[2018.04.25-04.26.34:759][906]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.25-04.26.34:859][906]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.25-04.26.34:859][906]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-04.26.34:861][906]PIE: New page: PIE session: Ball1Map (25 Apr 2018 06:26:34)
+[2018.04.25-04.26.34:862][906]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.25-04.26.34:951][906]LogPlayLevel: PIE: StaticDuplicateObject took: (0.088070s)
+[2018.04.25-04.26.34:957][906]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.25-04.26.34:960][906]LogPlayLevel: PIE: World Init took: (0.008792s)
+[2018.04.25-04.26.34:960][906]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.098067s)
+[2018.04.25-04.26.35:078][906]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.25-04.26.35:337][906]LogInit: FAudioDevice initialized.
+[2018.04.25-04.26.35:403][906]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.25-04.26.35:419][906]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.25-05.26.35
+[2018.04.25-04.26.35:419][906]LogWorld: Bringing up level for play took: 0.013361
+[2018.04.25-04.26.35:432][906]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map -0.015
+[2018.04.25-04.26.35:433][906]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.25-04.27.27:544][826]LogNet: Browse: /Game/Maps/GameOverMap
+[2018.04.25-04.27.27:545][826]LogLoad: LoadMap: /Game/Maps/GameOverMap
+[2018.04.25-04.27.27:575][826]Cmd: MEM
+[2018.04.25-04.27.27:591][826]LogMemory: Platform Memory Stats for Windows
+[2018.04.25-04.27.27:591][826]LogMemory: Process Physical Memory: 442.16 MB used, 1324.02 MB peak
+[2018.04.25-04.27.27:591][826]LogMemory: Process Virtual Memory: 2297.33 MB used, 2427.83 MB peak
+[2018.04.25-04.27.27:591][826]LogMemory: Physical Memory: 11908.90 MB used,  4385.82 MB free, 16294.71 MB total
+[2018.04.25-04.27.27:591][826]LogMemory: Virtual Memory: 3206.16 MB used,  4385.82 MB free, 134217728.00 MB total
+[2018.04.25-04.27.27:591][826]LogMemory: 
+[2018.04.25-04.27.27:591][826]Allocator Stats for TBB: (not implemented)
+[2018.04.25-04.27.28:486][826]LogAIModule: Creating AISystem for world GameOverMap
+[2018.04.25-04.27.28:487][826]LogLoad: Game class is 'GameMode'
+[2018.04.25-04.27.28:491][826]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameOverMap.GameOverMap up for play (max tick rate 60) at 2018.04.25-05.27.28
+[2018.04.25-04.27.28:492][826]LogWorld: Bringing up level for play took: 0.003077
+[2018.04.25-04.27.28:493][826]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.25-04.27.28:493][826]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.25-04.27.28:493][826]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.04.25-04.27.28:509][826]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.04.25-04.27.28:509][826]LogLoad: Took 0.964168 seconds to LoadMap(/Game/Maps/GameOverMap)
+[2018.04.25-04.27.39:898][381]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.25-04.27.40:059][381]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.25-04.28.06:774][857]LogEditorViewport: Clicking on Actor (LMB): MovingPlatform (MovingPlatform7)
+[2018.04.25-04.28.10:762][ 66]Cmd: EDIT COPY
+[2018.04.25-04.28.11:145][ 87]Cmd: EDIT PASTE
+[2018.04.25-04.28.44:531][895]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (003)
+[2018.04.25-04.28.53:606][377]LogEditorViewport: Clicking on Actor (LMB): MovingPlatform (MovingPlatform8)
+[2018.04.25-04.29.33:127][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingCPP/Maps/Ball1Map" FILE="G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.04.25-04.29.49:863][561]LogSavePackage: Save=16321.05ms
+[2018.04.25-04.29.49:863][561]LogSavePackage: Moving 'G:/Ball/Ball/Saved/Ball1Map_Auto3CD8D98424362DFF93CB65FB4B6C2D1EB.tmp' to 'G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto3.umap'
+[2018.04.25-04.29.49:890][561]LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto3.umap
+[2018.04.25-04.29.49:927][561]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingCPP/Maps/Ball1Map' took 16.819
+[2018.04.25-04.29.49:927][561]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 16.819
+[2018.04.25-04.31.20:927][505]MapCheck: New page: Map Check
+[2018.04.25-04.31.20:958][505]LightingResults: New page: Lighting Build - 25 Apr 2018 06:31:20
+[2018.04.25-04.31.21:650][505]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.25-04.31.22:669][505]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.25-04.31.22:740][505]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.25-04.31.24:854][505]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2018.04.25-04.31.24:878][505]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2018.04.25-04.31.29:920][505]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.25-04.31.29:920][505]LogSwarmInterface: [TryOpenConnection] Local Process ID is 26444
+[2018.04.25-04.31.32:286][505]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.04.25-04.31.32:286][505]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.04.25-04.31.32:286][505]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.04.25-04.31.32:286][505]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.04.25-04.31.32:286][505]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.04.25-04.31.32:287][505]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.04.25-04.31.32:704][505]LogEditorBuildUtils: Build time 0:11
+[2018.04.25-04.31.32:719][505]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2018.04.25-04.31.32:742][505]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2018.04.25-04.31.32:784][506]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer RustyMetal, compiling. 
+[2018.04.25-04.31.32:799][506]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer RustyMetal, compiling. 
+[2018.04.25-04.32.10:262][646]LightingResults:Warning: Warning 002 Object has wrapping UVs.
+[2018.04.25-04.32.10:263][646]LightingResults:Warning: Warning 002 Object has overlapping UVs.
+[2018.04.25-04.32.10:263][646]LightingResults: Info 002 Lightmap UV are overlapping by 5.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.25-04.32.13:533][790]LightingResults:Warning: Warning 001 Object has wrapping UVs.
+[2018.04.25-04.32.13:533][790]LightingResults:Warning: Warning 001 Object has overlapping UVs.
+[2018.04.25-04.32.13:533][790]LightingResults: Info 001 Lightmap UV are overlapping by 16.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.25-04.32.30:378][555]LightingResults:Warning: Warning 003 Object has overlapping UVs.
+[2018.04.25-04.32.30:378][555]LightingResults: Info 003 Lightmap UV are overlapping by 5.7%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.25-04.32.40:891][ 30]Job is a success!
+[2018.04.25-04.32.41:272][ 31]LogMaterial:Warning: Material /Game/Geometry/RustyMetal.RustyMetal needed to have new flag set bUsedWithStaticLighting !
+[2018.04.25-04.32.41:277][ 31]LogMaterial: Missing cached shader map for material RustyMetal, compiling. 
+[2018.04.25-04.32.43:944][ 31]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.04.25-04.32.43:944][ 31]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.04.25-04.32.43:945][ 31]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2018.04.25-04.32.43:945][ 31]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2018.04.25-04.32.43:945][ 31]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2018.04.25-04.32.43:945][ 31]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2018.04.25-04.32.44:162][ 31]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.04.25-04.32.44:518][ 31]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2018.04.25-04.32.44:702][ 31]LogStaticLightingSystem: Illumination: 1:23 min (2.47 sec encoding lightmaps, 569 ms encoding shadowmaps)
+[2018.04.25-04.32.44:703][ 31]LogStaticLightingSystem: Lightmap texture memory:  2.5 MB (2.5 MB streaming, 0.0 MB non-streaming), 6 textures
+[2018.04.25-04.32.44:703][ 31]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.04.25-04.32.45:182][ 31]DumpUnbuiltLightIteractions
+[2018.04.25-04.32.45:182][ 31]Lights with unbuilt interactions: 0
+[2018.04.25-04.32.45:182][ 31]
+[2018.04.25-04.32.45:182][ 31]Primitives with unbuilt interactions: 0
+[2018.04.25-04.32.45:223][ 32]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.04.25-04.32.45:224][ 32]MapCheck: New page: Ball1Map - 25 Apr 2018 06:32:45
+[2018.04.25-04.32.45:232][ 32]MapCheck:Warning: Performance Warning Lava_3 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.04.25-04.32.54:029][ 32]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 8,805.256ms to complete.
+[2018.04.25-04.33.33:834][862]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.25-04.33.34:012][862]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.25-04.33.34:012][862]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-04.33.34:012][862]PIE: New page: PIE session: Ball1Map (25 Apr 2018 06:33:34)
+[2018.04.25-04.33.34:012][862]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.25-04.33.34:047][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034274s)
+[2018.04.25-04.33.34:049][862]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.25-04.33.34:049][862]LogPlayLevel: PIE: World Init took: (0.002063s)
+[2018.04.25-04.33.34:050][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.037110s)
+[2018.04.25-04.33.34:106][862]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.25-04.33.34:323][862]LogInit: FAudioDevice initialized.
+[2018.04.25-04.33.34:391][862]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.25-04.33.34:401][862]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.25-05.33.34
+[2018.04.25-04.33.34:402][862]LogWorld: Bringing up level for play took: 0.008953
+[2018.04.25-04.33.34:412][862]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map 0.966
+[2018.04.25-04.33.34:413][862]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.25-04.33.50:904][749]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.25-04.33.51:059][749]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.25-04.33.54:687][950]LogEditorViewport: Clicking on Actor (LMB): Lava (Lava3)
+[2018.04.25-04.33.55:682][999]Cmd: TRANSACTION UNDO
+[2018.04.25-04.33.55:682][999]LogEditorTransaction: Undo Clicking on Actors
+[2018.04.25-04.34.00:151][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (002)
+[2018.04.25-04.34.34:022][999]Cmd: TRANSACTION UNDO
+[2018.04.25-04.34.34:022][999]LogEditorTransaction: Undo Move Actors
+[2018.04.25-04.35.22:733][566]Cmd: TRANSACTION UNDO
+[2018.04.25-04.35.22:733][566]LogEditorTransaction: Undo Set actor location
+[2018.04.25-04.35.22:999][578]Cmd: TRANSACTION UNDO
+[2018.04.25-04.35.22:999][578]LogEditorTransaction: Undo Set actor location
+[2018.04.25-04.35.23:141][584]Cmd: TRANSACTION UNDO
+[2018.04.25-04.35.23:141][584]LogEditorTransaction: Undo Set actor location
+[2018.04.25-04.35.23:379][595]Cmd: TRANSACTION UNDO
+[2018.04.25-04.35.23:379][595]LogEditorTransaction: Undo Set actor location
+[2018.04.25-04.35.23:693][611]Cmd: TRANSACTION UNDO
+[2018.04.25-04.35.23:693][611]LogEditorTransaction: Undo Set actor location
+[2018.04.25-04.35.24:023][628]Cmd: TRANSACTION UNDO
+[2018.04.25-04.35.24:023][628]LogEditorTransaction: Undo Set actor location
+[2018.04.25-04.35.24:416][649]Cmd: TRANSACTION UNDO
+[2018.04.25-04.35.24:416][649]LogEditorTransaction: Undo Set actor location
+[2018.04.25-04.35.24:897][674]Cmd: TRANSACTION UNDO
+[2018.04.25-04.35.24:897][674]LogEditorTransaction: Undo Clicking on Actors
+[2018.04.25-04.35.29:868][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (002)
+[2018.04.25-04.35.45:956][832]LogEditorViewport: Clicking on Actor (LMB): Lava (Lava3)
+[2018.04.25-04.35.52:131][163]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (001)
+[2018.04.25-04.36.08:007][ 20]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.25-04.36.08:072][ 20]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.25-04.36.08:073][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-04.36.08:073][ 20]PIE: New page: PIE session: Ball1Map (25 Apr 2018 06:36:08)
+[2018.04.25-04.36.08:073][ 20]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.25-04.36.08:108][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035120s)
+[2018.04.25-04.36.08:109][ 20]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.25-04.36.08:110][ 20]LogPlayLevel: PIE: World Init took: (0.001640s)
+[2018.04.25-04.36.08:110][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.037236s)
+[2018.04.25-04.36.08:166][ 20]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.25-04.36.08:363][ 20]LogInit: FAudioDevice initialized.
+[2018.04.25-04.36.08:428][ 20]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.25-04.36.08:438][ 20]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.25-05.36.08
+[2018.04.25-04.36.08:439][ 20]LogWorld: Bringing up level for play took: 0.008907
+[2018.04.25-04.36.08:447][ 20]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map 1.001
+[2018.04.25-04.36.08:448][ 20]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.25-04.37.08:184][384]LogNet: Browse: /Game/Maps/GameOverMap
+[2018.04.25-04.37.08:184][384]LogLoad: LoadMap: /Game/Maps/GameOverMap
+[2018.04.25-04.37.08:220][384]Cmd: MEM
+[2018.04.25-04.37.08:237][384]LogMemory: Platform Memory Stats for Windows
+[2018.04.25-04.37.08:237][384]LogMemory: Process Physical Memory: 648.46 MB used, 1324.02 MB peak
+[2018.04.25-04.37.08:237][384]LogMemory: Process Virtual Memory: 2444.85 MB used, 2468.75 MB peak
+[2018.04.25-04.37.08:237][384]LogMemory: Physical Memory: 11561.80 MB used,  4732.91 MB free, 16294.71 MB total
+[2018.04.25-04.37.08:237][384]LogMemory: Virtual Memory: 3879.13 MB used,  4732.91 MB free, 134217728.00 MB total
+[2018.04.25-04.37.08:237][384]LogMemory: 
+[2018.04.25-04.37.08:237][384]Allocator Stats for TBB: (not implemented)
+[2018.04.25-04.37.08:433][384]LogAIModule: Creating AISystem for world GameOverMap
+[2018.04.25-04.37.08:433][384]LogLoad: Game class is 'GameMode'
+[2018.04.25-04.37.08:438][384]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameOverMap.GameOverMap up for play (max tick rate 60) at 2018.04.25-05.37.08
+[2018.04.25-04.37.08:438][384]LogWorld: Bringing up level for play took: 0.002707
+[2018.04.25-04.37.08:439][384]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.25-04.37.08:439][384]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.25-04.37.08:440][384]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.04.25-04.37.08:443][384]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.04.25-04.37.08:443][384]LogLoad: Took 0.258866 seconds to LoadMap(/Game/Maps/GameOverMap)
+[2018.04.25-04.37.11:840][546]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.25-04.37.11:934][546]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.25-04.37.13:627][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingCPP/Maps/Ball1Map" FILE="G:/Ball/Ball/Content/RollingCPP/Maps/Ball1Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.25-04.37.29:982][633]LogSavePackage: Save=16006.62ms
+[2018.04.25-04.37.29:983][633]LogSavePackage: Moving 'G:/Ball/Ball/Saved/Ball1MapEB11DAD34B0ED60C51CF7DBC8FA29B85.tmp' to 'G:/Ball/Ball/Content/RollingCPP/Maps/Ball1Map.umap'
+[2018.04.25-04.37.30:125][633]LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Content/RollingCPP/Maps/Ball1Map.umap
+[2018.04.25-04.37.30:383][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingCPP/Maps/Ball1Map_BuiltData" FILE="G:/Ball/Ball/Content/RollingCPP/Maps/Ball1Map_BuiltData.uasset" SILENT=true
+[2018.04.25-04.37.30:975][633]LogSavePackage: Save=524.67ms
+[2018.04.25-04.37.30:975][633]LogSavePackage: Moving 'G:/Ball/Ball/Saved/Ball1Map_BuiltDataBAB40C134AA410F54660F99D8B7742EA.tmp' to 'G:/Ball/Ball/Content/RollingCPP/Maps/Ball1Map_BuiltData.uasset'
+[2018.04.25-04.37.31:033][633]LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Content/RollingCPP/Maps/Ball1Map_BuiltData.uasset
+[2018.04.25-04.38.28:070][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/RustyMetal" FILE="G:/Ball/Ball/Content/Geometry/RustyMetal.uasset" SILENT=true
+[2018.04.25-04.38.28:430][666]LogSavePackage: Save=114.56ms
+[2018.04.25-04.38.28:430][666]LogSavePackage: Moving 'G:/Ball/Ball/Saved/RustyMetalBEEC3FD14E3701F5A13954A4D341EDBE.tmp' to 'G:/Ball/Ball/Content/Geometry/RustyMetal.uasset'
+[2018.04.25-04.38.28:633][666]LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Content/Geometry/RustyMetal.uasset
+[2018.04.25-04.38.28:956][666]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.25-04.38.29:556][667]Cmd: QUIT_EDITOR
+[2018.04.25-04.38.30:427][667]LogExit: Preparing to exit.
+[2018.04.25-04.38.31:136][667]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2018.04.25-04.38.31:384][667]LogExit: Editor shut down
+[2018.04.25-04.38.31:475][667]LogExit: Transaction tracking system shut down
+[2018.04.25-04.38.32:358][667]LogObj: Freed 0b from 0 cluster array pools.
+[2018.04.25-04.38.32:370][667]LogExit: Object subsystem successfully closed.
+[2018.04.25-04.38.32:437][667]LogD3D11RHI: Shutdown
+[2018.04.25-04.38.32:437][667]LogD3D11RHI: CleanupD3DDevice
+[2018.04.25-04.38.32:844][667]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.25-04.38.32:879][667]LogModuleManager: Shutting down and abandoning module Ball (535)
+[2018.04.25-04.38.32:879][667]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2018.04.25-04.38.32:881][667]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (528)
+[2018.04.25-04.38.32:881][667]LogModuleManager: Shutting down and abandoning module StatsViewer (526)
+[2018.04.25-04.38.32:881][667]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.04.25-04.38.32:881][667]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.04.25-04.38.32:881][667]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.04.25-04.38.32:881][667]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.04.25-04.38.32:882][667]LogDirectoryWatcher: A directory notification for 'D:/Unreal/UE_4.16/FeaturePacks/' was aborted.
+[2018.04.25-04.38.32:903][667]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.04.25-04.38.32:903][667]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.04.25-04.38.32:903][667]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.04.25-04.38.32:903][667]LogDirectoryWatcher: A directory notification for 'G:/Ball/Ball/Content/Collections/' was aborted.
+[2018.04.25-04.38.32:904][667]LogDirectoryWatcher: A directory notification for 'G:/Ball/Ball/Content/Developers/tomje/Collections/' was aborted.
+[2018.04.25-04.38.32:904][667]LogDirectoryWatcher: A directory notification for 'G:/Ball/Ball/Saved/Collections/' was aborted.
+[2018.04.25-04.38.32:906][667]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
+[2018.04.25-04.38.32:906][667]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
+[2018.04.25-04.38.32:906][667]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
+[2018.04.25-04.38.32:906][667]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
+[2018.04.25-04.38.32:906][667]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
+[2018.04.25-04.38.32:906][667]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
+[2018.04.25-04.38.32:906][667]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
+[2018.04.25-04.38.32:906][667]LogModuleManager: Shutting down and abandoning module BspMode (496)
+[2018.04.25-04.38.32:906][667]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
+[2018.04.25-04.38.32:906][667]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
+[2018.04.25-04.38.32:906][667]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
+[2018.04.25-04.38.32:906][667]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
+[2018.04.25-04.38.32:907][667]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
+[2018.04.25-04.38.32:907][667]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
+[2018.04.25-04.38.32:907][667]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
+[2018.04.25-04.38.32:907][667]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
+[2018.04.25-04.38.32:907][667]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
+[2018.04.25-04.38.32:907][667]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
+[2018.04.25-04.38.32:907][667]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
+[2018.04.25-04.38.32:907][667]LogModuleManager: Shutting down and abandoning module Media (473)
+[2018.04.25-04.38.32:907][667]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
+[2018.04.25-04.38.32:907][667]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
+[2018.04.25-04.38.32:907][667]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
+[2018.04.25-04.38.32:907][667]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
+[2018.04.25-04.38.32:907][667]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
+[2018.04.25-04.38.32:907][667]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2018.04.25-04.38.32:907][667]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2018.04.25-04.38.32:907][667]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2018.04.25-04.38.32:907][667]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2018.04.25-04.38.32:907][667]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
+[2018.04.25-04.38.32:907][667]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
+[2018.04.25-04.38.32:908][667]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
+[2018.04.25-04.38.32:908][667]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
+[2018.04.25-04.38.32:908][667]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
+[2018.04.25-04.38.32:908][667]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
+[2018.04.25-04.38.32:908][667]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
+[2018.04.25-04.38.32:908][667]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
+[2018.04.25-04.38.33:670][667]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
+[2018.04.25-04.38.33:670][667]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
+[2018.04.25-04.38.33:670][667]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
+[2018.04.25-04.38.33:670][667]LogModuleManager: Shutting down and abandoning module MergeActors (430)
+[2018.04.25-04.38.33:692][667]LogModuleManager: Shutting down and abandoning module SizeMap (428)
+[2018.04.25-04.38.33:692][667]LogModuleManager: Shutting down and abandoning module TreeMap (426)
+[2018.04.25-04.38.33:692][667]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
+[2018.04.25-04.38.33:692][667]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
+[2018.04.25-04.38.33:692][667]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
+[2018.04.25-04.38.33:693][667]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
+[2018.04.25-04.38.33:693][667]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
+[2018.04.25-04.38.33:693][667]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
+[2018.04.25-04.38.33:693][667]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
+[2018.04.25-04.38.33:693][667]LogModuleManager: Shutting down and abandoning module XmlParser (410)
+[2018.04.25-04.38.33:693][667]LogModuleManager: Shutting down and abandoning module Blutility (408)
+[2018.04.25-04.38.33:693][667]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
+[2018.04.25-04.38.33:693][667]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
+[2018.04.25-04.38.33:694][667]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
+[2018.04.25-04.38.33:694][667]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
+[2018.04.25-04.38.33:694][667]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
+[2018.04.25-04.38.33:697][667]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
+[2018.04.25-04.38.33:697][667]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
+[2018.04.25-04.38.33:697][667]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
+[2018.04.25-04.38.33:697][667]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
+[2018.04.25-04.38.33:761][667]LogModuleManager: Shutting down and abandoning module AutomationController (388)
+[2018.04.25-04.38.33:761][667]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
+[2018.04.25-04.38.33:761][667]LogModuleManager: Shutting down and abandoning module Layers (384)
+[2018.04.25-04.38.33:761][667]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
+[2018.04.25-04.38.33:761][667]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
+[2018.04.25-04.38.33:762][667]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
+[2018.04.25-04.38.33:762][667]LogModuleManager: Shutting down and abandoning module Persona (376)
+[2018.04.25-04.38.33:762][667]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
+[2018.04.25-04.38.33:762][667]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
+[2018.04.25-04.38.33:762][667]LogModuleManager: Shutting down and abandoning module Kismet (370)
+[2018.04.25-04.38.33:764][667]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
+[2018.04.25-04.38.33:764][667]LogModuleManager: Shutting down and abandoning module Toolbox (366)
+[2018.04.25-04.38.33:764][667]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
+[2018.04.25-04.38.33:764][667]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
+[2018.04.25-04.38.33:764][667]LogModuleManager: Shutting down and abandoning module OutputLog (360)
+[2018.04.25-04.38.33:764][667]LogModuleManager: Shutting down and abandoning module GammaUI (358)
+[2018.04.25-04.38.33:764][667]LogModuleManager: Shutting down and abandoning module Documentation (356)
+[2018.04.25-04.38.33:764][667]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
+[2018.04.25-04.38.33:764][667]LogModuleManager: Shutting down and abandoning module MovieScene (352)
+[2018.04.25-04.38.33:764][667]LogModuleManager: Shutting down and abandoning module Niagara (350)
+[2018.04.25-04.38.33:764][667]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2018.04.25-04.38.33:764][667]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2018.04.25-04.38.33:764][667]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
+[2018.04.25-04.38.33:764][667]LogModuleManager: Shutting down and abandoning module PortalServices (342)
+[2018.04.25-04.38.33:764][667]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
+[2018.04.25-04.38.33:764][667]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
+[2018.04.25-04.38.33:764][667]LogModuleManager: Shutting down and abandoning module AIModule (336)
+[2018.04.25-04.38.33:764][667]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
+[2018.04.25-04.38.33:764][667]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
+[2018.04.25-04.38.33:764][667]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2018.04.25-04.38.34:015][667]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2018.04.25-04.38.34:015][667]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2018.04.25-04.38.34:015][667]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2018.04.25-04.38.34:015][667]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2018.04.25-04.38.34:016][667]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2018.04.25-04.38.34:016][667]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2018.04.25-04.38.34:016][667]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2018.04.25-04.38.34:016][667]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2018.04.25-04.38.34:016][667]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2018.04.25-04.38.34:016][667]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2018.04.25-04.38.34:016][667]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2018.04.25-04.38.34:016][667]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2018.04.25-04.38.34:016][667]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2018.04.25-04.38.34:017][667]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2018.04.25-04.38.34:017][667]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2018.04.25-04.38.34:017][667]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2018.04.25-04.38.34:017][667]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2018.04.25-04.38.34:017][667]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2018.04.25-04.38.34:017][667]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2018.04.25-04.38.34:017][667]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2018.04.25-04.38.34:017][667]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2018.04.25-04.38.34:017][667]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2018.04.25-04.38.34:017][667]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2018.04.25-04.38.34:017][667]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2018.04.25-04.38.34:017][667]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2018.04.25-04.38.34:017][667]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2018.04.25-04.38.34:017][667]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2018.04.25-04.38.34:017][667]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2018.04.25-04.38.34:018][667]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2018.04.25-04.38.34:018][667]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2018.04.25-04.38.34:018][667]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2018.04.25-04.38.34:018][667]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2018.04.25-04.38.34:018][667]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2018.04.25-04.38.34:018][667]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2018.04.25-04.38.34:019][667]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2018.04.25-04.38.34:019][667]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2018.04.25-04.38.34:022][667]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2018.04.25-04.38.34:022][667]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.04.25-04.38.34:022][667]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.04.25-04.38.34:022][667]LogDirectoryWatcher: A directory notification for 'G:/Ball/Ball/Binaries/Win64' was aborted.
+[2018.04.25-04.38.34:287][667]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.04.25-04.38.34:287][667]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.04.25-04.38.34:287][667]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.04.25-04.38.34:287][667]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.04.25-04.38.34:287][667]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.04.25-04.38.34:287][667]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.04.25-04.38.34:388][667]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.04.25-04.38.34:488][667]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.04.25-04.38.34:488][667]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.04.25-04.38.34:488][667]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.04.25-04.38.34:488][667]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.04.25-04.38.34:488][667]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.04.25-04.38.34:488][667]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.04.25-04.38.34:492][667]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.04.25-04.38.34:492][667]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.04.25-04.38.34:492][667]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.04.25-04.38.34:492][667]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.04.25-04.38.34:497][667]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.04.25-04.38.34:497][667]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.04.25-04.38.34:497][667]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.04.25-04.38.34:497][667]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.04.25-04.38.34:497][667]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.04.25-04.38.34:498][667]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.04.25-04.38.34:498][667]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.04.25-04.38.34:498][667]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.04.25-04.38.34:498][667]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.04.25-04.38.34:498][667]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.04.25-04.38.34:498][667]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.04.25-04.38.34:498][667]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.04.25-04.38.34:498][667]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.04.25-04.38.34:498][667]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.04.25-04.38.34:502][667]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.04.25-04.38.34:502][667]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.04.25-04.38.34:502][667]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.04.25-04.38.34:503][667]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.04.25-04.38.34:504][667]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.04.25-04.38.34:513][667]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.04.25-04.38.34:513][667]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.04.25-04.38.34:513][667]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.04.25-04.38.34:513][667]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.04.25-04.38.34:513][667]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.04.25-04.38.34:513][667]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.04.25-04.38.34:983][667]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.25-04.38.34:983][667]LogDirectoryWatcher: A directory notification for 'G:/Ball/Ball/Content/' was aborted.
+[2018.04.25-04.38.34:984][667]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.25-04.38.34:984][667]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.04.25-04.38.35:001][667]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.04.25-04.38.35:018][667]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.04.25-04.38.35:018][667]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.04.25-04.38.35:018][667]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.04.25-04.38.35:018][667]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.04.25-04.38.35:018][667]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.04.25-04.38.35:018][667]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.04.25-04.38.35:018][667]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.04.25-04.38.35:018][667]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.04.25-04.38.35:058][667]LogDerivedDataCache: Shutdown
+[2018.04.25-04.38.35:058][667]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.04.25-04.38.35:058][667]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.04.25-04.38.35:058][667]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.04.25-04.38.35:058][667]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.04.25-04.38.35:058][667]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.04.25-04.38.35:058][667]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.04.25-04.38.35:058][667]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.04.25-04.38.35:058][667]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.04.25-04.38.35:058][667]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.04.25-04.38.35:058][667]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.04.25-04.38.35:059][667]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.04.25-04.38.35:059][667]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.04.25-04.38.35:059][667]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.04.25-04.38.35:059][667]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.04.25-04.38.35:059][667]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.04.25-04.38.35:060][667]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.04.25-04.38.35:060][667]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.04.25-04.38.35:060][667]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.04.25-04.38.35:060][667]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.04.25-04.38.35:061][667]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.04.25-04.38.35:061][667]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.04.25-04.38.35:062][667]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.04.25-04.38.35:062][667]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.04.25-04.38.35:062][667]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.04.25-04.38.35:062][667]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.04.25-04.38.35:062][667]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.04.25-04.38.35:062][667]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.04.25-04.38.35:062][667]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.04.25-04.38.35:062][667]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.04.25-04.38.35:062][667]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.04.25-04.38.35:062][667]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.04.25-04.38.35:062][667]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.04.25-04.38.35:063][667]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.04.25-04.38.35:064][667]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.04.25-04.38.35:064][667]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.04.25-04.38.35:066][667]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.04.25-04.38.35:066][667]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.04.25-04.38.35:067][667]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.04.25-04.38.35:067][667]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.04.25-04.38.35:067][667]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.04.25-04.38.35:067][667]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.04.25-04.38.35:067][667]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.04.25-04.38.35:067][667]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.04.25-04.38.35:068][667]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.04.25-04.38.35:068][667]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.04.25-04.38.35:068][667]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.04.25-04.38.35:068][667]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.04.25-04.38.35:068][667]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.25-04.38.35:068][667]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.25-04.38.35:068][667]LogOnline:Display: Unloading online subsystem: NULL
+[2018.04.25-04.38.35:068][667]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.25-04.38.35:068][667]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.25-04.38.35:068][667]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.25-04.38.35:068][667]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3C1921AC-49D0-90AA-9146-F991AEDA8C21%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=60bd872546dd76e5a4f4d6a8fa3b362f%7C55bb19e164c9466fbcadc0b2d9237978%7C3f0bbeaa-0fa8-46e9-9ba5-8effceb3e44e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.25-04.38.35:077][667]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.25-04.38.35:088][667]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.04.25-04.38.35:088][667]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.04.25-04.38.35:088][667]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.04.25-04.38.35:088][667]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.04.25-04.38.35:088][667]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.04.25-04.38.35:088][667]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.04.25-04.38.35:088][667]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.04.25-04.38.35:088][667]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.04.25-04.38.35:104][667]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.04.25-04.38.35:104][667]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.04.25-04.38.35:104][667]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.04.25-04.38.35:104][667]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.04.25-04.38.35:104][667]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.04.25-04.38.35:104][667]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.04.25-04.38.35:104][667]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.04.25-04.38.35:104][667]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.25-04.38.35:104][667]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.25-04.38.35:104][667]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.25-04.38.35:109][667]LogExit: Exiting.
+[2018.04.25-04.38.35:256][667]Log file closed, 04/25/18 05:38:35

@@ -1,0 +1,1238 @@
+﻿Log file open, 04/08/18 19:37:23
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: G:\Ball\Ball\Ball.uproject -run=Cook  -NoLogTimes -TargetPlatform=WindowsNoEditor -fileopenlog -unversioned -abslog=D:\Unreal\UE_4.16\Engine\Programs\AutomationTool\Saved\Cook-2018.04.08-19.37.00.txt -stdout -CrashForUAT -unattended  -UTF8Output
+LogInit: Base directory: D:/Unreal/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogInit: Selected Device Profile: [Windows]
+LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+LogInit: Computer: MSI
+LogInit: User: tomje
+LogInit: CPU Page size=4096, Cores=4
+LogInit: High frequency timer resolution =2.531251 MHz
+LogMemory: Memory total: Physical=15.9GB (16GB approx)
+LogMemory: Platform Memory Stats for Windows
+LogMemory: Process Physical Memory: 271.46 MB used, 271.46 MB peak
+LogMemory: Process Virtual Memory: 258.88 MB used, 258.88 MB peak
+LogMemory: Physical Memory: 11799.21 MB used,  4495.50 MB free, 16294.71 MB total
+LogMemory: Virtual Memory: 673.77 MB used,  4495.50 MB free, 134217728.00 MB total
+LogInit: Using OS detected language (en-US).
+LogInit: Using OS detected locale (en-GB).
+LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+LogShaderCompilers: Guid format shader working directory is 33 characters bigger than the processId version (G:/Ball/Ball/Intermediate/Shaders/WorkingDirectory/29340/).
+LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tomje/AppData/Local/Temp/UnrealShaderWorkingDir/E276C5FD4F1EAB41CA494CB4A6D1017B/'.
+LogShaderCompilers:Display: Using Local Shader Compiler.
+LogDerivedDataCache:Display: Max Cache Size: 512 MB
+LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/tomje/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tomje/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/Ball/Ball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/Ball/Ball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+LogDerivedDataCache: Using Local data cache path C:/Users/tomje/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+LogTemp:Display: Loaded TP MacClientTargetPlatform
+LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+LogTemp:Display: Loaded TP MacServerTargetPlatform
+LogTemp:Display: Loaded TP MacTargetPlatform
+LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+LogTemp:Display: Loaded TP WindowsTargetPlatform
+LogTemp:Display: Loaded TP AndroidTargetPlatform
+LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+LogTemp:Display: Loaded TP HTML5TargetPlatform
+LogTemp:Display: Loaded TP IOSTargetPlatform
+LogTemp:Display: Loaded TP TVOSTargetPlatform
+LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+LogTemp:Display: Loaded TP LinuxTargetPlatform
+LogTargetPlatformManager:Display: Building Assets For WindowsNoEditor
+LogInit: Selected Device Profile: [Windows]
+LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+LogSimplygon: Simplygon DLL not present - disabling.
+LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+LogMeshUtilities: No automatic skeletal mesh reduction module available
+LogMeshUtilities: No automatic mesh merging module available
+LogNetVersion: Ball , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2035510465)
+LogAssetRegistry: FAssetRegistry took 0.0128 seconds to start up
+LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.717597 seconds
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogLinker:Warning: Can't find file '/Game/RollingCPP/RollingOverview'
+LogUObjectGlobals:Warning: Failed to load '/Game/RollingCPP/RollingOverview': Can't find file '/Game/RollingCPP/RollingOverview'
+LogLinker:Warning: Can't find file '/Game/RollingCPP/RollingOverview'
+LogUObjectGlobals:Warning: Failed to load '/Game/RollingCPP/RollingOverview': Can't find file '/Game/RollingCPP/RollingOverview'
+LogUObjectGlobals:Warning: Failed to find object 'Class /Game/RollingCPP/RollingOverview.RollingOverview_C'
+SourceControl: Info Source control is disabled
+SourceControl: Info Source control is disabled
+SourceControl: Info Source control is disabled
+SourceControl: Info Source control is disabled
+LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+LogUObjectArray: 37645 objects as part of root set at end of initial load.
+LogUObjectAllocator: 8593704 out of 0 bytes used by permanent object pool.
+LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+LogInit: Executing Class /Script/UnrealEd.CookCommandlet
+LogInit: Initializing Editor Engine...
+LogEngine: Initializing Engine...
+LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+LogAIModule: Creating AISystem for world Untitled
+LogDerivedDataCache: Saved boot cache 0.03s 6MB C:/Users/tomje/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+LogInit: Texture streaming: Disabled
+LogInit: Initializing Editor Engine Completed
+LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+LogCook:Display: Mobile HDR setting 1
+LogCook:Display: Cooked content cleared for platform WindowsNoEditor
+LogCook:Display: Unable to read previous cook inisettings for platform WindowsNoEditor invalidating cook
+LogCook:Display: Sandbox cleanup took 0.333 seconds for platforms WindowsNoEditor  iterative false
+LogMaterial: Verifying Global Shaders for PCD3D_SM5
+LogMaterial: Verifying Global Shaders for PCD3D_SM4
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Content/*.uasset'
+LogPackageUtilities: Searching using wildcard: 'G:/Ball/Ball/Content/*.uasset'
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Plugins/2D/Paper2D/Content/*.uasset'
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Plugins/Runtime/GearVR/Content/*.uasset'
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Content/*.umap'
+LogPackageUtilities: Searching using wildcard: 'G:/Ball/Ball/Content/*.umap'
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Plugins/2D/Paper2D/Content/*.umap'
+LogPackageUtilities: Searching using wildcard: '../../../Engine/Plugins/Runtime/GearVR/Content/*.umap'
+CookResults:Warning: Warning Unable to find package for cooking /Game/RollingCPP/Maps/RollingExampleMap
+LogCook:Warning: Unable to find package for cooking /Game/RollingCPP/Maps/RollingExampleMap
+LogCook:Display: Cooking /Engine/VREditor/Sounds/VR_teleport -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_teleport.uasset
+LogSavePackage: Save=2.50ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_teleport.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_teleport.uasset
+LogCook:Display: Cooking /Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1 -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.uasset
+LogSavePackage: Save=16.80ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.uasset
+LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/TransformGizmoMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset
+LogSavePackage: Save=143.87ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset
+LogCook:Display: Cooking /Engine/VREditor/LaserPointer/VR_LaserPower_01 -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset
+LogSavePackage: Save=1.86ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset
+LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset
+LogSavePackage: Save=52.46ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset
+LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset
+LogSavePackage: Save=2.02ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/WorldGridMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WorldGridMaterial.uasset
+LogSavePackage: Save=156.06ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WorldGridMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WorldGridMaterial.uasset
+LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset
+LogSavePackage: Save=2.74ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/T_Default_Material_Grid_M -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset
+LogSavePackage: Save=1.31ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/T_Default_Material_Grid_N -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset
+LogSavePackage: Save=1.30ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/DefaultDeferredDecalMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset
+LogSavePackage: Save=116.94ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/DefaultDiffuse -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDiffuse.uasset
+LogSavePackage: Save=13.97ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDiffuse.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDiffuse.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/DefaultLightFunctionMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset
+LogSavePackage: Save=3.51ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/DefaultPostProcessMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset
+LogSavePackage: Save=9.04ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset
+LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset
+LogSavePackage: Save=0.99ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset
+LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset
+LogSavePackage: Save=7.92ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset
+LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/UniformScaleHandle -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/UniformScaleHandle.uasset
+LogSavePackage: Save=2.09ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/UniformScaleHandle.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/UniformScaleHandle.uasset
+LogCook:Display: Cooking /Engine/VREditor/ViewportInteractionAssetContainerData -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/ViewportInteractionAssetContainerData.uasset
+LogSavePackage:Display: No exports found (or all exports are editor-only) for ViewportInteractionAssetContainerData. Package will not be saved.
+LogCook:Display: Cooking /Engine/VREditor/SnapGrid/SnapGridMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/SnapGrid/SnapGridMaterial.uasset
+LogSavePackage: Save=19.03ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/SnapGrid/SnapGridMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/SnapGrid/SnapGridMaterial.uasset
+LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix.uasset
+LogSavePackage: Save=3.34ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix.uasset
+LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset
+LogSavePackage: Save=1.32ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset
+LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/SplitComponents -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/SplitComponents.uasset
+LogSavePackage: Save=1.29ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/SplitComponents.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/SplitComponents.uasset
+LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3 -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset
+LogSavePackage: Save=1.15ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset
+LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/TransformGizmoMaterial_Inst -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial_Inst.uasset
+LogSavePackage: Save=1.11ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial_Inst.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial_Inst.uasset
+LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial_Inst -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial_Inst.uasset
+LogSavePackage: Save=1.10ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial_Inst.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial_Inst.uasset
+LogCook:Display: Cooking /Engine/VREditor/SnapGrid/SnapGridPlaneMesh -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/SnapGrid/SnapGridPlaneMesh.uasset
+LogSavePackage: Save=1.82ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/SnapGrid/SnapGridPlaneMesh.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/SnapGrid/SnapGridPlaneMesh.uasset
+LogCook:Display: Cooking /Engine/VREditor/Sounds/UI/Drop_Item_From_ContentBrowser -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Drop_Item_From_ContentBrowser.uasset
+LogSavePackage: Save=1.15ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Drop_Item_From_ContentBrowser.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Drop_Item_From_ContentBrowser.uasset
+LogCook:Display: Cooking /Engine/EngineSounds/Master -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Master.uasset
+LogSavePackage: Save=0.73ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Master.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Master.uasset
+LogCook:Display: Cooking /Engine/VREditor/Sounds/UI/Gizmo_Handle_Clicked -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Gizmo_Handle_Clicked.uasset
+LogSavePackage: Save=2.27ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Gizmo_Handle_Clicked.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Gizmo_Handle_Clicked.uasset
+LogCook:Display: Cooking /Engine/VREditor/Sounds/UI/Object_PickUp -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Object_PickUp.uasset
+LogSavePackage: Save=1.53ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Object_PickUp.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Object_PickUp.uasset
+LogCook:Display: Cooking /Engine/VREditor/Sounds/UI/Object_Snaps_To_Another_Actor -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Object_Snaps_To_Another_Actor.uasset
+LogSavePackage: Save=1.32ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Object_Snaps_To_Another_Actor.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Object_Snaps_To_Another_Actor.uasset
+LogCook:Display: Cooking /Engine/VREditor/Sounds/UI/Object_Snaps_To_Grid -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Object_Snaps_To_Grid.uasset
+LogSavePackage: Save=1.50ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Object_Snaps_To_Grid.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Object_Snaps_To_Grid.uasset
+LogCook:Display: Cooking /Engine/VREditor/Sounds/UI/Scaling_Down -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Scaling_Down.uasset
+LogSavePackage: Save=1.59ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Scaling_Down.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Scaling_Down.uasset
+LogCook:Display: Cooking /Engine/VREditor/Sounds/UI/Scaling_Up -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Scaling_Up.uasset
+LogSavePackage: Save=1.99ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Scaling_Up.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Scaling_Up.uasset
+LogCook:Display: Cooking /Engine/VREditor/Sounds/UI/Selection_Changes -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Selection_Changes.uasset
+LogSavePackage: Save=1.37ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Selection_Changes.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Selection_Changes.uasset
+LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/PlaneTranslationHandle -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset
+LogSavePackage: Save=2.17ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset
+LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/RotationHandleFull -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandleFull.uasset
+LogSavePackage: Save=3.42ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandleFull.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandleFull.uasset
+LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/RotationHandleIndicator -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandleIndicator.uasset
+LogSavePackage: Save=1.98ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandleIndicator.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandleIndicator.uasset
+LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/RotationHandleQuarter -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandleQuarter.uasset
+LogSavePackage: Save=2.45ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandleQuarter.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandleQuarter.uasset
+LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/StartRotationHandleIndicator -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/StartRotationHandleIndicator.uasset
+LogSavePackage: Save=3.26ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/StartRotationHandleIndicator.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/StartRotationHandleIndicator.uasset
+LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/TranslateArrowHandle -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslateArrowHandle.uasset
+LogSavePackage: Save=4.06ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslateArrowHandle.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslateArrowHandle.uasset
+LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/BoundingBoxCorner -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset
+LogSavePackage: Save=3.41ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset
+LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/BoundingBoxEdge -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset
+LogSavePackage: Save=30.14ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset
+LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/SM_Sequencer_Key -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset
+LogSavePackage: Save=2.02ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset
+LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/Main -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/Main.uasset
+LogSavePackage: Save=4.14ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/Main.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/Main.uasset
+LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/Xray -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/Xray.uasset
+LogSavePackage: Save=3.51ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/Xray.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/Xray.uasset
+LogCook:Display: Cooking /Engine/EditorResources/S_Actor -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Actor.uasset
+LogSavePackage: Save=1.52ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Actor.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Actor.uasset
+LogCook:Display: Cooking /Engine/EditorMeshes/Camera/SM_CraneRig_Base -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset
+LogSavePackage: Save=41.70ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset
+LogCook:Display: Cooking /Engine/EditorMaterials/Camera/MI_CineMat_Rig -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset
+LogSavePackage: Save=1.40ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset
+LogCook:Display: Cooking /Engine/EditorMaterials/Camera/CineMat -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/CineMat.uasset
+LogSavePackage: Save=8.28ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/CineMat.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/CineMat.uasset
+LogCook:Display: Cooking /Engine/VREditor/UI/SM_ContentWindow_01 -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_ContentWindow_01.uasset
+LogSavePackage: Save=72.96ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_ContentWindow_01.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_ContentWindow_01.uasset
+LogCook:Display: Cooking /Engine/EditorMeshes/Camera/SM_CraneRig_Arm -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset
+LogSavePackage: Save=1.94ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset
+LogCook:Display: Cooking /Engine/EditorMeshes/Camera/SM_CraneRig_Mount -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset
+LogSavePackage: Save=6.49ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset
+LogCook:Display: Cooking /Engine/EditorMeshes/Camera/SM_CraneRig_Body -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset
+LogSavePackage: Save=2.08ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset
+LogCook:Display: Cooking /Engine/EditorMeshes/Camera/SM_RailRig_Track -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset
+LogSavePackage: Save=2.27ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset
+LogCook:Display: Cooking /Engine/EditorMeshes/Camera/SM_RailRig_Mount -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset
+LogSavePackage: Save=4.16ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset
+LogCook:Display: Cooking /Engine/EngineFonts/Roboto -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Roboto.uasset
+LogSavePackage: Save=0.95ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Roboto.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Roboto.uasset
+LogCook:Display: Cooking /Engine/EngineFonts/Faces/RobotoBold -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoBold.uasset
+LogSavePackage: Save=506.98ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoBold.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoBold.uasset
+LogCook:Display: Cooking /Engine/EngineFonts/Faces/RobotoBoldItalic -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset
+LogSavePackage: Save=131.00ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset
+LogCook:Display: Cooking /Engine/EngineFonts/Faces/RobotoItalic -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoItalic.uasset
+LogSavePackage: Save=126.63ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoItalic.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoItalic.uasset
+LogCook:Display: Cooking /Engine/EngineFonts/Faces/RobotoLight -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoLight.uasset
+LogSavePackage: Save=190.41ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoLight.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoLight.uasset
+LogCook:Display: Cooking /Engine/EngineFonts/Faces/RobotoRegular -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoRegular.uasset
+LogSavePackage: Save=218.78ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoRegular.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoRegular.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Translucent -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset
+LogSavePackage: Save=2.91ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough.uasset
+LogSavePackage: Save=6.03ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough.uasset
+LogCook:Display: Cooking /Engine/EngineResources/WhiteSquareTexture -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/WhiteSquareTexture.uasset
+LogSavePackage: Save=1.01ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/WhiteSquareTexture.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/WhiteSquareTexture.uasset
+LogCook:Display: Cooking /Engine/EngineResources/DefaultTexture -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTexture.uasset
+LogSavePackage: Save=0.96ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTexture.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTexture.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Translucent_OneSided -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset
+LogSavePackage: Save=5.52ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Opaque -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset
+LogSavePackage: Save=3.05ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Opaque_OneSided -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset
+LogSavePackage: Save=2.02ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Masked -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset
+LogSavePackage: Save=6.29ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Masked_OneSided -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset
+LogSavePackage: Save=3.34ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset
+LogCook:Display: Cooking /Engine/Maps/Templates/Thumbnails/Default -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/Default.uasset
+LogSavePackage: Save=3.48ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/Default.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/Default.uasset
+LogCook:Display: Cooking /Engine/Maps/Templates/Thumbnails/VR-Basic -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset
+LogSavePackage: Save=3.19ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset
+LogCook:Display: Cooking /Engine/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset
+LogSavePackage: Save=1.43ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset
+LogCook:Display: Cooking /Engine/EditorMaterials/ParticleSystems/PSysThumbnail_OOD -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset
+LogSavePackage: Save=2.96ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset
+LogCook:Display: Cooking /Engine/EditorLandscapeResources/DataLayer -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/DataLayer.uasset
+LogSavePackage: Save=0.86ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/DataLayer.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/DataLayer.uasset
+LogCook:Display: Cooking /Engine/EngineDamageTypes/DmgTypeBP_Environmental -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset
+LogSavePackage: Save=1.16ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset
+LogCook:Display: Cooking /Engine/EngineMeshes/Sphere -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Sphere.uasset
+LogSavePackage: Save=2.15ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Sphere.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Sphere.uasset
+LogCook:Display: Cooking /Engine/EngineFonts/RobotoDistanceField -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoDistanceField.uasset
+LogSavePackage: Save=3.86ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoDistanceField.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoDistanceField.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/DefaultTextMaterialOpaque -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset
+LogSavePackage: Save=7.17ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset
+LogCook:Display: Cooking /Engine/EditorResources/S_Trigger -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Trigger.uasset
+LogSavePackage: Save=1.31ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Trigger.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Trigger.uasset
+LogCook:Display: Cooking /Engine/EngineResources/GradientTexture0 -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/GradientTexture0.uasset
+LogSavePackage: Save=7.91ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/GradientTexture0.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/GradientTexture0.uasset
+LogCook:Display: Cooking /Engine/EngineResources/Black -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/Black.uasset
+LogSavePackage: Save=1.31ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/Black.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/Black.uasset
+LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Float -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset
+LogSavePackage: Save=5.02ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset
+LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Director -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset
+LogSavePackage: Save=1.00ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset
+LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Event -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset
+LogSavePackage: Save=1.09ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset
+LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Anim -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset
+LogSavePackage: Save=15.64ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset
+LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Fade -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset
+LogSavePackage: Save=1.92ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset
+LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Move -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset
+LogSavePackage: Save=0.96ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset
+LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Slomo -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset
+LogSavePackage: Save=0.98ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset
+LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_ColorTrack -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset
+LogSavePackage: Save=1.58ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset
+LogCook:Display: Cooking /Engine/EditorMaterials/MAT_Groups_Toggle -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset
+LogSavePackage: Save=1.07ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset
+LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset
+LogSavePackage: Save=1.06ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset
+LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Sound -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset
+LogSavePackage: Save=1.28ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset
+LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Vector -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset
+LogSavePackage: Save=1.10ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset
+LogCook:Display: Cooking /Engine/EditorMaterials/MAT_Groups_Visibility -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset
+LogSavePackage: Save=0.97ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset
+LogCook:Display: Cooking /Engine/EngineResources/DefaultTextureCube -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTextureCube.uasset
+LogSavePackage: Save=7.43ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTextureCube.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTextureCube.uasset
+LogCook:Display: Cooking /GearVR/Meshes/GearVRController -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/GearVR/Content/Meshes/GearVRController.uasset
+LogSavePackage: Save=4.44ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/GearVR/Content/Meshes/GearVRController.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/GearVR/Content/Meshes/GearVRController.uasset
+LogCook:Display: Cooking /GearVR/Materials/GearVRControllerMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/GearVR/Content/Materials/GearVRControllerMaterial.uasset
+LogSavePackage: Save=5.72ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/GearVR/Content/Materials/GearVRControllerMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/GearVR/Content/Materials/GearVRControllerMaterial.uasset
+LogCook:Display: Cooking /GearVR/Textures/GearVRController_AO -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/GearVR/Content/Textures/GearVRController_AO.uasset
+LogSavePackage: Save=2.94ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/GearVR/Content/Textures/GearVRController_AO.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/GearVR/Content/Textures/GearVRController_AO.uasset
+LogCook:Display: Cooking /GearVR/Textures/GearVRController_Color -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/GearVR/Content/Textures/GearVRController_Color.uasset
+LogSavePackage: Save=10.50ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/GearVR/Content/Textures/GearVRController_Color.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/GearVR/Content/Textures/GearVRController_Color.uasset
+LogCook:Display: Cooking /Engine/VREditor/VREditorAssetContainerData -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/VREditorAssetContainerData.uasset
+LogSavePackage:Display: No exports found (or all exports are editor-only) for VREditorAssetContainerData. Package will not be saved.
+LogCook:Display: Cooking /Engine/VREditor/Fonts/VRText_RobotoLarge -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRText_RobotoLarge.uasset
+LogSavePackage: Save=3.40ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRText_RobotoLarge.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRText_RobotoLarge.uasset
+LogCook:Display: Cooking /Engine/VREditor/Fonts/VRTextMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRTextMaterial.uasset
+LogSavePackage: Save=7.12ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRTextMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRTextMaterial.uasset
+LogCook:Display: Cooking /Engine/VREditor/WorldMovementGrid/GridMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridMaterial.uasset
+LogSavePackage: Save=6.14ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridMaterial.uasset
+LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset
+LogSavePackage: Save=1.06ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset
+LogCook:Display: Cooking /Engine/VREditor/WorldMovementGrid/SimpleGrid -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/SimpleGrid.uasset
+LogSavePackage: Save=1.26ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/SimpleGrid.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/SimpleGrid.uasset
+LogCook:Display: Cooking /Engine/VREditor/WorldMovementGrid/GridPostProcess -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridPostProcess.uasset
+LogSavePackage: Save=19.17ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridPostProcess.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridPostProcess.uasset
+LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset
+LogSavePackage: Save=3.21ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset
+LogCook:Display: Cooking /Engine/VREditor/Devices/Oculus/OculusControllerMaterial_Inst -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMaterial_Inst.uasset
+LogSavePackage: Save=1.50ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMaterial_Inst.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMaterial_Inst.uasset
+LogCook:Display: Cooking /Engine/VREditor/Devices/Oculus/OculusControllerMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMaterial.uasset
+LogSavePackage: Save=24.05ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMaterial.uasset
+LogCook:Display: Cooking /Engine/VREditor/Devices/Vive/VivePreController_MasksB -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreController_MasksB.uasset
+LogSavePackage: Save=1.84ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreController_MasksB.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreController_MasksB.uasset
+LogCook:Display: Cooking /Engine/VREditor/Devices/Vive/VivePreControllerMaterial_Inst -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMaterial_Inst.uasset
+LogSavePackage: Save=1.76ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMaterial_Inst.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMaterial_Inst.uasset
+LogCook:Display: Cooking /Engine/VREditor/Devices/Vive/VivePreControllerMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMaterial.uasset
+LogSavePackage: Save=29.57ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMaterial.uasset
+LogCook:Display: Cooking /Engine/VREditor/Devices/Vive/T_VivePreController_EM -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/T_VivePreController_EM.uasset
+LogSavePackage: Save=5.76ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/T_VivePreController_EM.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/T_VivePreController_EM.uasset
+LogCook:Display: Cooking /Engine/VREditor/Devices/Vive/VivePreController_MasksA -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreController_MasksA.uasset
+LogSavePackage: Save=45.28ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreController_MasksA.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreController_MasksA.uasset
+LogCook:Display: Cooking /Engine/VREditor/Devices/Vive/VivePreControllerDiffuse -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerDiffuse.uasset
+LogSavePackage: Save=8.68ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerDiffuse.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerDiffuse.uasset
+LogCook:Display: Cooking /Engine/VREditor/Devices/Vive/VivePreControllerSpec -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerSpec.uasset
+LogSavePackage: Save=9.65ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerSpec.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerSpec.uasset
+LogCook:Display: Cooking /Engine/VREditor/LaserPointer/LaserPointerMaterialInst -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterialInst.uasset
+LogSavePackage: Save=1.68ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterialInst.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterialInst.uasset
+LogCook:Display: Cooking /Engine/VREditor/LaserPointer/LaserPointerMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterial.uasset
+LogSavePackage: Save=16.99ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterial.uasset
+LogCook:Display: Cooking /Engine/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst.uasset
+LogSavePackage: Save=5.86ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst.uasset
+LogCook:Display: Cooking /Engine/VREditor/Teleport/TeleportDirectionMaterial_Inst -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMaterial_Inst.uasset
+LogSavePackage: Save=1.81ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMaterial_Inst.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMaterial_Inst.uasset
+LogCook:Display: Cooking /Engine/VREditor/Teleport/TeleportDirectionMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMaterial.uasset
+LogSavePackage: Save=6.82ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMaterial.uasset
+LogCook:Display: Cooking /Engine/VREditor/Devices/Generic/GenericHMD -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMD.uasset
+LogSavePackage: Save=5.01ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMD.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMD.uasset
+LogCook:Display: Cooking /Engine/VREditor/Devices/Generic/GenericHMDMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMDMaterial.uasset
+LogSavePackage: Save=4.01ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMDMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMDMaterial.uasset
+LogCook:Display: Cooking /Engine/VREditor/Devices/Oculus/OculusControllerMesh -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMesh.uasset
+LogSavePackage: Save=6.00ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMesh.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMesh.uasset
+LogCook:Display: Cooking /Engine/VREditor/Devices/Vive/VivePreControllerMesh -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMesh.uasset
+LogSavePackage: Save=9.69ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMesh.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMesh.uasset
+LogCook:Display: Cooking /Engine/VREditor/LaserPointer/HoverMesh -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/HoverMesh.uasset
+LogSavePackage: Save=2.45ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/HoverMesh.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/HoverMesh.uasset
+LogCook:Display: Cooking /Engine/VREditor/LaserPointer/HoverMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/HoverMaterial.uasset
+LogSavePackage: Save=0.97ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/HoverMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/HoverMaterial.uasset
+LogCook:Display: Cooking /Engine/VREditor/LaserPointer/TranslucentHoverMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/TranslucentHoverMaterial.uasset
+LogSavePackage: Save=21.25ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/TranslucentHoverMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/TranslucentHoverMaterial.uasset
+LogCook:Display: Cooking /Engine/VREditor/LaserPointer/LaserPointerMesh -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh.uasset
+LogSavePackage: Save=2.05ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh.uasset
+LogCook:Display: Cooking /Engine/VREditor/LaserPointer/LaserPointerMesh_End -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh_End.uasset
+LogSavePackage: Save=5.47ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh_End.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh_End.uasset
+LogCook:Display: Cooking /Engine/VREditor/LaserPointer/LaserPointerMesh_Start -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh_Start.uasset
+LogSavePackage: Save=2.26ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh_Start.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh_Start.uasset
+LogCook:Display: Cooking /Engine/VREditor/Sounds/UI/Click_on_Button_Cue -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Click_on_Button_Cue.uasset
+LogSavePackage: Save=1.51ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Click_on_Button_Cue.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Click_on_Button_Cue.uasset
+LogCook:Display: Cooking /Engine/VREditor/Sounds/UI/Dockable_Window_Close -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Close.uasset
+LogSavePackage: Save=1.87ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Close.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Close.uasset
+LogCook:Display: Cooking /Engine/VREditor/Sounds/UI/Dockable_Window_Drop -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Drop.uasset
+LogSavePackage: Save=3.23ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Drop.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Drop.uasset
+LogCook:Display: Cooking /Engine/VREditor/Sounds/UI/Dockable_Window_Open -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Open.uasset
+LogSavePackage: Save=3.82ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Open.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Open.uasset
+LogCook:Display: Cooking /Engine/VREditor/Sounds/UI/Dockable_Window_Pick_Up -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Pick_Up.uasset
+LogSavePackage: Save=1.22ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Pick_Up.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Pick_Up.uasset
+LogCook:Display: Cooking /Engine/VREditor/Sounds/UI/Floating_UI_Open-001 -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Floating_UI_Open-001.uasset
+LogSavePackage: Save=1.39ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Floating_UI_Open-001.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Floating_UI_Open-001.uasset
+LogCook:Display: Cooking /Engine/VREditor/Sounds/UI/Radial_Menu_FadeOut -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Radial_Menu_FadeOut.uasset
+LogSavePackage: Save=1.46ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Radial_Menu_FadeOut.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Radial_Menu_FadeOut.uasset
+LogCook:Display: Cooking /Engine/VREditor/Sounds/UI/Teleport_Mode_Entered -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Teleport_Mode_Entered.uasset
+LogSavePackage: Save=2.43ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Teleport_Mode_Entered.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Teleport_Mode_Entered.uasset
+LogCook:Display: Cooking /Engine/VREditor/Teleport/TeleportDirectionMesh -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMesh.uasset
+LogSavePackage: Save=58.42ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMesh.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMesh.uasset
+LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/SM_Dialog_Close -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Dialog_Close.uasset
+LogSavePackage: Save=2.68ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Dialog_Close.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Dialog_Close.uasset
+LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/SM_Dialog_Move -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Dialog_Move.uasset
+LogSavePackage: Save=2.46ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Dialog_Move.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Dialog_Move.uasset
+LogCook:Display: Cooking /Engine/VREditor/UI/M_ContentWindow -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/M_ContentWindow.uasset
+LogSavePackage: Save=12.39ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/M_ContentWindow.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/M_ContentWindow.uasset
+LogCook:Display: Cooking /Engine/VREditor/Devices/Vive/UE4_Logo -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/UE4_Logo.uasset
+LogSavePackage: Save=8.57ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/UE4_Logo.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/UE4_Logo.uasset
+LogCook:Display: Cooking /Engine/VREditor/UI/SM_Radial_Disk -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_Radial_Disk.uasset
+LogSavePackage: Save=2.44ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_Radial_Disk.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_Radial_Disk.uasset
+LogCook:Display: Cooking /Engine/VREditor/UI/DiscMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/DiscMaterial.uasset
+LogSavePackage: Save=7.48ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/DiscMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/DiscMaterial.uasset
+LogCook:Display: Cooking /Engine/VREditor/UI/KeyDiskMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/KeyDiskMaterial.uasset
+LogSavePackage: Save=85.60ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/KeyDiskMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/KeyDiskMaterial.uasset
+LogCook:Display: Cooking /Engine/VREditor/UI/SM_Radial_Pointer -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_Radial_Pointer.uasset
+LogSavePackage: Save=3.81ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_Radial_Pointer.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_Radial_Pointer.uasset
+LogCook:Display: Cooking /Engine/Tutorial/Foliage/Foliage_Intro_Tutorial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Foliage/Foliage_Intro_Tutorial.uasset
+LogSavePackage:Display: No exports found (or all exports are editor-only) for Foliage_Intro_Tutorial. Package will not be saved.
+LogCook:Display: Cooking /GearVR/Textures/GearVRController_Normal -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/GearVR/Content/Textures/GearVRController_Normal.uasset
+LogSavePackage: Save=3.82ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/GearVR/Content/Textures/GearVRController_Normal.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/GearVR/Content/Textures/GearVRController_Normal.uasset
+LogCook:Display: Cooking /Engine/VREditor/UI/ArrowMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/ArrowMaterial.uasset
+LogSavePackage: Save=10.60ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/ArrowMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/ArrowMaterial.uasset
+LogCook:Display: Cooking /Engine/VREditor/WorldMovementGrid/PlaneMesh -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/PlaneMesh.uasset
+LogSavePackage: Save=24.39ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/PlaneMesh.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/PlaneMesh.uasset
+LogCook:Display: Cooking /Engine/EditorLandscapeResources/FlattenHeightMat -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/FlattenHeightMat.uasset
+LogSavePackage: Save=9.52ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/FlattenHeightMat.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/FlattenHeightMat.uasset
+LogCook:Display: Cooking /Engine/VREditor/Sounds/UI/Click_on_Button -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Click_on_Button.uasset
+LogSavePackage: Save=1.49ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Click_on_Button.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Click_on_Button.uasset
+LogCook:Display: Cooking /Engine/VREditor/FloatingText/LineSegmentCylinder -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineSegmentCylinder.uasset
+LogSavePackage: Save=2.20ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineSegmentCylinder.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineSegmentCylinder.uasset
+LogCook:Display: Cooking /Engine/VREditor/FloatingText/LineMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineMaterial.uasset
+LogSavePackage: Save=2.39ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineMaterial.uasset
+LogCook:Display: Cooking /Engine/VREditor/FloatingText/JointSphere -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/JointSphere.uasset
+LogSavePackage: Save=8.36ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/JointSphere.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/JointSphere.uasset
+LogCook:Display: Cooking /Engine/VREditor/Fonts/TranslucentVRTextMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/TranslucentVRTextMaterial.uasset
+LogSavePackage: Save=2.80ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/TranslucentVRTextMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/TranslucentVRTextMaterial.uasset
+LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/TranslationHandle -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslationHandle.uasset
+LogSavePackage: Save=2.19ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslationHandle.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslationHandle.uasset
+LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/RotationHandle -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandle.uasset
+LogSavePackage: Save=2.48ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandle.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandle.uasset
+LogCook:Display: Cooking /Engine/VREditor/Sounds/VR_teleport_Cue -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_teleport_Cue.uasset
+LogSavePackage: Save=1.92ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_teleport_Cue.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_teleport_Cue.uasset
+LogCook:Display: Cooking /Engine/Tutorial/Basics/LevelEditorAttract -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset
+LogSavePackage:Display: No exports found (or all exports are editor-only) for LevelEditorAttract. Package will not be saved.
+LogCook:Display: Cooking /Engine/Tutorial/Basics/LevelEditorOverview -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Basics/LevelEditorOverview.uasset
+LogSavePackage:Display: No exports found (or all exports are editor-only) for LevelEditorOverview. Package will not be saved.
+LogCook:Display: Cooking /Engine/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset
+LogSavePackage: Save=1.47ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset
+LogCook:Display: Cooking /Engine/Tutorial/ContentIntroCurve -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/ContentIntroCurve.uasset
+LogSavePackage: Save=8.68ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/ContentIntroCurve.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/ContentIntroCurve.uasset
+LogCook:Display: Cooking /Paper2D/MaskedUnlitSpriteMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset
+LogSavePackage: Save=0.98ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset
+LogCook:Display: Cooking /Paper2D/DefaultSpriteMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset
+LogSavePackage: Save=4.97ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset
+LogCook:Display: Cooking /Paper2D/DummySpriteTexture -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DummySpriteTexture.uasset
+LogSavePackage:Display: No exports found (or all exports are editor-only) for DummySpriteTexture. Package will not be saved.
+LogCook:Display: Cooking /Paper2D/OpaqueUnlitSpriteMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset
+LogSavePackage: Save=2.25ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset
+LogCook:Display: Cooking /Paper2D/DefaultPaperTerrainMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset
+LogSavePackage: Save=0.85ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset
+LogCook:Display: Cooking /Paper2D/DummySprite -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DummySprite.uasset
+LogSavePackage: Save=86.88ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DummySprite.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DummySprite.uasset
+LogCook:Display: Cooking /Engine/EngineMeshes/Cylinder -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cylinder.uasset
+LogSavePackage: Save=2.78ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cylinder.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cylinder.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/DefaultMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultMaterial.uasset
+LogSavePackage: Save=108.30ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultMaterial.uasset
+LogCook:Display: Cooking /Game/Rolling/Meshes/BallMesh -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Ball/Content/Rolling/Meshes/BallMesh.uasset
+LogSavePackage: Save=13.43ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Ball/Content/Rolling/Meshes/BallMesh.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Ball/Content/Rolling/Meshes/BallMesh.uasset
+LogCook:Display: Cooking /Game/Rolling/Materials/M_Blue_Checker -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Ball/Content/Rolling/Materials/M_Blue_Checker.uasset
+LogSavePackage: Save=5.69ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Ball/Content/Rolling/Materials/M_Blue_Checker.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Ball/Content/Rolling/Materials/M_Blue_Checker.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/Grid -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Grid.uasset
+LogSavePackage: Save=1.13ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Grid.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Grid.uasset
+LogCook:Display: Cooking /Game/Rolling/Materials/PM_Ball -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Ball/Content/Rolling/Materials/PM_Ball.uasset
+LogSavePackage: Save=0.67ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Ball/Content/Rolling/Materials/PM_Ball.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Ball/Content/Rolling/Materials/PM_Ball.uasset
+LogCook:Display: Cooking /Engine/EditorSounds/Notifications/CompileStart_Cue -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset
+LogSavePackage: Save=1.36ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset
+LogCook:Display: Cooking /Engine/EditorSounds/Notifications/CompileSuccess -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset
+LogSavePackage: Save=13.11ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset
+LogCook:Display: Cooking /Engine/EditorSounds/Notifications/CompileSuccess_Cue -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset
+LogSavePackage: Save=2.63ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset
+LogCook:Display: Cooking /Engine/EditorSounds/Notifications/CompileFailed_Cue -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset
+LogSavePackage: Save=13.65ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset
+LogCook:Display: Cooking /Engine/EditorSounds/Notifications/CompileFailed -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed.uasset
+LogSavePackage: Save=1.16ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/RemoveSurfaceMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset
+LogSavePackage: Save=13.47ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset
+LogCook:Display: Cooking /Engine/EngineDebugMaterials/DebugMeshMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset
+LogSavePackage: Save=3.88ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/M_InvalidLightmapSettings -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset
+LogSavePackage: Save=8.47ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/InvalidLightmapSettings -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset
+LogSavePackage: Save=19.80ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset
+LogCook:Display: Cooking /Engine/EditorMaterials/GizmoMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/GizmoMaterial.uasset
+LogSavePackage: Save=3.61ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/GizmoMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/GizmoMaterial.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/PhAT_JointLimitMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset
+LogSavePackage: Save=4.49ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/Good64x64TilingNoiseHighFreq -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset
+LogSavePackage: Save=0.95ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/DefaultBokeh -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultBokeh.uasset
+LogSavePackage: Save=0.98ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultBokeh.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultBokeh.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/DefaultPhysicalMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset
+LogSavePackage: Save=0.57ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset
+LogCook:Display: Cooking /Engine/EngineFonts/RobotoTiny -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoTiny.uasset
+LogSavePackage: Save=0.81ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoTiny.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoTiny.uasset
+LogCook:Display: Cooking /Engine/EngineFonts/Faces/RobotoTiny -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoTiny.uasset
+LogSavePackage: Save=65.95ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoTiny.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoTiny.uasset
+LogCook:Display: Cooking /Engine/EditorResources/SequenceRecorder/Countdown -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset
+LogSavePackage: Save=42.23ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset
+LogCook:Display: Cooking /Engine/EditorResources/SequenceRecorder/RecordingIndicator -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset
+LogSavePackage: Save=0.91ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset
+LogCook:Display: Cooking /Engine/BasicShapes/Cube -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cube.uasset
+LogSavePackage: Save=2.57ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cube.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cube.uasset
+LogCook:Display: Cooking /Engine/BasicShapes/Sphere -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Sphere.uasset
+LogSavePackage: Save=4.11ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Sphere.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Sphere.uasset
+LogCook:Display: Cooking /Engine/BasicShapes/Cylinder -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cylinder.uasset
+LogSavePackage: Save=2.66ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cylinder.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cylinder.uasset
+LogCook:Display: Cooking /Engine/Tutorial/Paper2D/FlipbookEditorTutorial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Paper2D/FlipbookEditorTutorial.uasset
+LogSavePackage:Display: No exports found (or all exports are editor-only) for FlipbookEditorTutorial. Package will not be saved.
+LogCook:Display: Cooking /Paper2D/PlaceholderTextures/DummySpriteTexture -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset
+LogSavePackage: Save=1.19ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/PreintegratedSkinBRDF -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset
+LogSavePackage: Save=1.52ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/MiniFont -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/MiniFont.uasset
+LogSavePackage: Save=1.08ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/MiniFont.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/MiniFont.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/WeightMapPlaceholderTexture -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset
+LogSavePackage: Save=1.37ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/DefaultWhiteGrid -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset
+LogSavePackage: Save=1.50ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset
+LogCook:Display: Cooking /Engine/BasicShapes/Cone -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cone.uasset
+LogSavePackage: Save=2.23ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cone.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cone.uasset
+LogCook:Display: Cooking /Engine/BasicShapes/Plane -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Plane.uasset
+LogSavePackage: Save=1.98ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Plane.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Plane.uasset
+LogCook:Display: Cooking /Engine/Tutorial/Foliage/TutorialAssets/Foliage -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset
+LogSavePackage: Save=1.30ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset
+LogCook:Display: Forcing save package ../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset because was already requeued once
+LogCook:Display: Cooking /Engine/EngineMaterials/DefaultBloomKernel -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultBloomKernel.uasset
+LogSavePackage: Save=123.41ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultBloomKernel.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultBloomKernel.uasset
+LogCook:Display: Forcing save package ../../../Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset because was already requeued once
+LogCook:Display: Cooking /Engine/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset
+LogSavePackage: Save=1.08ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset
+LogCook:Display: Cooking /Engine/Tutorial/SubEditors/PersonaAnimEditorWalkThrough -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/PersonaAnimEditorWalkThrough.uasset
+LogSavePackage:Display: No exports found (or all exports are editor-only) for PersonaAnimEditorWalkThrough. Package will not be saved.
+LogCook:Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/icon_ShowSkeletalMeshes_40x -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_ShowSkeletalMeshes_40x.uasset
+LogSavePackage: Save=0.93ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_ShowSkeletalMeshes_40x.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_ShowSkeletalMeshes_40x.uasset
+LogCook:Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset
+LogSavePackage: Save=1.31ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset
+LogCook:Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Idle -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Idle.uasset
+LogSavePackage: Save=3.96ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Idle.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Idle.uasset
+LogCook:Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton.uasset
+LogSavePackage: Save=6.05ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton.uasset
+LogCook:Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Walk_Fwd -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Walk_Fwd.uasset
+LogSavePackage: Save=2.16ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Walk_Fwd.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Walk_Fwd.uasset
+LogCook:Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.uasset
+LogSavePackage: Save=12.15ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.uasset
+LogCook:Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat.uasset
+LogSavePackage: Save=9.73ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat.uasset
+LogCook:Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_PhysicsAsset -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_PhysicsAsset.uasset
+LogSavePackage: Save=19.05ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_PhysicsAsset.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_PhysicsAsset.uasset
+LogCook:Display: Cooking /Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.uasset
+LogSavePackage:Display: No exports found (or all exports are editor-only) for LevelBlueprintEditorOverview. Package will not be saved.
+LogCook:Display: Cooking /Engine/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset
+LogSavePackage: Save=2.09ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset
+LogCook:Display: Cooking /Engine/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview.uasset
+LogSavePackage:Display: No exports found (or all exports are editor-only) for BlueprintInterfacesEditorOverview. Package will not be saved.
+LogCook:Display: Cooking /Engine/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x.uasset
+LogSavePackage: Save=1.68ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x.uasset
+LogCook:Display: Cooking /Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface.uasset
+LogSavePackage: Save=1.25ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface.uasset
+LogCook:Display: Cooking /Engine/Tutorial/BlueprintTutorials/BlueprintEditorTutorial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset
+LogSavePackage:Display: No exports found (or all exports are editor-only) for BlueprintEditorTutorial. Package will not be saved.
+LogCook:Display: Cooking /Engine/Tutorial/SubEditors/StaticMeshEditorTutorial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/StaticMeshEditorTutorial.uasset
+LogSavePackage:Display: No exports found (or all exports are editor-only) for StaticMeshEditorTutorial. Package will not be saved.
+LogCook:Display: Cooking /Engine/EngineMeshes/Cube -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cube.uasset
+LogSavePackage: Save=6.02ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cube.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cube.uasset
+LogCook:Display: Cooking /Engine/MobileResources/HUD/LeftVirtualJoystickOnly -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset
+LogSavePackage: Save=1.00ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset
+LogCook:Display: Cooking /Engine/Tutorial/Landscape/TutorialAssets/Landscape -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset
+LogSavePackage: Save=2.32ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset
+LogCook:Display: Cooking /Engine/Tutorial/Paper2D/TutorialAssets/Paper2DSprite_TutorialIcon -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DSprite_TutorialIcon.uasset
+LogSavePackage: Save=0.97ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DSprite_TutorialIcon.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DSprite_TutorialIcon.uasset
+LogCook:Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset
+LogSavePackage: Save=1.04ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset
+LogCook:Display: Cooking /Engine/MobileResources/HUD/VirtualJoystick_Background -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset
+LogSavePackage: Save=1.54ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset
+LogCook:Display: Cooking /Engine/MobileResources/HUD/VirtualJoystick_Thumb -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset
+LogSavePackage: Save=1.13ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset
+LogCook:Display: Cooking /Engine/EditorMeshes/ColorCalibrator/SM_ColorCalibrator -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset
+LogSavePackage: Save=17.48ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset
+LogCook:Display: Cooking /Engine/EditorMeshes/ColorCalibrator/M_ChromeBall -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset
+LogSavePackage: Save=4.46ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset
+LogCook:Display: Cooking /Engine/EditorMeshes/ColorCalibrator/M_ClearCoat -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset
+LogSavePackage: Save=10.35ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset
+LogCook:Display: Cooking /Engine/EditorMeshes/ColorCalibrator/M_ClearCoatBlack -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset
+LogSavePackage: Save=4.17ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset
+LogCook:Display: Cooking /Engine/EditorMeshes/ColorCalibrator/M_ColorGrid -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset
+LogSavePackage: Save=12.27ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset
+LogCook:Display: Cooking /Engine/EditorMeshes/ColorCalibrator/T_ColorGrid -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/T_ColorGrid.uasset
+LogSavePackage: Save=1.07ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/T_ColorGrid.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/T_ColorGrid.uasset
+LogCook:Display: Cooking /Engine/EditorMeshes/ColorCalibrator/M_GreyBall -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset
+LogSavePackage: Save=8.72ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset
+LogCook:Display: Cooking /Engine/EngineMaterials/EditorBrushMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/EditorBrushMaterial.uasset
+LogSavePackage: Save=21.85ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/EditorBrushMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/EditorBrushMaterial.uasset
+LogCook:Display: Cooking /Engine/EditorMaterials/PreviewShadowIndicatorMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset
+LogSavePackage: Save=6.24ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset
+LogCook:Display: Cooking /Engine/EditorMaterials/PreviewShadowIndicator -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset
+LogSavePackage: Save=2.74ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset
+LogCook:Display: Cooking /Engine/EngineDebugMaterials/ClothMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/ClothMaterial.uasset
+LogSavePackage: Save=21.88ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/ClothMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/ClothMaterial.uasset
+LogCook:Display: Cooking /Engine/EngineDebugMaterials/BoneWeightMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset
+LogSavePackage: Save=29.16ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset
+LogCook:Display: Cooking /Engine/EngineDebugMaterials/HeatmapGradient -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset
+LogSavePackage: Save=1.42ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset
+LogCook:Display: Cooking /Engine/EngineDebugMaterials/GeomMaterial -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/GeomMaterial.uasset
+LogSavePackage: Save=4.30ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/GeomMaterial.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/GeomMaterial.uasset
+LogCook:Display: Cooking /Engine/MobileResources/HUD/DefaultVirtualJoysticks -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset
+LogSavePackage: Save=1.02ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset
+LogCook:Display: Cooking /Engine/EditorResources/BSPVertex -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/BSPVertex.uasset
+LogSavePackage: Save=1.56ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/BSPVertex.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/BSPVertex.uasset
+LogCook:Display: Cooking /Engine/MobileResources/HUD/T_Castle_ThumbstickOutter -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset
+LogSavePackage: Save=1.26ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset
+LogCook:Display: Cooking /Engine/MobileResources/HUD/T_Castle_ThumbstickInner -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset
+LogSavePackage: Save=0.97ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset
+LogCook:Display: Cooking /Engine/MobileResources/HUD/MobileHUDDirectionStick -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset
+LogSavePackage: Save=0.89ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset
+LogCook:Display: Cooking /Engine/MobileResources/HUD/MobileHUDDirectionPad3 -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset
+LogSavePackage: Save=1.32ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset
+LogCook:Display: Cooking /Engine/MobileResources/HUD/MobileHUDDirectionPad2 -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset
+LogSavePackage: Save=1.97ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset
+LogCook:Display: Cooking /Engine/MobileResources/HUD/MobileHUDDirectionPad -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset
+LogSavePackage: Save=8.17ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset
+LogCook:Display: Cooking /Engine/MobileResources/HUD/MobileHUDButtonFire -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset
+LogSavePackage: Save=3.94ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset
+LogCook:Display: Cooking /Engine/MobileResources/HUD/MobileHUDButton3 -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset
+LogSavePackage: Save=0.87ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset
+LogCook:Display: Cooking /Engine/MobileResources/HUD/MobileHUDButton2_on -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset
+LogSavePackage: Save=1.19ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset
+LogCook:Display: Cooking /Engine/MobileResources/HUD/MobileHUDButton2_off -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset
+LogSavePackage: Save=1.29ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset
+LogCook:Display: Cooking /Engine/MobileResources/HUD/MobileHUDButton1_on -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset
+LogSavePackage: Save=1.05ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset
+LogCook:Display: Cooking /Engine/MobileResources/HUD/MobileHUDButton1_off -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset
+LogSavePackage: Save=1.17ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset
+LogCook:Display: Cooking /Engine/Maps/Entry -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Entry.umap
+LogAIModule: Creating AISystem for world Entry
+LogActorComponent: RegisterComponentWithWorld: (/Engine/Maps/Entry.Entry:PersistentLevel.WorldInfo_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+LogSavePackage: Save=30.17ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Entry.umap'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Entry.umap
+LogActorComponent: RegisterComponentWithWorld: (/Engine/Maps/Entry.Entry:PersistentLevel.WorldInfo_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+LogCook:Display: Cooking /Engine/MobileResources/HUD/AnalogHat -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/AnalogHat.uasset
+LogSavePackage: Save=0.98ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/AnalogHat.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/AnalogHat.uasset
+LogCook:Display: Cooking /Engine/MobileResources/T_MobileMenu2 -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/T_MobileMenu2.uasset
+LogSavePackage: Save=1.83ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/T_MobileMenu2.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/T_MobileMenu2.uasset
+LogCook:Display: Cooking /Engine/MobileResources/T_MobileControls_texture -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/T_MobileControls_texture.uasset
+LogSavePackage: Save=5.10ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/T_MobileControls_texture.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/T_MobileControls_texture.uasset
+LogCook:Display: Cooking /Game/Maps/GameOverMap -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Ball/Content/Maps/GameOverMap.umap
+LogAIModule: Creating AISystem for world GameOverMap
+LogSavePackage: Save=78.02ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Ball/Content/Maps/GameOverMap.umap'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Ball/Content/Maps/GameOverMap.umap
+LogCook:Display: Cooking /Engine/EditorBlueprintResources/StandardMacros -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorBlueprintResources/StandardMacros.uasset
+LogSavePackage: Save=2.57ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorBlueprintResources/StandardMacros.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorBlueprintResources/StandardMacros.uasset
+LogCook:Display: Cooking /Engine/EngineSky/BP_Sky_Sphere -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/BP_Sky_Sphere.uasset
+LogSavePackage: Save=38.96ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/BP_Sky_Sphere.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/BP_Sky_Sphere.uasset
+LogCook:Display: Cooking /Engine/EngineSky/C_Sky_Cloud_Color -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset
+LogSavePackage: Save=1.13ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset
+LogCook:Display: Cooking /Engine/EngineSky/C_Sky_Horizon_Color -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset
+LogSavePackage: Save=0.72ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset
+LogCook:Display: Cooking /Engine/EngineSky/C_Sky_Zenith_Color -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset
+LogSavePackage: Save=0.80ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset
+LogCook:Display: Cooking /Engine/EngineSky/M_Sky_Panning_Clouds2 -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset
+LogSavePackage: Save=27.72ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset
+LogMaterial: Missing cached shader map for material NewMediaPlayer_Video_Mat, compiling. 
+LogCook:Display: Cooking /Engine/EngineSky/SM_SkySphere -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/SM_SkySphere.uasset
+LogSavePackage: Save=8.00ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/SM_SkySphere.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/SM_SkySphere.uasset
+LogCook:Display: Cooking /Game/Movies/Background -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Ball/Content/Movies/Background.uasset
+LogSavePackage: Save=1.29ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Ball/Content/Movies/Background.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Ball/Content/Movies/Background.uasset
+LogCook:Display: Cooking /Game/Movies/NewMediaPlayer_Video -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Ball/Content/Movies/NewMediaPlayer_Video.uasset
+LogSavePackage: Save=1.64ms
+LogSavePackage: Async saving from memory to 'G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Ball/Content/Movies/NewMediaPlayer_Video.uasset'
+LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Ball/Content/Movies/NewMediaPlayer_Video.uasset
+LogCook:Display: Cooking /Game/Movies/NewMediaPlayer -> G:/Ball/Ball/Saved/Cooked/WindowsNoEditor/Ball/Content/Movies/NewMediaPlayer.uasset
+LogSavePackage:Warning: Obj in another map: GameOverMap_C /Game/Maps/GameOverMap.GameOverMap:PersistentLevel.GameOverMap_C_1
+LogWindows: Windows GetLastError: The operation completed successfully. (0)

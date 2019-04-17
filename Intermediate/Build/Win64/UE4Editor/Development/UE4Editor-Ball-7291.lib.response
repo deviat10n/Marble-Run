@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Ball-7291.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files (x86)\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\Ball\Ball.cpp.obj"
+"E:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\Ball\BallGameMode.cpp.obj"
+"E:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\Ball\BallBall.cpp.obj"
+"E:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\Ball\Ball.generated.cpp.obj"
+"C:\Program Files (x86)\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Ball\PCLaunch.rc.res"
+"C:\Program Files (x86)\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"E:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-7291.lib"

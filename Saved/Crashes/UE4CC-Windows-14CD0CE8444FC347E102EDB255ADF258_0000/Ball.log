@@ -1,0 +1,1049 @@
+﻿Log file open, 04/16/18 22:37:30
+LogInit:Display: Running engine for game: Ball
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1341978405) SRandInit(-1341978405).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 2.658236
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Unreal/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.16-21.37.39:853][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.16-21.37.39:853][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.16-21.37.40:106][  0]LogInit: Computer: MSI
+[2018.04.16-21.37.40:106][  0]LogInit: User: tomje
+[2018.04.16-21.37.40:106][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.16-21.37.40:106][  0]LogInit: High frequency timer resolution =2.531253 MHz
+[2018.04.16-21.37.40:109][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.16-21.37.40:109][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.16-21.37.40:109][  0]LogMemory: Process Physical Memory: 272.56 MB used, 272.56 MB peak
+[2018.04.16-21.37.40:109][  0]LogMemory: Process Virtual Memory: 258.87 MB used, 258.87 MB peak
+[2018.04.16-21.37.40:109][  0]LogMemory: Physical Memory: 9266.53 MB used,  7028.19 MB free, 16294.71 MB total
+[2018.04.16-21.37.40:109][  0]LogMemory: Virtual Memory: 674.27 MB used,  7028.19 MB free, 134217728.00 MB total
+[2018.04.16-21.37.42:528][  0]LogInit: Using OS detected language (en-US).
+[2018.04.16-21.37.42:528][  0]LogInit: Using OS detected locale (en-GB).
+[2018.04.16-21.37.42:822][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.16-21.37.48:375][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.16-21.37.48:499][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2018.04.16-21.37.48:499][  0]LogD3D11RHI:       3040/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.16-21.37.48:814][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.04.16-21.37.48:814][  0]LogD3D11RHI:       128/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.04.16-21.37.48:852][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.16-21.37.48:852][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.16-21.37.48:852][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.16-21.37.48:888][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.16-21.37.48:889][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.16-21.37.48:889][  0]LogWindows: EnumDisplayDevices:
+[2018.04.16-21.37.48:889][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.04.16-21.37.48:890][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.04.16-21.37.48:890][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.04.16-21.37.48:890][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.16-21.37.48:890][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2018.04.16-21.37.48:890][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.16-21.37.48:890][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.16-21.37.48:891][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.16-21.37.48:985][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.16-21.37.49:229][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.04.16-21.37.49:291][  0]LogShaderCompilers: Guid format shader working directory is 33 characters bigger than the processId version (G:/Ball/Ball/Intermediate/Shaders/WorkingDirectory/20828/).
+[2018.04.16-21.37.49:292][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tomje/AppData/Local/Temp/UnrealShaderWorkingDir/EE99845C462918688FA8249855D1B864/'.
+[2018.04.16-21.37.49:300][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.04.16-21.38.03:327][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.16-21.38.04:894][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.04.16-21.38.06:458][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.16-21.38.08:018][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.04.16-21.38.09:609][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.04.16-21.38.11:140][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.16-21.38.12:734][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.16-21.38.14:300][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.16-21.38.15:904][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.04.16-21.38.17:501][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.04.16-21.38.19:116][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.16-21.38.20:664][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.16-21.38.22:185][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.16-21.38.23:772][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.16-21.38.25:564][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.16-21.38.29:137][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.16-21.38.29:137][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.16-21.38.31:081][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.04.16-21.38.33:194][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.04.16-21.38.33:415][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.04.16-21.38.35:007][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.16-21.38.36:662][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.16-21.38.38:299][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.16-21.38.39:864][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.04.16-21.38.39:864][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.04.16-21.38.48:945][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.04.16-21.38.49:463][  0]LogDerivedDataCache: Loaded boot cache 0.51s 90MB C:/Users/tomje/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.16-21.38.49:463][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tomje/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.04.16-21.38.49:463][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/Ball/Ball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.16-21.38.49:463][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.16-21.38.49:463][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/Ball/Ball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.16-21.38.49:463][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.16-21.38.49:589][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.16-21.38.49:610][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tomje/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.16-21.38.49:632][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.16-21.38.49:633][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.16-21.38.49:702][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.16-21.38.49:702][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.16-21.38.54:952][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.16-21.38.55:495][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.16-21.38.57:719][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.16-21.38.59:382][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.16-21.39.00:983][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.16-21.39.00:983][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.04.16-21.39.00:983][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.04.16-21.39.09:738][  0]LogNetVersion: Ball , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2035510465)
+[2018.04.16-21.39.10:146][  0]LogAssetRegistry: FAssetRegistry took 0.1018 seconds to start up
+[2018.04.16-21.39.11:501][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 1.283368 seconds
+[2018.04.16-21.39.11:516][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.04.16-21.39.11:516][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.04.16-21.39.11:516][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.16-21.39.11:831][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.16-21.40.26:609][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.16-21.40.26:814][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.16-21.40.46:080][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.16-21.40.58:409][  0]SourceControl: Info Source control is disabled
+[2018.04.16-21.40.58:658][  0]SourceControl: Info Source control is disabled
+[2018.04.16-21.41.00:462][  0]SourceControl: Info Source control is disabled
+[2018.04.16-21.41.02:094][  0]SourceControl: Info Source control is disabled
+[2018.04.16-21.41.08:115][  0]LogLinker:Warning: Can't find file '/Game/RollingCPP/RollingOverview'
+[2018.04.16-21.41.08:115][  0]LogLinker:Warning: Can't find file '/Game/RollingCPP/RollingOverview'
+[2018.04.16-21.41.08:115][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/RollingCPP/RollingOverview.RollingOverview_C'
+[2018.04.16-21.41.22:792][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.16-21.41.41:856][  0]LogEngine: Initializing Engine...
+[2018.04.16-21.41.41:862][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2018.04.16-21.41.42:744][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.16-21.41.42:744][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.16-21.41.47:478][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.16-21.41.47:535][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.16-21.41.47:830][  0]LogInit: FAudioDevice initialized.
+[2018.04.16-21.41.47:940][  0]LogDerivedDataCache: Saved boot cache 0.11s 90MB C:/Users/tomje/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.16-21.41.47:973][  0]LogInit: Texture streaming: Enabled
+[2018.04.16-21.41.48:643][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.16-21.41.57:201][  0]LogInit: Transaction tracking system initialized
+[2018.04.16-21.42.08:963][  0]BlueprintLog: New page: Editor Load
+[2018.04.16-21.42.40:716][  0]LocalizationService: Info Localization service is disabled
+[2018.04.16-21.43.04:880][  0]LogConsoleResponse:Display: 
+[2018.04.16-21.43.07:083][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.16-21.43.07:083][  0]LogCook:Display: Mobile HDR setting 1
+[2018.04.16-21.43.10:806][  0]LogFileCache: Scanning file cache for directory 'G:/Ball/Ball/Content/' took 0.08s
+[2018.04.16-21.43.38:902][  0]SourceControl: Info Source control is disabled
+[2018.04.16-21.43.38:903][  0]Cmd: MAP LOAD FILE="G:/Ball/Ball/Content/RollingCPP/Maps/RollingExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.16-21.43.38:903][  0]LogEditorServer:Warning: Can't find file 'G:/Ball/Ball/Content/RollingCPP/Maps/RollingExampleMap.umap'
+[2018.04.16-21.43.38:904][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.16-21.43.39:633][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 729.246ms to complete.
+[2018.04.16-21.43.39:634][  0]LogFileHelpers: Loading map 'RollingExampleMap' took 0.731
+[2018.04.16-21.43.40:679][  0]LogCollectionManager: Loaded 0 collections in 0.020823 seconds
+[2018.04.16-21.43.42:403][  0]LogFileCache: Scanning file cache for directory 'G:/Ball/Ball/Saved/Collections/' took 0.01s
+[2018.04.16-21.43.42:403][  0]LogFileCache: Scanning file cache for directory 'G:/Ball/Ball/Content/Developers/tomje/Collections/' took 0.01s
+[2018.04.16-21.43.42:403][  0]LogFileCache: Scanning file cache for directory 'G:/Ball/Ball/Content/Collections/' took 0.01s
+[2018.04.16-21.43.42:403][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000008 seconds
+[2018.04.16-21.43.42:432][  0]LogContentBrowser: Native class hierarchy populated in 0.0278 seconds. Added 2333 classes and 493 folders.
+[2018.04.16-21.43.44:567][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0071 seconds. Added 0 classes and 0 folders.
+[2018.04.16-21.43.45:845][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0037 seconds. Added 0 classes and 0 folders.
+[2018.04.16-21.43.48:281][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0054 seconds. Added 1 classes and 2 folders.
+[2018.04.16-21.43.49:078][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.04.16-21.43.49:224][  0]LogSlate: Took 0.020701 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.16-21.43.49:259][  0]LogSlate: Took 0.030660 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.16-21.43.49:375][  0]LogSlate: Took 0.099340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.16-21.43.49:955][  0]LogRenderer: Reallocating scene render targets to support 904x436 NumSamples 1 (Frame:1).
+[2018.04.16-21.43.50:268][  0]LogSlate: Took 0.024589 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.16-21.43.50:710][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.04.16-21.43.53:798][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0034 seconds. Added 1 classes and 2 folders.
+[2018.04.16-21.43.53:799][  0]LogLoad: (Engine Initialization) Total time: 416.96 seconds
+[2018.04.16-21.43.53:799][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.81 seconds
+[2018.04.16-21.43.53:799][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.16-21.43.53:799][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.16-21.43.54:139][  0]LogOcInput: OculusInput pre-init called
+[2018.04.16-21.43.54:139][  0]LogHMD: Starting GearVRController plugin
+[2018.04.16-21.43.54:261][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.16-21.43.55:151][  3]LogAssetRegistry: Asset discovery search completed in 285.0282 seconds
+[2018.04.16-21.43.55:178][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.16-21.43.55:178][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.001468 seconds (updated 0 objects)
+[2018.04.16-21.46.40:974][567]LogSlate: Took 0.008778 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.16-21.47.18:191][710]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.04.16-21.47.24:576][711]LogVSAccessor:Warning: Couldn't goto line number '0' in 'G:/Ball/Ball/Source/Ball/Turret.h'
+[2018.04.16-21.47.45:933][711]LogVSAccessor:Warning: Couldn't goto line number '0' in 'G:/Ball/Ball/Source/Ball/Turret.cpp'
+[2018.04.16-21.47.57:699][728]LogStreaming:Warning: Took 297.79ms to ProcessLoadedPackages
+[2018.04.16-22.12.16:780][544]LogSlate: Took 0.013459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.16-22.12.17:646][544]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.16-22.12.17:845][544]Cmd: MAP LOAD FILE="G:/Ball/Ball/Content/RollingCPP/Maps/Ball1Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.16-22.12.17:845][544]LightingResults: New page: Lighting Build
+[2018.04.16-22.12.19:820][544]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0029 seconds. Added 5 classes and 0 folders.
+[2018.04.16-22.12.19:822][544]LoadErrors: New page: Loading map: Ball1Map.umap
+[2018.04.16-22.12.19:862][544]MapCheck: New page: Map Check
+[2018.04.16-22.12.19:862][544]LightingResults: New page: Lighting Build
+[2018.04.16-22.12.20:145][544]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.16-22.12.20:464][544]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.16-22.12.21:134][544]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 669.507ms to complete.
+[2018.04.16-22.12.21:139][544]LogFileHelpers: Loading map 'Ball1Map' took 3.306
+[2018.04.16-22.13.02:602][559]LogEditor: Attempting to add actor of class 'Turret' to level at 60.00,-1950.00,-60.00
+[2018.04.16-22.13.03:881][626]LogEditor: Attempting to add actor of class 'Turret' to level at 190.00,-1780.00,-60.00
+[2018.04.16-22.13.06:930][768]Candidate modules for hot reload:
+[2018.04.16-22.13.06:930][768]  Ball
+[2018.04.16-22.13.06:930][768]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 1479 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.16-22.13.12:983][768]Warning: Starting HotReload took  6.1s.
+[2018.04.16-22.18.54:475][696]CompilerResultsLog: New page: Compilation - 17 Apr 2018 00:18:54
+[2018.04.16-22.18.54:476][696]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.16-22.18.54:477][696]CompilerResultsLog: Info Parsing headers for BallEditor
+[2018.04.16-22.18.54:477][696]CompilerResultsLog: Info   Running UnrealHeaderTool "G:\Ball\Ball\Ball.uproject" "G:\Ball\Ball\Intermediate\Build\Win64\BallEditor\Development\BallEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.16-22.18.54:477][696]CompilerResultsLog: Info Reflection code generated for BallEditor in 17.8587043 seconds
+[2018.04.16-22.18.54:477][696]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2018.04.16-22.18.54:477][696]CompilerResultsLog: Info Ball.generated.cpp
+[2018.04.16-22.18.54:477][696]CompilerResultsLog: Info Turret.cpp
+[2018.04.16-22.18.54:477][696]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Turret.cpp(49) : error C2039: 'x': is not a member of 'FVector'
+[2018.04.16-22.18.54:477][696]CompilerResultsLog:Error: Error D:\Unreal\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SkeletalMeshSocket.generated.h(12) : note: see declaration of 'FVector'
+[2018.04.16-22.18.54:477][696]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Turret.cpp(49) : error C2039: 'y': is not a member of 'FVector'
+[2018.04.16-22.18.54:477][696]CompilerResultsLog:Error: Error D:\Unreal\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SkeletalMeshSocket.generated.h(12) : note: see declaration of 'FVector'
+[2018.04.16-22.18.54:477][696]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Turret.cpp(49) : error C2065: 'PlayerLoc': undeclared identifier
+[2018.04.16-22.18.54:477][696]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Turret.cpp(49) : error C2228: left of '.x' must have class/struct/union
+[2018.04.16-22.18.54:477][696]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Turret.cpp(49) : note: type is 'unknown-type'
+[2018.04.16-22.18.54:477][696]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Turret.cpp(49) : error C2228: left of '.y' must have class/struct/union
+[2018.04.16-22.18.54:477][696]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Turret.cpp(49) : note: type is 'unknown-type'
+[2018.04.16-22.18.54:477][696]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Turret.cpp(49) : error C2448: 'angle': function-style initializer appears to be a function definition
+[2018.04.16-22.18.54:477][696]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Turret.cpp(53) : error C2065: 'PlayerLoc': undeclared identifier
+[2018.04.16-22.18.54:477][696]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Turret.cpp(53) : error C2228: left of '.x' must have class/struct/union
+[2018.04.16-22.18.54:477][696]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Turret.cpp(53) : note: type is 'unknown-type'
+[2018.04.16-22.18.54:477][696]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Turret.cpp(53) : error C2039: 'x': is not a member of 'FVector'
+[2018.04.16-22.18.54:477][696]CompilerResultsLog:Error: Error D:\Unreal\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SkeletalMeshSocket.generated.h(12) : note: see declaration of 'FVector'
+[2018.04.16-22.18.54:477][696]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Turret.cpp(53) : error C2039: 'y': is not a member of 'FVector'
+[2018.04.16-22.18.54:477][696]CompilerResultsLog:Error: Error D:\Unreal\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SkeletalMeshSocket.generated.h(12) : note: see declaration of 'FVector'
+[2018.04.16-22.18.54:477][696]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Turret.cpp(53) : error C2228: left of '.y' must have class/struct/union
+[2018.04.16-22.18.54:477][696]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Turret.cpp(53) : note: type is 'unknown-type'
+[2018.04.16-22.18.54:478][696]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Turret.cpp(53) : error C2661: 'atan2': no overloaded function takes 1 arguments
+[2018.04.16-22.18.54:478][696]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Turret.cpp(57) : error C2653: 'FDouble': is not a class or namespace name
+[2018.04.16-22.18.54:478][696]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Turret.cpp(57) : error C3861: 'FDouble': identifier not found
+[2018.04.16-22.18.54:478][696]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: G:\Ball\Ball\Binaries\Win64\UE4Editor-Ball-1479.dll
+[2018.04.16-22.18.54:478][696]CompilerResultsLog: Info Total build time: 336.91 seconds (Local executor: 0.00 seconds)
+[2018.04.16-22.18.54:478][696]LogMainFrame: MainFrame: Module compiling took 347.557 seconds
+[2018.04.16-22.18.54:478][696]Warning: HotReload failed, recompile failed
+[2018.04.16-22.22.06:705][ 64]LogSlate: Took 0.007895 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.16-22.22.16:103][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingCPP/Maps/Ball1Map" FILE="G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.04.16-22.22.51:858][ 91]LogSavePackage: Save=34995.05ms
+[2018.04.16-22.22.51:858][ 91]LogSavePackage: Moving 'G:/Ball/Ball/Saved/Ball1Map_Auto13DDF59A4417679E0FE788885F560B79F.tmp' to 'G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto1.umap'
+[2018.04.16-22.22.51:914][ 91]LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto1.umap
+[2018.04.16-22.22.51:972][ 91]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingCPP/Maps/Ball1Map' took 35.994
+[2018.04.16-22.22.51:972][ 91]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 35.994
+[2018.04.16-22.23.56:841][343]Candidate modules for hot reload:
+[2018.04.16-22.23.56:841][343]  Ball
+[2018.04.16-22.23.56:841][343]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 875 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.16-22.24.02:521][343]Warning: Starting HotReload took  5.7s.
+[2018.04.16-22.29.16:633][280]CompilerResultsLog: New page: Compilation - 17 Apr 2018 00:29:16
+[2018.04.16-22.29.16:633][280]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.16-22.29.16:633][280]CompilerResultsLog: Info Parsing headers for BallEditor
+[2018.04.16-22.29.16:633][280]CompilerResultsLog: Info   Running UnrealHeaderTool "G:\Ball\Ball\Ball.uproject" "G:\Ball\Ball\Intermediate\Build\Win64\BallEditor\Development\BallEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.16-22.29.16:633][280]CompilerResultsLog: Info Reflection code generated for BallEditor in 11.191961 seconds
+[2018.04.16-22.29.16:633][280]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2018.04.16-22.29.16:633][280]CompilerResultsLog: Info Ball.generated.cpp
+[2018.04.16-22.29.16:633][280]CompilerResultsLog: Info Turret.cpp
+[2018.04.16-22.29.16:633][280]CompilerResultsLog: Info [3/4] Link UE4Editor-Ball-875.dll
+[2018.04.16-22.29.16:633][280]CompilerResultsLog: Info [4/4] Link UE4Editor-Ball-875.lib
+[2018.04.16-22.29.16:633][280]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-875.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-875.exp
+[2018.04.16-22.29.16:633][280]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-875.suppressed.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-875.suppressed.exp
+[2018.04.16-22.29.16:633][280]CompilerResultsLog: Info Total build time: 311.06 seconds (Local executor: 289.70 seconds)
+[2018.04.16-22.29.16:633][280]LogMainFrame: MainFrame: Module compiling took 319.801 seconds
+[2018.04.16-22.29.18:733][280]LogClass: Could not find existing class Turret in package /Script/Ball for HotReload, assuming new class
+[2018.04.16-22.29.18:751][280]LogHotReload: Re-instancing Turret after hot-reload.
+[2018.04.16-22.29.19:402][280]LogContentBrowser: Native class hierarchy updated for 'Ball' in 0.0030 seconds. Added 4 classes and 2 folders.
+[2018.04.16-22.29.19:404][280]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.16-22.29.19:513][280]LogContentBrowser: Native class hierarchy populated in 0.0289 seconds. Added 2335 classes and 497 folders.
+[2018.04.16-22.29.19:515][280]Display: HotReload took 322.7s.
+[2018.04.16-22.32.13:673][921]Candidate modules for hot reload:
+[2018.04.16-22.32.13:673][921]  Ball
+[2018.04.16-22.32.13:677][921]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 8453 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.16-22.32.19:295][921]Warning: Starting HotReload took  5.6s.
+[2018.04.16-22.33.03:017][ 43]CompilerResultsLog: New page: Compilation - 17 Apr 2018 00:33:03
+[2018.04.16-22.33.03:018][ 43]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.16-22.33.03:018][ 43]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.04.16-22.33.03:018][ 43]CompilerResultsLog: Info Turret.cpp
+[2018.04.16-22.33.03:018][ 43]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Turret.cpp(56) : error C2664: 'bool AActor::SetActorRotation(const FQuat &,ETeleportType)': cannot convert argument 1 from 'double' to 'FRotator'
+[2018.04.16-22.33.03:018][ 43]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Turret.cpp(56) : note: Constructor for struct 'FRotator' is declared 'explicit'
+[2018.04.16-22.33.03:018][ 43]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: G:\Ball\Ball\Binaries\Win64\UE4Editor-Ball-8453.dll
+[2018.04.16-22.33.03:018][ 43]CompilerResultsLog: Info Total build time: 40.86 seconds (Local executor: 0.00 seconds)
+[2018.04.16-22.33.03:018][ 43]LogMainFrame: MainFrame: Module compiling took 49.352 seconds
+[2018.04.16-22.33.03:018][ 43]Warning: HotReload failed, recompile failed
+[2018.04.16-22.35.47:410][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingCPP/Maps/Ball1Map" FILE="G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.04.16-22.36.17:293][628]LogSavePackage: Save=28938.49ms
+[2018.04.16-22.36.17:293][628]LogSavePackage: Moving 'G:/Ball/Ball/Saved/Ball1Map_Auto2B808F1A44BA2C9B2ABBF3699FCC6FCEC.tmp' to 'G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto2.umap'
+[2018.04.16-22.36.17:331][628]LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto2.umap
+[2018.04.16-22.36.17:388][628]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingCPP/Maps/Ball1Map' took 30.002
+[2018.04.16-22.36.17:390][628]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 30.002
+[2018.04.16-22.40.01:228][437]Candidate modules for hot reload:
+[2018.04.16-22.40.01:228][437]  Ball
+[2018.04.16-22.40.01:231][437]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 8741 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.16-22.40.06:208][437]Warning: Starting HotReload took  5.0s.
+[2018.04.16-22.41.25:489][949]CompilerResultsLog: New page: Compilation - 17 Apr 2018 00:41:25
+[2018.04.16-22.41.25:489][949]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.16-22.41.25:489][949]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.04.16-22.41.25:489][949]CompilerResultsLog: Info Turret.cpp
+[2018.04.16-22.41.25:489][949]CompilerResultsLog: Info [2/3] Link UE4Editor-Ball-8741.dll
+[2018.04.16-22.41.25:489][949]CompilerResultsLog: Info [3/3] Link UE4Editor-Ball-8741.lib
+[2018.04.16-22.41.25:489][949]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-8741.suppressed.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-8741.suppressed.exp
+[2018.04.16-22.41.25:489][949]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-8741.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-8741.exp
+[2018.04.16-22.41.25:489][949]CompilerResultsLog: Info Total build time: 75.90 seconds (Local executor: 67.17 seconds)
+[2018.04.16-22.41.25:489][949]LogMainFrame: MainFrame: Module compiling took 84.271 seconds
+[2018.04.16-22.41.26:897][949]LogContentBrowser: Native class hierarchy updated for 'Ball' in 0.0028 seconds. Added 4 classes and 2 folders.
+[2018.04.16-22.41.26:899][949]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.16-22.41.26:957][949]LogContentBrowser: Native class hierarchy populated in 0.0215 seconds. Added 2335 classes and 497 folders.
+[2018.04.16-22.41.26:957][949]Display: HotReload took 85.7s.
+[2018.04.16-22.41.28:983][ 65]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.16-22.41.29:401][ 65]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.41.29:436][ 65]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-22.41.29:437][ 65]PIE: New page: PIE session: Ball1Map (17 Apr 2018 00:41:29)
+[2018.04.16-22.41.29:437][ 65]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.16-22.41.29:468][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030970s)
+[2018.04.16-22.41.29:470][ 65]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.16-22.41.29:470][ 65]LogPlayLevel: PIE: World Init took: (0.001995s)
+[2018.04.16-22.41.29:470][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.033452s)
+[2018.04.16-22.41.29:531][ 65]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.16-22.41.29:703][ 65]LogInit: FAudioDevice initialized.
+[2018.04.16-22.41.29:782][ 65]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.16-22.41.29:793][ 65]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.16-23.41.29
+[2018.04.16-22.41.29:794][ 65]LogWorld: Bringing up level for play took: 0.006819
+[2018.04.16-22.41.31:122][ 65]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0028 seconds. Added 11 classes and 0 folders.
+[2018.04.16-22.41.31:131][ 65]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map 2.634
+[2018.04.16-22.41.31:132][ 65]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.41.31:182][ 65]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2018.04.16-22.41.46:079][951]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.41.46:381][951]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.41.53:042][337]LogEditorViewport: Clicking on Actor (LMB): Turret (Turret1)
+[2018.04.16-22.42.03:707][970]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.16-22.42.03:915][970]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.42.03:916][970]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-22.42.03:916][970]PIE: New page: PIE session: Ball1Map (17 Apr 2018 00:42:03)
+[2018.04.16-22.42.03:916][970]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.16-22.42.03:946][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030397s)
+[2018.04.16-22.42.03:947][970]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.16-22.42.03:947][970]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2018.04.16-22.42.03:948][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.031865s)
+[2018.04.16-22.42.03:999][970]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.16-22.42.04:172][970]LogInit: FAudioDevice initialized.
+[2018.04.16-22.42.04:229][970]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.16-22.42.04:237][970]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.16-23.42.04
+[2018.04.16-22.42.04:238][970]LogWorld: Bringing up level for play took: 0.006067
+[2018.04.16-22.42.04:245][970]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map -0.252
+[2018.04.16-22.42.04:246][970]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.42.07:146][136]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.42.07:313][136]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.42.11:764][395]LogEditorViewport: Clicking on Actor (LMB): Turret (Turret1)
+[2018.04.16-22.42.17:978][764]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.16-22.42.18:162][764]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.42.18:162][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-22.42.18:162][764]PIE: New page: PIE session: Ball1Map (17 Apr 2018 00:42:18)
+[2018.04.16-22.42.18:163][764]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.16-22.42.18:184][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021174s)
+[2018.04.16-22.42.18:185][764]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.16-22.42.18:186][764]LogPlayLevel: PIE: World Init took: (0.001260s)
+[2018.04.16-22.42.18:186][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.022778s)
+[2018.04.16-22.42.18:242][764]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.16-22.42.18:418][764]LogInit: FAudioDevice initialized.
+[2018.04.16-22.42.18:478][764]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.16-22.42.18:485][764]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.16-23.42.18
+[2018.04.16-22.42.18:486][764]LogWorld: Bringing up level for play took: 0.006131
+[2018.04.16-22.42.18:494][764]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map -0.003
+[2018.04.16-22.42.18:494][764]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.42.34:019][682]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.42.34:245][682]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.42.35:626][759]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.16-22.42.35:767][759]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.42.35:767][759]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-22.42.35:767][759]PIE: New page: PIE session: Ball1Map (17 Apr 2018 00:42:35)
+[2018.04.16-22.42.35:767][759]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.16-22.42.35:793][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026299s)
+[2018.04.16-22.42.35:795][759]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.16-22.42.35:795][759]LogPlayLevel: PIE: World Init took: (0.001292s)
+[2018.04.16-22.42.35:795][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.027912s)
+[2018.04.16-22.42.35:855][759]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.16-22.42.36:039][759]LogInit: FAudioDevice initialized.
+[2018.04.16-22.42.36:096][759]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.16-22.42.36:103][759]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.16-23.42.36
+[2018.04.16-22.42.36:104][759]LogWorld: Bringing up level for play took: 0.005719
+[2018.04.16-22.42.36:111][759]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map -0.386
+[2018.04.16-22.42.36:112][759]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.42.45:665][320]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.42.45:873][320]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.43.09:302][571]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.16-22.43.09:413][571]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.43.09:413][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-22.43.09:414][571]PIE: New page: PIE session: Ball1Map (17 Apr 2018 00:43:09)
+[2018.04.16-22.43.09:414][571]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.16-22.43.09:436][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022519s)
+[2018.04.16-22.43.09:438][571]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.16-22.43.09:438][571]LogPlayLevel: PIE: World Init took: (0.001923s)
+[2018.04.16-22.43.09:438][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.024914s)
+[2018.04.16-22.43.09:489][571]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.16-22.43.09:665][571]LogInit: FAudioDevice initialized.
+[2018.04.16-22.43.09:721][571]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.16-22.43.09:728][571]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.16-23.43.09
+[2018.04.16-22.43.09:729][571]LogWorld: Bringing up level for play took: 0.005461
+[2018.04.16-22.43.09:736][571]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map 1.24
+[2018.04.16-22.43.09:737][571]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.43.11:495][667]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.43.11:721][667]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.43.13:249][748]Candidate modules for hot reload:
+[2018.04.16-22.43.13:249][748]  Ball
+[2018.04.16-22.43.13:252][748]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 2580 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.16-22.43.18:320][748]Warning: Starting HotReload took  5.1s.
+[2018.04.16-22.44.36:810][327]CompilerResultsLog: New page: Compilation - 17 Apr 2018 00:44:36
+[2018.04.16-22.44.36:810][327]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.16-22.44.36:810][327]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.04.16-22.44.36:810][327]CompilerResultsLog: Info Turret.cpp
+[2018.04.16-22.44.36:810][327]CompilerResultsLog: Info [2/3] Link UE4Editor-Ball-2580.dll
+[2018.04.16-22.44.36:810][327]CompilerResultsLog: Info [3/3] Link UE4Editor-Ball-2580.lib
+[2018.04.16-22.44.36:810][327]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-2580.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-2580.exp
+[2018.04.16-22.44.36:810][327]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-2580.suppressed.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-2580.suppressed.exp
+[2018.04.16-22.44.36:810][327]CompilerResultsLog: Info Total build time: 75.87 seconds (Local executor: 67.97 seconds)
+[2018.04.16-22.44.36:810][327]LogMainFrame: MainFrame: Module compiling took 83.570 seconds
+[2018.04.16-22.44.38:217][327]LogContentBrowser: Native class hierarchy updated for 'Ball' in 0.0045 seconds. Added 4 classes and 2 folders.
+[2018.04.16-22.44.38:219][327]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.16-22.44.38:280][327]LogContentBrowser: Native class hierarchy populated in 0.0212 seconds. Added 2335 classes and 497 folders.
+[2018.04.16-22.44.38:280][327]Display: HotReload took 85.1s.
+[2018.04.16-22.46.25:289][829]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.16-22.46.25:551][829]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.46.25:551][829]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-22.46.25:552][829]PIE: New page: PIE session: Ball1Map (17 Apr 2018 00:46:25)
+[2018.04.16-22.46.25:552][829]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.16-22.46.25:580][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028593s)
+[2018.04.16-22.46.25:582][829]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.16-22.46.25:582][829]LogPlayLevel: PIE: World Init took: (0.001684s)
+[2018.04.16-22.46.25:582][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.030695s)
+[2018.04.16-22.46.25:640][829]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.16-22.46.25:850][829]LogInit: FAudioDevice initialized.
+[2018.04.16-22.46.25:929][829]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.16-22.46.25:938][829]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.16-23.46.25
+[2018.04.16-22.46.25:938][829]LogWorld: Bringing up level for play took: 0.006638
+[2018.04.16-22.46.25:946][829]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map -0.551
+[2018.04.16-22.46.25:947][829]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.46.30:470][ 96]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.46.30:634][ 96]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.46.50:958][934]LogEditor: Attempting to add actor of class 'Turret' to level at -180.00,-2130.00,200.00
+[2018.04.16-22.46.53:892][108]LogEditor: Attempting to add actor of class 'Turret' to level at -170.00,-1580.00,-60.00
+[2018.04.16-22.46.55:454][194]Cmd: DELETE
+[2018.04.16-22.46.55:454][194]Cmd: ACTOR DELETE
+[2018.04.16-22.46.55:458][194]LogEditorActor: Deleted Actor: Turret
+[2018.04.16-22.46.55:476][194]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.04.16-22.47.19:724][484]Candidate modules for hot reload:
+[2018.04.16-22.47.19:724][484]  Ball
+[2018.04.16-22.47.19:727][484]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 2264 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.16-22.47.25:437][484]Warning: Starting HotReload took  5.7s.
+[2018.04.16-22.47.26:525][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingCPP/Maps/Ball1Map" FILE="G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.04.16-22.48.00:223][485]LogSavePackage: Save=32856.32ms
+[2018.04.16-22.48.00:223][485]LogSavePackage: Moving 'G:/Ball/Ball/Saved/Ball1Map_Auto35969DB604A17B642605D8681DE736CB3.tmp' to 'G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto3.umap'
+[2018.04.16-22.48.00:277][485]LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto3.umap
+[2018.04.16-22.48.00:330][485]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingCPP/Maps/Ball1Map' took 33.862
+[2018.04.16-22.48.00:330][485]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 33.862
+[2018.04.16-22.48.48:356][627]CompilerResultsLog: New page: Compilation - 17 Apr 2018 00:48:48
+[2018.04.16-22.48.48:356][627]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.16-22.48.48:356][627]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.04.16-22.48.48:356][627]CompilerResultsLog: Info Turret.cpp
+[2018.04.16-22.48.48:356][627]CompilerResultsLog: Info [2/3] Link UE4Editor-Ball-2264.dll
+[2018.04.16-22.48.48:356][627]CompilerResultsLog: Info [3/3] Link UE4Editor-Ball-2264.lib
+[2018.04.16-22.48.48:357][627]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-2264.suppressed.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-2264.suppressed.exp
+[2018.04.16-22.48.48:357][627]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-2264.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-2264.exp
+[2018.04.16-22.48.48:357][627]CompilerResultsLog: Info Total build time: 79.94 seconds (Local executor: 70.34 seconds)
+[2018.04.16-22.48.48:357][627]LogMainFrame: MainFrame: Module compiling took 88.640 seconds
+[2018.04.16-22.48.49:906][627]LogContentBrowser: Native class hierarchy updated for 'Ball' in 0.0027 seconds. Added 4 classes and 2 folders.
+[2018.04.16-22.48.49:908][627]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.16-22.48.49:983][627]LogContentBrowser: Native class hierarchy populated in 0.0222 seconds. Added 2335 classes and 497 folders.
+[2018.04.16-22.48.49:983][627]Display: HotReload took 90.3s.
+[2018.04.16-22.49.02:101][742]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.16-22.49.02:301][742]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.49.02:301][742]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-22.49.02:302][742]PIE: New page: PIE session: Ball1Map (17 Apr 2018 00:49:02)
+[2018.04.16-22.49.02:302][742]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.16-22.49.02:330][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027948s)
+[2018.04.16-22.49.02:331][742]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.16-22.49.02:331][742]LogPlayLevel: PIE: World Init took: (0.001361s)
+[2018.04.16-22.49.02:331][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.029780s)
+[2018.04.16-22.49.02:399][742]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.16-22.49.02:597][742]LogInit: FAudioDevice initialized.
+[2018.04.16-22.49.02:658][742]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.16-22.49.02:665][742]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.16-23.49.02
+[2018.04.16-22.49.02:666][742]LogWorld: Bringing up level for play took: 0.005794
+[2018.04.16-22.49.02:676][742]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map 0.18
+[2018.04.16-22.49.02:678][742]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.50.02:437][246]LogNet: Browse: /Game/Maps/GameOverMap
+[2018.04.16-22.50.02:443][246]LogLoad: LoadMap: /Game/Maps/GameOverMap
+[2018.04.16-22.50.02:493][246]Cmd: MEM
+[2018.04.16-22.50.02:510][246]LogMemory: Platform Memory Stats for Windows
+[2018.04.16-22.50.02:510][246]LogMemory: Process Physical Memory: 510.42 MB used, 1127.26 MB peak
+[2018.04.16-22.50.02:510][246]LogMemory: Process Virtual Memory: 1908.69 MB used, 1954.98 MB peak
+[2018.04.16-22.50.02:510][246]LogMemory: Physical Memory: 11477.14 MB used,  4817.57 MB free, 16294.71 MB total
+[2018.04.16-22.50.02:510][246]LogMemory: Virtual Memory: 2798.22 MB used,  4817.57 MB free, 134217728.00 MB total
+[2018.04.16-22.50.02:510][246]LogMemory: 
+[2018.04.16-22.50.02:510][246]Allocator Stats for TBB: (not implemented)
+[2018.04.16-22.50.04:295][246]LogAIModule: Creating AISystem for world GameOverMap
+[2018.04.16-22.50.04:295][246]LogLoad: Game class is 'GameMode'
+[2018.04.16-22.50.04:327][246]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameOverMap.GameOverMap up for play (max tick rate 60) at 2018.04.16-23.50.04
+[2018.04.16-22.50.04:328][246]LogWorld: Bringing up level for play took: 0.016770
+[2018.04.16-22.50.04:380][246]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.16-22.50.04:380][246]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.16-22.50.04:380][246]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.04.16-22.50.04:484][246]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.04.16-22.50.04:497][246]LogLoad: Took 2.053860 seconds to LoadMap(/Game/Maps/GameOverMap)
+[2018.04.16-22.50.18:728][999]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.50.18:836][999]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-22.56.49:831][808]LogActorFactory: Actor Factory created Sphere
+[2018.04.16-22.56.52:655][960]LogActorFactory: Actor Factory created Sphere
+[2018.04.16-22.57.03:556][ 71]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2018.04.16-22.57.07:980][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2018.04.16-22.57.32:470][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.04.16-22.57.33:915][666]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2018.04.16-22.57.46:799][ 86]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.04.16-22.57.49:713][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2018.04.16-22.58.10:750][385]Cmd: MODE GRID=0
+[2018.04.16-22.59.36:610][ 48]Cmd: MODE GRID=1
+[2018.04.16-23.00.36:047][669]LogEditorViewport: Clicking on Actor (LMB): Turret (Turret1)
+[2018.04.16-23.00.47:048][310]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2018.04.16-23.01.03:392][226]LogSlate: Took 0.029178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.16-23.01.05:089][321]Cmd: MODE GRID=0
+[2018.04.16-23.01.24:972][460]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2018.04.16-23.01.37:130][160]LogEditorViewport: Clicking on Actor (context menu): Turret (Turret1)
+[2018.04.16-23.02.10:094][155]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.04.16-23.02.17:896][591]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Sphere)
+[2018.04.16-23.02.48:002][856]LogStaticMesh: Building static mesh Projectile...
+[2018.04.16-23.02.48:048][856]LogStaticMesh: Built static mesh [0.06s] /Game/Meshes/Projectile.Projectile
+[2018.04.16-23.02.51:347][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingCPP/Maps/Ball1Map" FILE="G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.04.16-23.03.21:026][ 35]LogSavePackage: Save=28693.94ms
+[2018.04.16-23.03.21:026][ 35]LogSavePackage: Moving 'G:/Ball/Ball/Saved/Ball1Map_Auto4F7ED06FC43B68339CBAD99A82075C19F.tmp' to 'G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto4.umap'
+[2018.04.16-23.03.21:100][ 35]LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto4.umap
+[2018.04.16-23.03.21:155][ 35]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingCPP/Maps/Ball1Map' took 29.825
+[2018.04.16-23.03.21:155][ 35]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 29.825
+[2018.04.16-23.03.21:203][ 35]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Projectile] ([1] browsable assets)...
+[2018.04.16-23.03.21:257][ 35]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Projectile.Projectile]
+[2018.04.16-23.03.21:257][ 35]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Projectile]
+[2018.04.16-23.03.21:257][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Projectile" FILE="G:/Ball/Ball/Saved/Autosaves/Game/Meshes/Projectile_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2018.04.16-23.03.22:797][ 35]LogSavePackage: Save=1440.93ms
+[2018.04.16-23.03.22:797][ 35]LogSavePackage: Moving 'G:/Ball/Ball/Saved/Projectile_Auto4B4A744F54FEB226A7132C88FBAD8D02A.tmp' to 'G:/Ball/Ball/Saved/Autosaves/Game/Meshes/Projectile_Auto4.uasset'
+[2018.04.16-23.03.22:818][ 35]LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Autosaves/Game/Meshes/Projectile_Auto4.uasset
+[2018.04.16-23.03.22:819][ 35]LogFileHelpers: Auto-saving content packages took 1.660
+[2018.04.16-23.03.31:394][500]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.04.16-23.03.32:924][586]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2018.04.16-23.03.34:239][660]Cmd: DELETE
+[2018.04.16-23.03.34:239][660]Cmd: ACTOR DELETE
+[2018.04.16-23.03.34:241][660]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.16-23.03.34:259][660]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.04.16-23.03.44:698][281]LogActorFactory: Actor Factory created Projectile
+[2018.04.16-23.03.45:253][314]LogActorFactory: Actor Factory created Projectile
+[2018.04.16-23.03.46:642][394]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2018.04.16-23.03.47:624][450]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Projectile)
+[2018.04.16-23.03.48:192][478]Cmd: DELETE
+[2018.04.16-23.03.48:192][478]Cmd: ACTOR DELETE
+[2018.04.16-23.03.48:193][478]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.16-23.03.48:210][478]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.04.16-23.04.08:038][632]LogSlate: Took 0.023147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.16-23.04.21:401][330]Running D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball Win64 Development -editorrecompile "G:/Ball/Ball/Ball.uproject" -invalidatemakefilesonly
+[2018.04.16-23.04.29:839][330]Invalidating makefiles only in this run.
+[2018.04.16-23.04.30:089][330]Candidate modules for hot reload:
+[2018.04.16-23.04.30:089][330]  Ball
+[2018.04.16-23.04.30:092][330]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 5598 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.16-23.10.07:405][330]CompilerResultsLog: New page: Compilation - 17 Apr 2018 01:10:07
+[2018.04.16-23.10.07:406][330]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.16-23.10.07:406][330]CompilerResultsLog: Info Parsing headers for BallEditor
+[2018.04.16-23.10.07:406][330]CompilerResultsLog: Info   Running UnrealHeaderTool "G:\Ball\Ball\Ball.uproject" "G:\Ball\Ball\Intermediate\Build\Win64\BallEditor\Development\BallEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.16-23.10.07:406][330]CompilerResultsLog: Info Reflection code generated for BallEditor in 12.7548712 seconds
+[2018.04.16-23.10.07:406][330]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2018.04.16-23.10.07:406][330]CompilerResultsLog: Info Ball.generated.cpp
+[2018.04.16-23.10.07:406][330]CompilerResultsLog: Info Proejctile.cpp
+[2018.04.16-23.10.07:406][330]CompilerResultsLog: Info [3/4] Link UE4Editor-Ball-5598.dll
+[2018.04.16-23.10.07:406][330]CompilerResultsLog: Info [4/4] Link UE4Editor-Ball-5598.lib
+[2018.04.16-23.10.07:406][330]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-5598.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-5598.exp
+[2018.04.16-23.10.07:406][330]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-5598.suppressed.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-5598.suppressed.exp
+[2018.04.16-23.10.07:406][330]CompilerResultsLog: Info Total build time: 329.25 seconds (Local executor: 294.51 seconds)
+[2018.04.16-23.10.07:406][330]LogMainFrame: MainFrame: Module compiling took 337.327 seconds
+[2018.04.16-23.10.09:417][330]LogClass: Could not find existing class Proejctile in package /Script/Ball for HotReload, assuming new class
+[2018.04.16-23.10.09:448][330]LogContentBrowser: Native class hierarchy updated for 'Ball' in 0.0187 seconds. Added 5 classes and 2 folders.
+[2018.04.16-23.10.09:450][330]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.16-23.10.09:520][330]LogContentBrowser: Native class hierarchy populated in 0.0250 seconds. Added 2336 classes and 497 folders.
+[2018.04.16-23.10.09:521][330]Display: HotReload took 339.5s.
+[2018.04.16-23.10.09:523][330]Warning: HotReload operation took 339.5s.
+[2018.04.16-23.10.10:059][330]LogVSAccessor:Warning: Couldn't goto line number '0' in 'G:/Ball/Ball/Source/Ball/Proejctile.h'
+[2018.04.16-23.10.10:319][330]LogVSAccessor:Warning: Couldn't goto line number '0' in 'G:/Ball/Ball/Source/Ball/Proejctile.cpp'
+[2018.04.16-23.10.10:438][330]LogHotReload: New module detected: UE4Editor-Ball-5598.dll
+[2018.04.16-23.10.10:527][331]LogHotReload: Starting Hot-Reload from IDE
+[2018.04.16-23.10.14:701][331]LogContentBrowser: Native class hierarchy updated for 'Ball' in 0.0145 seconds. Added 5 classes and 2 folders.
+[2018.04.16-23.10.14:710][331]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.16-23.10.14:826][331]LogContentBrowser: Native class hierarchy populated in 0.1024 seconds. Added 2336 classes and 497 folders.
+[2018.04.16-23.10.14:895][331]Display: HotReload took  4.4s.
+[2018.04.16-23.12.02:553][886]Running D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball Win64 Development -editorrecompile "G:/Ball/Ball/Ball.uproject" -invalidatemakefilesonly
+[2018.04.16-23.12.10:629][886]Invalidating makefiles only in this run.
+[2018.04.16-23.12.11:070][886]Candidate modules for hot reload:
+[2018.04.16-23.12.11:070][886]  Ball
+[2018.04.16-23.12.11:074][886]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 6311 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.16-23.13.22:566][886]CompilerResultsLog: New page: Compilation - 17 Apr 2018 01:13:22
+[2018.04.16-23.13.22:566][886]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.16-23.13.22:566][886]CompilerResultsLog: Info Parsing headers for BallEditor
+[2018.04.16-23.13.22:566][886]CompilerResultsLog: Info   Running UnrealHeaderTool "G:\Ball\Ball\Ball.uproject" "G:\Ball\Ball\Intermediate\Build\Win64\BallEditor\Development\BallEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.16-23.13.22:566][886]CompilerResultsLog: Info Reflection code generated for BallEditor in 10.432385 seconds
+[2018.04.16-23.13.22:566][886]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2018.04.16-23.13.22:566][886]CompilerResultsLog: Info Ball.generated.cpp
+[2018.04.16-23.13.22:566][886]CompilerResultsLog: Info Projectile.cpp
+[2018.04.16-23.13.22:566][886]CompilerResultsLog: Info [3/4] Link UE4Editor-Ball-6311.dll
+[2018.04.16-23.13.22:566][886]CompilerResultsLog: Info [4/4] Link UE4Editor-Ball-6311.lib
+[2018.04.16-23.13.22:566][886]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-6311.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-6311.exp
+[2018.04.16-23.13.22:566][886]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-6311.suppressed.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-6311.suppressed.exp
+[2018.04.16-23.13.22:566][886]CompilerResultsLog: Info Total build time: 63.19 seconds (Local executor: 44.25 seconds)
+[2018.04.16-23.13.22:566][886]LogMainFrame: MainFrame: Module compiling took 71.503 seconds
+[2018.04.16-23.13.24:261][886]LogClass: Could not find existing class Projectile in package /Script/Ball for HotReload, assuming new class
+[2018.04.16-23.13.24:269][886]LogContentBrowser: Native class hierarchy updated for 'Ball' in 0.0035 seconds. Added 6 classes and 2 folders.
+[2018.04.16-23.13.24:276][886]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.16-23.13.24:398][886]LogContentBrowser: Native class hierarchy populated in 0.0229 seconds. Added 2337 classes and 497 folders.
+[2018.04.16-23.13.24:398][886]Display: HotReload took 73.3s.
+[2018.04.16-23.13.24:401][886]Warning: HotReload operation took 73.3s.
+[2018.04.16-23.13.24:752][886]LogVSAccessor:Warning: Couldn't goto line number '0' in 'G:/Ball/Ball/Source/Ball/Projectile.h'
+[2018.04.16-23.13.24:999][886]LogVSAccessor:Warning: Couldn't goto line number '0' in 'G:/Ball/Ball/Source/Ball/Projectile.cpp'
+[2018.04.16-23.13.25:066][887]LogHotReload: New module detected: UE4Editor-Ball-6311.dll
+[2018.04.16-23.13.25:123][888]LogHotReload: Starting Hot-Reload from IDE
+[2018.04.16-23.13.26:996][888]LogContentBrowser: Native class hierarchy updated for 'Ball' in 0.0050 seconds. Added 6 classes and 2 folders.
+[2018.04.16-23.13.27:000][888]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.16-23.13.27:058][888]LogContentBrowser: Native class hierarchy populated in 0.0435 seconds. Added 2337 classes and 497 folders.
+[2018.04.16-23.13.27:068][888]Display: HotReload took  1.9s.
+[2018.04.16-23.19.20:819][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingCPP/Maps/Ball1Map" FILE="G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.04.16-23.20.18:778][880]LogSavePackage: Save=56515.04ms
+[2018.04.16-23.20.18:778][880]LogSavePackage: Moving 'G:/Ball/Ball/Saved/Ball1Map_Auto51C96FE11488F79D8FCE41DB0A7D5E854.tmp' to 'G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto5.umap'
+[2018.04.16-23.20.18:839][880]LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto5.umap
+[2018.04.16-23.20.19:381][880]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingCPP/Maps/Ball1Map' took 58.588
+[2018.04.16-23.20.19:381][880]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 58.588
+[2018.04.16-23.29.10:644][623]Candidate modules for hot reload:
+[2018.04.16-23.29.10:644][623]  Ball
+[2018.04.16-23.29.10:646][623]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 4176 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.16-23.29.15:824][623]Warning: Starting HotReload took  5.2s.
+[2018.04.16-23.29.52:237][712]CompilerResultsLog: New page: Compilation - 17 Apr 2018 01:29:52
+[2018.04.16-23.29.52:238][712]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.16-23.29.52:238][712]CompilerResultsLog: Info Parsing headers for BallEditor
+[2018.04.16-23.29.52:238][712]CompilerResultsLog: Info   Running UnrealHeaderTool "G:\Ball\Ball\Ball.uproject" "G:\Ball\Ball\Intermediate\Build\Win64\BallEditor\Development\BallEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.16-23.29.52:238][712]CompilerResultsLog: Info Reflection code generated for BallEditor in 11.9803468 seconds
+[2018.04.16-23.29.52:238][712]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2018.04.16-23.29.52:238][712]CompilerResultsLog: Info Ball.generated.cpp
+[2018.04.16-23.29.52:238][712]CompilerResultsLog: Info Projectile.cpp
+[2018.04.16-23.29.52:238][712]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(15) : error C2065: 'ProjectileVisual': undeclared identifier
+[2018.04.16-23.29.52:238][712]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(17) : error C2065: 'ProjectileVisual': undeclared identifier
+[2018.04.16-23.29.52:238][712]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(19) : error C2653: 'ConstructorHelpers': is not a class or namespace name
+[2018.04.16-23.29.52:238][712]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(19) : error C2065: 'FObjectFinder': undeclared identifier
+[2018.04.16-23.29.52:238][712]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(19) : error C2275: 'UStaticMesh': illegal use of this type as an expression
+[2018.04.16-23.29.52:238][712]CompilerResultsLog:Error: Error D:\Unreal\UE_4.16\Engine\Source\Runtime\Engine\Classes\Engine/StaticMesh.h(412) : note: see declaration of 'UStaticMesh'
+[2018.04.16-23.29.52:238][712]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(19) : error C3861: 'ProjectileAsset': identifier not found
+[2018.04.16-23.29.52:238][712]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(21) : error C2065: 'ProjectileAsset': undeclared identifier
+[2018.04.16-23.29.52:238][712]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(21) : error C2228: left of '.Succeeded' must have class/struct/union
+[2018.04.16-23.29.52:238][712]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(21) : note: type is 'unknown-type'
+[2018.04.16-23.29.52:238][712]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(23) : error C2065: 'ProjectileVisual': undeclared identifier
+[2018.04.16-23.29.52:238][712]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(23) : error C2227: left of '->SetStaticMesh' must point to class/struct/union/generic type
+[2018.04.16-23.29.52:238][712]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(23) : note: type is 'unknown-type'
+[2018.04.16-23.29.52:238][712]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(23) : error C2065: 'ProjectileAsset': undeclared identifier
+[2018.04.16-23.29.52:238][712]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(23) : error C2228: left of '.Object' must have class/struct/union
+[2018.04.16-23.29.52:238][712]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(23) : note: type is 'unknown-type'
+[2018.04.16-23.29.52:238][712]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(72) : error C2065: 'moveDirection': undeclared identifier
+[2018.04.16-23.29.52:238][712]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(73) : error C2065: 'moveDirection': undeclared identifier
+[2018.04.16-23.29.52:238][712]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: G:\Ball\Ball\Binaries\Win64\UE4Editor-Ball-4176.dll
+[2018.04.16-23.29.52:238][712]CompilerResultsLog: Info Total build time: 33.17 seconds (Local executor: 0.00 seconds)
+[2018.04.16-23.29.52:238][712]LogMainFrame: MainFrame: Module compiling took 41.604 seconds
+[2018.04.16-23.29.52:239][712]Warning: HotReload failed, recompile failed
+[2018.04.16-23.30.33:006][879]Candidate modules for hot reload:
+[2018.04.16-23.30.33:006][879]  Ball
+[2018.04.16-23.30.33:024][879]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 780 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.16-23.30.38:108][879]Warning: Starting HotReload took  5.1s.
+[2018.04.16-23.31.04:580][436]CompilerResultsLog: New page: Compilation - 17 Apr 2018 01:31:04
+[2018.04.16-23.31.04:580][436]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.16-23.31.04:580][436]CompilerResultsLog: Info Parsing headers for BallEditor
+[2018.04.16-23.31.04:580][436]CompilerResultsLog: Info   Running UnrealHeaderTool "G:\Ball\Ball\Ball.uproject" "G:\Ball\Ball\Intermediate\Build\Win64\BallEditor\Development\BallEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.16-23.31.04:580][436]CompilerResultsLog: Info Reflection code generated for BallEditor in 9.5288436 seconds
+[2018.04.16-23.31.04:580][436]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2018.04.16-23.31.04:580][436]CompilerResultsLog: Info Ball.generated.cpp
+[2018.04.16-23.31.04:580][436]CompilerResultsLog: Info Projectile.cpp
+[2018.04.16-23.31.04:580][436]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(19) : error C2653: 'ConstructorHelpers': is not a class or namespace name
+[2018.04.16-23.31.04:580][436]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(19) : error C2065: 'FObjectFinder': undeclared identifier
+[2018.04.16-23.31.04:580][436]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(19) : error C2275: 'UStaticMesh': illegal use of this type as an expression
+[2018.04.16-23.31.04:580][436]CompilerResultsLog:Error: Error D:\Unreal\UE_4.16\Engine\Source\Runtime\Engine\Classes\Engine/StaticMesh.h(412) : note: see declaration of 'UStaticMesh'
+[2018.04.16-23.31.04:580][436]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(19) : error C3861: 'ProjectileAsset': identifier not found
+[2018.04.16-23.31.04:580][436]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(21) : error C2065: 'ProjectileAsset': undeclared identifier
+[2018.04.16-23.31.04:580][436]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(21) : error C2228: left of '.Succeeded' must have class/struct/union
+[2018.04.16-23.31.04:581][436]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(21) : note: type is 'unknown-type'
+[2018.04.16-23.31.04:581][436]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(23) : error C2065: 'ProjectileAsset': undeclared identifier
+[2018.04.16-23.31.04:581][436]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(23) : error C2228: left of '.Object' must have class/struct/union
+[2018.04.16-23.31.04:581][436]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(23) : note: type is 'unknown-type'
+[2018.04.16-23.31.04:581][436]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(72) : error C2065: 'moveDirection': undeclared identifier
+[2018.04.16-23.31.04:581][436]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(73) : error C2065: 'moveDirection': undeclared identifier
+[2018.04.16-23.31.04:581][436]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: G:\Ball\Ball\Binaries\Win64\UE4Editor-Ball-780.dll
+[2018.04.16-23.31.04:581][436]CompilerResultsLog: Info Total build time: 23.81 seconds (Local executor: 0.00 seconds)
+[2018.04.16-23.31.04:581][436]LogMainFrame: MainFrame: Module compiling took 31.585 seconds
+[2018.04.16-23.31.04:581][436]Warning: HotReload failed, recompile failed
+[2018.04.16-23.32.18:454][728]Candidate modules for hot reload:
+[2018.04.16-23.32.18:454][728]  Ball
+[2018.04.16-23.32.18:457][728]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 3987 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.16-23.32.23:656][728]Warning: Starting HotReload took  5.2s.
+[2018.04.16-23.34.53:258][572]CompilerResultsLog: New page: Compilation - 17 Apr 2018 01:34:53
+[2018.04.16-23.34.53:259][572]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.16-23.34.53:259][572]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.04.16-23.34.53:259][572]CompilerResultsLog: Info Projectile.cpp
+[2018.04.16-23.34.53:259][572]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(77) : error C2065: 'moveDirection': undeclared identifier
+[2018.04.16-23.34.53:259][572]CompilerResultsLog:Error: Error G:\Ball\Ball\Source\Ball\Projectile.cpp(78) : error C2065: 'moveDirection': undeclared identifier
+[2018.04.16-23.34.53:259][572]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: G:\Ball\Ball\Binaries\Win64\UE4Editor-Ball-3987.dll
+[2018.04.16-23.34.53:259][572]CompilerResultsLog: Info Total build time: 146.25 seconds (Local executor: 0.00 seconds)
+[2018.04.16-23.34.53:259][572]LogMainFrame: MainFrame: Module compiling took 154.814 seconds
+[2018.04.16-23.34.53:259][572]Warning: HotReload failed, recompile failed
+[2018.04.16-23.36.39:788][610]Candidate modules for hot reload:
+[2018.04.16-23.36.39:788][610]  Ball
+[2018.04.16-23.36.39:791][610]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 9776 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.16-23.36.44:940][610]Warning: Starting HotReload took  5.2s.
+[2018.04.16-23.38.09:761][864]CompilerResultsLog: New page: Compilation - 17 Apr 2018 01:38:09
+[2018.04.16-23.38.09:761][864]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.16-23.38.09:761][864]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.04.16-23.38.09:761][864]CompilerResultsLog: Info Projectile.cpp
+[2018.04.16-23.38.09:761][864]CompilerResultsLog: Info [2/3] Link UE4Editor-Ball-9776.dll
+[2018.04.16-23.38.09:761][864]CompilerResultsLog: Info [3/3] Link UE4Editor-Ball-9776.lib
+[2018.04.16-23.38.09:761][864]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-9776.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-9776.exp
+[2018.04.16-23.38.09:761][864]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-9776.suppressed.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-9776.suppressed.exp
+[2018.04.16-23.38.09:761][864]CompilerResultsLog: Info Total build time: 82.26 seconds (Local executor: 74.98 seconds)
+[2018.04.16-23.38.09:761][864]LogMainFrame: MainFrame: Module compiling took 89.982 seconds
+[2018.04.16-23.38.11:193][864]LogClass: Could not find existing class Projectile in package /Script/Ball for HotReload, assuming new class
+[2018.04.16-23.38.11:206][864]LogHotReload: Re-instancing Projectile after hot-reload.
+[2018.04.16-23.38.11:290][864]LogContentBrowser: Native class hierarchy updated for 'Ball' in 0.0034 seconds. Added 6 classes and 2 folders.
+[2018.04.16-23.38.11:292][864]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.16-23.38.11:351][864]LogContentBrowser: Native class hierarchy populated in 0.0222 seconds. Added 2337 classes and 497 folders.
+[2018.04.16-23.38.11:351][864]Display: HotReload took 91.6s.
+[2018.04.16-23.48.29:508][ 91]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.16-23.48.29:788][ 91]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.48.29:788][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-23.48.29:788][ 91]PIE: New page: PIE session: Ball1Map (17 Apr 2018 01:48:29)
+[2018.04.16-23.48.29:789][ 91]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.16-23.48.29:824][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034974s)
+[2018.04.16-23.48.29:828][ 91]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.16-23.48.29:828][ 91]LogPlayLevel: PIE: World Init took: (0.004317s)
+[2018.04.16-23.48.29:829][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.040097s)
+[2018.04.16-23.48.29:901][ 91]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.16-23.48.30:103][ 91]LogInit: FAudioDevice initialized.
+[2018.04.16-23.48.30:191][ 91]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.16-23.48.30:203][ 91]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.17-00.48.30
+[2018.04.16-23.48.30:204][ 91]LogWorld: Bringing up level for play took: 0.010832
+[2018.04.16-23.48.30:214][ 91]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map -0.283
+[2018.04.16-23.48.30:215][ 91]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.48.44:663][929]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.48.44:836][929]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.48.51:853][340]LogEditorViewport: Clicking on Actor (LMB): Turret (Turret1)
+[2018.04.16-23.48.57:675][675]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.16-23.48.57:843][675]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.48.57:844][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-23.48.57:844][675]PIE: New page: PIE session: Ball1Map (17 Apr 2018 01:48:57)
+[2018.04.16-23.48.57:844][675]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.16-23.48.57:872][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028619s)
+[2018.04.16-23.48.57:874][675]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.16-23.48.57:874][675]LogPlayLevel: PIE: World Init took: (0.001303s)
+[2018.04.16-23.48.57:874][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.030300s)
+[2018.04.16-23.48.57:932][675]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.16-23.48.58:124][675]LogInit: FAudioDevice initialized.
+[2018.04.16-23.48.58:196][675]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.16-23.48.58:203][675]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.17-00.48.58
+[2018.04.16-23.48.58:205][675]LogWorld: Bringing up level for play took: 0.006874
+[2018.04.16-23.48.58:213][675]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map -0.284
+[2018.04.16-23.48.58:214][675]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.49.39:755][759]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.49.40:058][759]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.49.41:791][854]LogEditor: Attempting to add actor of class 'Projectile' to level at -40.63,-2294.79,-222.83
+[2018.04.16-23.49.43:352][946]LogEditor: Attempting to add actor of class 'Projectile' to level at 175.04,-2195.83,-257.29
+[2018.04.16-23.49.55:182][633]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.16-23.49.55:297][633]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.49.55:297][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-23.49.55:297][633]PIE: New page: PIE session: Ball1Map (17 Apr 2018 01:49:55)
+[2018.04.16-23.49.55:297][633]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.16-23.49.55:327][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030436s)
+[2018.04.16-23.49.55:328][633]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.16-23.49.55:329][633]LogPlayLevel: PIE: World Init took: (0.001280s)
+[2018.04.16-23.49.55:329][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.032106s)
+[2018.04.16-23.49.55:385][633]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.16-23.49.55:554][633]LogInit: FAudioDevice initialized.
+[2018.04.16-23.49.55:616][633]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.16-23.49.55:623][633]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.17-00.49.55
+[2018.04.16-23.49.55:624][633]LogWorld: Bringing up level for play took: 0.005882
+[2018.04.16-23.49.55:633][633]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map 1.136
+[2018.04.16-23.49.55:633][633]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.50.39:102][150]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.50.39:163][150]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.50.42:684][227]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.50.42:684][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-23.50.42:684][227]PIE: New page: PIE session: Ball1Map (17 Apr 2018 01:50:42)
+[2018.04.16-23.50.42:684][227]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.16-23.50.42:712][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028431s)
+[2018.04.16-23.50.42:715][227]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.16-23.50.42:715][227]LogPlayLevel: PIE: World Init took: (0.002670s)
+[2018.04.16-23.50.42:715][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.031557s)
+[2018.04.16-23.50.42:769][227]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.16-23.50.42:949][227]LogInit: FAudioDevice initialized.
+[2018.04.16-23.50.42:988][227]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.16-23.50.42:996][227]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.17-00.50.42
+[2018.04.16-23.50.42:996][227]LogWorld: Bringing up level for play took: 0.005490
+[2018.04.16-23.50.42:998][227]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map 0.502
+[2018.04.16-23.50.42:999][227]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.51.07:827][688]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.51.07:902][688]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.51.21:258][928]Candidate modules for hot reload:
+[2018.04.16-23.51.21:258][928]  Ball
+[2018.04.16-23.51.21:262][928]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 5978 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.16-23.51.26:436][928]Warning: Starting HotReload took  5.2s.
+[2018.04.16-23.51.51:613][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingCPP/Maps/Ball1Map" FILE="G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.04.16-23.52.26:182][ 25]LogSavePackage: Save=33510.92ms
+[2018.04.16-23.52.26:182][ 25]LogSavePackage: Moving 'G:/Ball/Ball/Saved/Ball1Map_Auto600A764DD438C39C11F8FC599E14E2555.tmp' to 'G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto6.umap'
+[2018.04.16-23.52.26:244][ 25]LogSavePackage:Display: Finished SavePackage G:/Ball/Ball/Saved/Autosaves/Game/RollingCPP/Maps/Ball1Map_Auto6.umap
+[2018.04.16-23.52.26:313][ 25]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingCPP/Maps/Ball1Map' took 34.736
+[2018.04.16-23.52.26:313][ 25]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 34.736
+[2018.04.16-23.52.59:766][126]CompilerResultsLog: New page: Compilation - 17 Apr 2018 01:52:59
+[2018.04.16-23.52.59:766][126]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.16-23.52.59:766][126]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.04.16-23.52.59:766][126]CompilerResultsLog: Info Projectile.cpp
+[2018.04.16-23.52.59:766][126]CompilerResultsLog: Info [2/3] Link UE4Editor-Ball-5978.dll
+[2018.04.16-23.52.59:766][126]CompilerResultsLog: Info [3/3] Link UE4Editor-Ball-5978.lib
+[2018.04.16-23.52.59:766][126]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-5978.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-5978.exp
+[2018.04.16-23.52.59:766][126]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-5978.suppressed.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-5978.suppressed.exp
+[2018.04.16-23.52.59:766][126]CompilerResultsLog: Info Total build time: 89.19 seconds (Local executor: 80.96 seconds)
+[2018.04.16-23.52.59:766][126]LogMainFrame: MainFrame: Module compiling took 98.516 seconds
+[2018.04.16-23.53.01:123][126]LogContentBrowser: Native class hierarchy updated for 'Ball' in 0.0031 seconds. Added 6 classes and 2 folders.
+[2018.04.16-23.53.01:125][126]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.16-23.53.01:225][126]LogContentBrowser: Native class hierarchy populated in 0.0243 seconds. Added 2337 classes and 497 folders.
+[2018.04.16-23.53.01:225][126]Display: HotReload took 100.0s.
+[2018.04.16-23.53.34:984][305]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.16-23.53.35:257][305]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.53.35:257][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-23.53.35:258][305]PIE: New page: PIE session: Ball1Map (17 Apr 2018 01:53:35)
+[2018.04.16-23.53.35:258][305]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.16-23.53.35:287][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029415s)
+[2018.04.16-23.53.35:289][305]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.16-23.53.35:289][305]LogPlayLevel: PIE: World Init took: (0.001748s)
+[2018.04.16-23.53.35:289][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.031510s)
+[2018.04.16-23.53.35:350][305]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.16-23.53.35:520][305]LogInit: FAudioDevice initialized.
+[2018.04.16-23.53.35:560][305]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.16-23.53.35:568][305]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.17-00.53.35
+[2018.04.16-23.53.35:569][305]LogWorld: Bringing up level for play took: 0.005608
+[2018.04.16-23.53.35:572][305]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map 1.075
+[2018.04.16-23.53.35:572][305]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.54.52:206][805]Cmd: SELECT NONE
+[2018.04.16-23.55.46:210][549]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.55.46:270][549]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.55.47:527][617]Candidate modules for hot reload:
+[2018.04.16-23.55.47:527][617]  Ball
+[2018.04.16-23.55.47:531][617]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 3208 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.16-23.55.52:732][617]Warning: Starting HotReload took  5.2s.
+[2018.04.16-23.57.09:106][794]CompilerResultsLog: New page: Compilation - 17 Apr 2018 01:57:09
+[2018.04.16-23.57.09:107][794]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.16-23.57.09:107][794]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.04.16-23.57.09:107][794]CompilerResultsLog: Info Projectile.cpp
+[2018.04.16-23.57.09:107][794]CompilerResultsLog: Info [2/3] Link UE4Editor-Ball-3208.dll
+[2018.04.16-23.57.09:107][794]CompilerResultsLog: Info [3/3] Link UE4Editor-Ball-3208.lib
+[2018.04.16-23.57.09:107][794]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-3208.suppressed.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-3208.suppressed.exp
+[2018.04.16-23.57.09:107][794]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-3208.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-3208.exp
+[2018.04.16-23.57.09:107][794]CompilerResultsLog: Info Total build time: 73.14 seconds (Local executor: 64.07 seconds)
+[2018.04.16-23.57.09:107][794]LogMainFrame: MainFrame: Module compiling took 81.590 seconds
+[2018.04.16-23.57.10:459][794]LogContentBrowser: Native class hierarchy updated for 'Ball' in 0.0034 seconds. Added 6 classes and 2 folders.
+[2018.04.16-23.57.10:461][794]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.16-23.57.10:534][794]LogContentBrowser: Native class hierarchy populated in 0.0241 seconds. Added 2337 classes and 497 folders.
+[2018.04.16-23.57.10:534][794]Display: HotReload took 83.0s.
+[2018.04.16-23.57.30:947][947]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.16-23.57.31:083][947]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.57.31:083][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-23.57.31:083][947]PIE: New page: PIE session: Ball1Map (17 Apr 2018 01:57:31)
+[2018.04.16-23.57.31:083][947]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.16-23.57.31:114][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030838s)
+[2018.04.16-23.57.31:116][947]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.16-23.57.31:116][947]LogPlayLevel: PIE: World Init took: (0.001503s)
+[2018.04.16-23.57.31:116][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.032785s)
+[2018.04.16-23.57.31:181][947]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.16-23.57.31:381][947]LogInit: FAudioDevice initialized.
+[2018.04.16-23.57.31:421][947]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.16-23.57.31:429][947]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.17-00.57.31
+[2018.04.16-23.57.31:429][947]LogWorld: Bringing up level for play took: 0.006300
+[2018.04.16-23.57.31:432][947]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map 0.935
+[2018.04.16-23.57.31:432][947]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.58.03:407][772]Cmd: SELECT NONE
+[2018.04.16-23.58.05:602][901]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.58.05:723][901]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.16-23.59.36:448][806]Candidate modules for hot reload:
+[2018.04.16-23.59.36:448][806]  Ball
+[2018.04.16-23.59.36:451][806]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 9484 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.16-23.59.41:870][806]Warning: Starting HotReload took  5.4s.
+[2018.04.17-00.01.16:259][504]CompilerResultsLog: New page: Compilation - 17 Apr 2018 02:01:16
+[2018.04.17-00.01.16:259][504]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.17-00.01.16:259][504]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.04.17-00.01.16:259][504]CompilerResultsLog: Info Projectile.cpp
+[2018.04.17-00.01.16:259][504]CompilerResultsLog: Info [2/3] Link UE4Editor-Ball-9484.dll
+[2018.04.17-00.01.16:259][504]CompilerResultsLog: Info [3/3] Link UE4Editor-Ball-9484.lib
+[2018.04.17-00.01.16:259][504]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-9484.suppressed.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-9484.suppressed.exp
+[2018.04.17-00.01.16:259][504]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-9484.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-9484.exp
+[2018.04.17-00.01.16:259][504]CompilerResultsLog: Info Total build time: 90.74 seconds (Local executor: 80.10 seconds)
+[2018.04.17-00.01.16:260][504]LogMainFrame: MainFrame: Module compiling took 99.820 seconds
+[2018.04.17-00.01.17:865][504]LogContentBrowser: Native class hierarchy updated for 'Ball' in 0.0041 seconds. Added 6 classes and 2 folders.
+[2018.04.17-00.01.17:868][504]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.17-00.01.17:943][504]LogContentBrowser: Native class hierarchy populated in 0.0283 seconds. Added 2337 classes and 497 folders.
+[2018.04.17-00.01.17:943][504]Display: HotReload took 101.5s.
+[2018.04.17-00.05.33:289][317]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.17-00.05.33:734][317]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.17-00.05.33:734][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.17-00.05.33:735][317]PIE: New page: PIE session: Ball1Map (17 Apr 2018 02:05:33)
+[2018.04.17-00.05.33:735][317]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.17-00.05.33:783][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048029s)
+[2018.04.17-00.05.33:785][317]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.17-00.05.33:785][317]LogPlayLevel: PIE: World Init took: (0.002160s)
+[2018.04.17-00.05.33:786][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.050868s)
+[2018.04.17-00.05.33:852][317]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.17-00.05.34:031][317]LogInit: FAudioDevice initialized.
+[2018.04.17-00.05.34:070][317]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.17-00.05.34:079][317]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 60) at 2018.04.17-01.05.34
+[2018.04.17-00.05.34:080][317]LogWorld: Bringing up level for play took: 0.006418
+[2018.04.17-00.05.34:082][317]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map -0.414
+[2018.04.17-00.05.34:083][317]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.17-00.05.58:728][420]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.17-00.05.58:841][420]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.17-00.06.00:116][490]Cmd: SELECT NONE
+[2018.04.17-00.06.58:984][888]Candidate modules for hot reload:
+[2018.04.17-00.06.58:984][888]  Ball
+[2018.04.17-00.06.58:987][888]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 5936 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.17-00.07.04:119][888]Warning: Starting HotReload took  5.2s.
+[2018.04.17-00.09.02:007][305]CompilerResultsLog: New page: Compilation - 17 Apr 2018 02:09:02
+[2018.04.17-00.09.02:008][305]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.17-00.09.02:008][305]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.04.17-00.09.02:008][305]CompilerResultsLog: Info Projectile.cpp
+[2018.04.17-00.09.02:008][305]CompilerResultsLog: Info [2/3] Link UE4Editor-Ball-5936.dll
+[2018.04.17-00.09.02:008][305]CompilerResultsLog: Info [3/3] Link UE4Editor-Ball-5936.lib
+[2018.04.17-00.09.02:008][305]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-5936.suppressed.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-5936.suppressed.exp
+[2018.04.17-00.09.02:008][305]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-5936.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-5936.exp
+[2018.04.17-00.09.02:008][305]CompilerResultsLog: Info Total build time: 115.13 seconds (Local executor: 106.41 seconds)
+[2018.04.17-00.09.02:008][305]LogMainFrame: MainFrame: Module compiling took 123.047 seconds
+[2018.04.17-00.09.03:342][305]LogContentBrowser: Native class hierarchy updated for 'Ball' in 0.0029 seconds. Added 6 classes and 2 folders.
+[2018.04.17-00.09.03:344][305]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.17-00.09.03:404][305]LogContentBrowser: Native class hierarchy populated in 0.0207 seconds. Added 2337 classes and 497 folders.
+[2018.04.17-00.09.03:404][305]Display: HotReload took 124.5s.
+[2018.04.17-00.09.06:898][477]Candidate modules for hot reload:
+[2018.04.17-00.09.06:898][477]  Ball
+[2018.04.17-00.09.06:902][477]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 3698 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.17-00.09.11:956][477]Warning: Starting HotReload took  5.1s.
+[2018.04.17-00.09.14:619][686]CompilerResultsLog: New page: Compilation - 17 Apr 2018 02:09:14
+[2018.04.17-00.09.14:619][686]LogMainFrame: MainFrame: Module compiling took 7.728 seconds
+[2018.04.17-00.09.14:619][686]Warning: HotReload failed, recompile failed
+[2018.04.17-00.09.16:497][866]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.17-00.09.16:631][866]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.17-00.09.16:631][866]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.17-00.09.16:632][866]PIE: New page: PIE session: Ball1Map (17 Apr 2018 02:09:16)
+[2018.04.17-00.09.16:632][866]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.17-00.09.16:663][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031469s)
+[2018.04.17-00.09.16:664][866]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.17-00.09.16:665][866]LogPlayLevel: PIE: World Init took: (0.001457s)
+[2018.04.17-00.09.16:665][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.033269s)
+[2018.04.17-00.09.16:735][866]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.17-00.09.16:909][866]LogInit: FAudioDevice initialized.
+[2018.04.17-00.09.16:948][866]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.17-00.09.16:956][866]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 0) at 2018.04.17-01.09.16
+[2018.04.17-00.09.16:956][866]LogWorld: Bringing up level for play took: 0.005713
+[2018.04.17-00.09.16:960][866]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map 0.463
+[2018.04.17-00.09.16:960][866]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.17-00.09.49:033][528]Cmd: SELECT NONE
+[2018.04.17-00.10.02:482][798]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.17-00.10.02:556][798]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.17-00.11.44:993][670]Candidate modules for hot reload:
+[2018.04.17-00.11.44:993][670]  Ball
+[2018.04.17-00.11.44:995][670]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 2696 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.17-00.11.52:319][670]Warning: Starting HotReload took  7.3s.
+[2018.04.17-00.13.46:954][120]CompilerResultsLog: New page: Compilation - 17 Apr 2018 02:13:46
+[2018.04.17-00.13.46:954][120]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.17-00.13.46:954][120]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.04.17-00.13.46:954][120]CompilerResultsLog: Info Projectile.cpp
+[2018.04.17-00.13.46:954][120]CompilerResultsLog: Info [2/3] Link UE4Editor-Ball-2696.dll
+[2018.04.17-00.13.46:954][120]CompilerResultsLog: Info [3/3] Link UE4Editor-Ball-2696.lib
+[2018.04.17-00.13.46:954][120]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-2696.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-2696.exp
+[2018.04.17-00.13.46:954][120]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-2696.suppressed.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-2696.suppressed.exp
+[2018.04.17-00.13.46:954][120]CompilerResultsLog: Info Total build time: 110.10 seconds (Local executor: 100.21 seconds)
+[2018.04.17-00.13.46:954][120]LogMainFrame: MainFrame: Module compiling took 121.970 seconds
+[2018.04.17-00.13.48:751][120]LogContentBrowser: Native class hierarchy updated for 'Ball' in 0.0092 seconds. Added 6 classes and 2 folders.
+[2018.04.17-00.13.48:753][120]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.17-00.13.48:853][120]LogContentBrowser: Native class hierarchy populated in 0.0308 seconds. Added 2337 classes and 497 folders.
+[2018.04.17-00.13.48:853][120]Display: HotReload took 123.9s.
+[2018.04.17-00.13.56:758][427]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.17-00.13.56:954][427]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.17-00.13.56:954][427]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.17-00.13.56:954][427]PIE: New page: PIE session: Ball1Map (17 Apr 2018 02:13:56)
+[2018.04.17-00.13.56:954][427]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.17-00.13.56:981][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026808s)
+[2018.04.17-00.13.56:983][427]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.17-00.13.56:983][427]LogPlayLevel: PIE: World Init took: (0.002095s)
+[2018.04.17-00.13.56:983][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.029304s)
+[2018.04.17-00.13.57:040][427]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.17-00.13.57:213][427]LogInit: FAudioDevice initialized.
+[2018.04.17-00.13.57:253][427]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.17-00.13.57:260][427]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 0) at 2018.04.17-01.13.57
+[2018.04.17-00.13.57:261][427]LogWorld: Bringing up level for play took: 0.006147
+[2018.04.17-00.13.57:264][427]PIE: Info Play in editor start time for /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map 0.767
+[2018.04.17-00.13.57:265][427]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.17-00.14.20:950][614]Cmd: SELECT NONE
+[2018.04.17-00.14.28:562][360]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.17-00.14.28:633][360]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.17-00.15.17:747][842]Candidate modules for hot reload:
+[2018.04.17-00.15.17:747][842]  Ball
+[2018.04.17-00.15.17:750][842]Launching UnrealBuildTool... [D:/Unreal/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Ball -ModuleWithSuffix Ball 5021 Win64 Development -editorrecompile -canskiplink "G:/Ball/Ball/Ball.uproject" ]
+[2018.04.17-00.15.23:035][842]Warning: Starting HotReload took  5.3s.
+[2018.04.17-00.16.37:792][199]CompilerResultsLog: New page: Compilation - 17 Apr 2018 02:16:37
+[2018.04.17-00.16.37:792][199]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.17-00.16.37:792][199]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.04.17-00.16.37:792][199]CompilerResultsLog: Info Projectile.cpp
+[2018.04.17-00.16.37:792][199]CompilerResultsLog: Info [2/3] Link UE4Editor-Ball-5021.dll
+[2018.04.17-00.16.37:792][199]CompilerResultsLog: Info [3/3] Link UE4Editor-Ball-5021.lib
+[2018.04.17-00.16.37:792][199]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-5021.suppressed.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-5021.suppressed.exp
+[2018.04.17-00.16.37:792][199]CompilerResultsLog: Info    Creating library G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-5021.lib and object G:\Ball\Ball\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ball-5021.exp
+[2018.04.17-00.16.37:792][199]CompilerResultsLog: Info Total build time: 71.42 seconds (Local executor: 63.16 seconds)
+[2018.04.17-00.16.37:792][199]LogMainFrame: MainFrame: Module compiling took 80.053 seconds
+[2018.04.17-00.16.39:244][199]LogContentBrowser: Native class hierarchy updated for 'Ball' in 0.0030 seconds. Added 6 classes and 2 folders.
+[2018.04.17-00.16.39:246][199]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.17-00.16.39:306][199]LogContentBrowser: Native class hierarchy populated in 0.0213 seconds. Added 2337 classes and 497 folders.
+[2018.04.17-00.16.39:306][199]Display: HotReload took 81.6s.
+[2018.04.17-00.16.48:017][376]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.17-00.16.48:193][376]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel' has LevelScriptBlueprint '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map' with GeneratedClass '/Game/RollingCPP/Maps/Ball1Map.Ball1Map_C' with ClassGeneratedBy '/Game/RollingCPP/Maps/Ball1Map.Ball1Map:PersistentLevel.Ball1Map'
+[2018.04.17-00.16.48:193][376]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.17-00.16.48:193][376]PIE: New page: PIE session: Ball1Map (17 Apr 2018 02:16:48)
+[2018.04.17-00.16.48:193][376]LogPlayLevel: Creating play world package: /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map
+[2018.04.17-00.16.48:224][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030353s)
+[2018.04.17-00.16.48:225][376]LogAIModule: Creating AISystem for world Ball1Map
+[2018.04.17-00.16.48:225][376]LogPlayLevel: PIE: World Init took: (0.001810s)
+[2018.04.17-00.16.48:226][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingCPP/Maps/Ball1Map.Ball1Map to /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map (0.032561s)
+[2018.04.17-00.16.48:283][376]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.17-00.16.48:458][376]LogInit: FAudioDevice initialized.
+[2018.04.17-00.16.48:499][376]LogLoad: Game class is 'ballgamemode_C'
+[2018.04.17-00.16.48:506][376]LogWorld: Bringing World /Game/RollingCPP/Maps/UEDPIE_0_Ball1Map.Ball1Map up for play (max tick rate 0) at 2018.04.17-01.16.48
+[2018.04.17-00.16.48:506][376]LogWorld: Bringing up level for play took: 0.005546
